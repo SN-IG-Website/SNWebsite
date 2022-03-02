@@ -1,6 +1,8 @@
 import React from 'react';
 import './Navbar.css';
 import PropTypes from 'prop-types';
+import {Link} from "react-router-dom";
+
 
 export default function Navbar(props) {
     return (
@@ -45,22 +47,22 @@ export default function Navbar(props) {
     <div className="content">
         <ul class="nav justify-content-center">
   <li class="nav-item">
-    <a class="nav-link active" href="#">Home</a>
+    <a class="nav-link active" href="https://stackoverflow.com/questions/43037590/field-browser-doesnt-contain-a-valid-alias-configuration">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Events</a>
+    <a class="nav-link" href={Link}>Events</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Facilities</a>
+    <a class="nav-link" href={Link}>Facilities</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Hall Council</a>
+    <a class="nav-link" href={Link}>Hall Council</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">About</a>
+    <a class="nav-link" href={Link}>About</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Contacts</a>
+    <a class="nav-link" href={Link}>Contacts</a>
   </li>
 </ul>
 </div>
