@@ -13,21 +13,21 @@ function InfraComp() {
       <Grid>
         <Row>
           <Col xs={6} md={4}>
-          <Image src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__480.jpg" thumbnail />
+          <Image src="https://us.123rf.com/450wm/norrie3699/norrie36991802/norrie3699180200136/96460768-a-stack-of-coloured-houses-against-a-plain-background-.jpg?ver=6" thumbnail />
               <h3>Thumbnail label</h3>
-              <p>Description</p>
+              {/* <p>Description</p> */}
             
           </Col>
           <Col xs={6} md={4}>
-          <Image src="https://cdn.wallpapersafari.com/90/81/6reFjl.jpg" thumbnail />
+          <Image src="https://us.123rf.com/450wm/tamara1k/tamara1k1811/tamara1k181100212/112253053-gran-canaria-october-nature-park-pajonales-freshwater-reservoir-presa-de-las-ninas-visible.jpg?ver=6" thumbnail />
               <h3>Thumbnail label</h3>
-              <p>Description</p>
+              {/* <p>Description</p> */}
            
           </Col>
           <Col xs={6} md={4}>
-          <Image src="https://media.istockphoto.com/photos/colored-powder-explosion-on-black-background-picture-id1057506940?k=20&m=1057506940&s=612x612&w=0&h=3j5EA6YFVg3q-laNqTGtLxfCKVR3_o6gcVZZseNaWGk=" thumbnail />
+          <Image src="https://us.123rf.com/450wm/nickvorobey/nickvorobey1703/nickvorobey170300395/74656416-eurasian-jay-and-tree-sparrow-size-camparison-on-a-willow-twig.jpg?ver=6" thumbnail />
               <h3>Thumbnail label</h3>
-              <p>Description</p>
+              {/* <p>Description</p> */}
             
           </Col>
         </Row>
