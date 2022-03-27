@@ -26,7 +26,7 @@ function NavbarComp() {
                 </NavDropdown.Item> */}
               </NavDropdown>
               <Nav.Link href="#link">Office bearers</Nav.Link>
-              <Nav.Link href="#link">Alumni</Nav.Link>
+              <Nav.Link href="alumni">Alumni</Nav.Link>
               <Nav.Link href="gallery">Gallery</Nav.Link>
               <Nav.Link href="#link">Achievements</Nav.Link>
               <Nav.Link href="#link">Our Team</Nav.Link>
