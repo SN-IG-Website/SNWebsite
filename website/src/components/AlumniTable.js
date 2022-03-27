@@ -10,7 +10,7 @@ import { useTable } from "react-table";
 function AlumniTable() {
     return (
         <>
-            <div style={{ display: 'block', padding: 50 }}>
+            <div style={{ display: 'block', padding: 50, backgroundImage: "linear-gradient(150deg,#557B83,#A2D5AB,#E5EFC1", fontSize: "20px" }}>
                 <h4
                 style={{
                     padding: "30px",
@@ -97,6 +97,136 @@ function AlumniTable() {
                     </Col>
                 </Row>
 
+                <Row>
+                    <Col style={{
+                        textAlign: "center",
+                        borderStyle: "solid",
+                        width: "30%",
+                        padding: "15px"
+                    }}>
+                        <a href='#'>Lorem ipsum</a>
+                    </Col>
+                    <Col style={{
+                        textAlign: "center",
+                        borderStyle: "solid",
+                        width: "30%",
+                        padding: "15px"
+                    }}>
+                        Lorem ipsum
+                    </Col>
+                    <Col style={{
+                        textAlign: "center",
+                        borderStyle: "solid",
+                        width: "30%",
+                        padding: "15px"
+                    }}>
+                        Lorem ipsum 
+                    </Col>
+                </Row>
+                <Row>
+                    <Col style={{
+                        textAlign: "center",
+                        borderStyle: "solid",
+                        width: "30%",
+                        padding: "15px"
+                    }}>
+                        <a href='#'>Lorem ipsum</a>
+                    </Col>
+                    <Col style={{
+                        textAlign: "center",
+                        borderStyle: "solid",
+                        width: "30%",
+                        padding: "15px"
+                    }}>
+                        Lorem ipsum
+                    </Col>
+                    <Col style={{
+                        textAlign: "center",
+                        borderStyle: "solid",
+                        width: "30%",
+                        padding: "15px"
+                    }}>
+                        Lorem ipsum 
+                    </Col>
+                </Row>
+                <Row>
+                    <Col style={{
+                        textAlign: "center",
+                        borderStyle: "solid",
+                        width: "30%",
+                        padding: "15px"
+                    }}>
+                        <a href='#'>Lorem ipsum</a>
+                    </Col>
+                    <Col style={{
+                        textAlign: "center",
+                        borderStyle: "solid",
+                        width: "30%",
+                        padding: "15px"
+                    }}>
+                        Lorem ipsum
+                    </Col>
+                    <Col style={{
+                        textAlign: "center",
+                        borderStyle: "solid",
+                        width: "30%",
+                        padding: "15px"
+                    }}>
+                        Lorem ipsum 
+                    </Col>
+                </Row>
+                <Row>
+                    <Col style={{
+                        textAlign: "center",
+                        borderStyle: "solid",
+                        width: "30%",
+                        padding: "15px"
+                    }}>
+                        <a href='#'>Lorem ipsum</a>
+                    </Col>
+                    <Col style={{
+                        textAlign: "center",
+                        borderStyle: "solid",
+                        width: "30%",
+                        padding: "15px"
+                    }}>
+                        Lorem ipsum
+                    </Col>
+                    <Col style={{
+                        textAlign: "center",
+                        borderStyle: "solid",
+                        width: "30%",
+                        padding: "15px"
+                    }}>
+                        Lorem ipsum 
+                    </Col>
+                </Row>
+                <Row>
+                    <Col style={{
+                        textAlign: "center",
+                        borderStyle: "solid",
+                        width: "30%",
+                        padding: "15px"
+                    }}>
+                        <a href='#'>Lorem ipsum</a>
+                    </Col>
+                    <Col style={{
+                        textAlign: "center",
+                        borderStyle: "solid",
+                        width: "30%",
+                        padding: "15px"
+                    }}>
+                        Lorem ipsum
+                    </Col>
+                    <Col style={{
+                        textAlign: "center",
+                        borderStyle: "solid",
+                        width: "30%",
+                        padding: "15px"
+                    }}>
+                        Lorem ipsum 
+                    </Col>
+                </Row>
             </div>
         </>
     );
