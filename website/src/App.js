@@ -2,14 +2,17 @@
 import './App.css';
 import Homepage from './pages/homepage';
 import Gallery from './pages/gallery';
+import { Route, Switch } from "react-router-dom"
 
 
 function App() {
   return (
-    <div>
-      {/* <Homepage/> */}
-      <Gallery/>
-    </div>
+    <>
+     <Switch>
+        <Route exact path="/" component={Homepage}/>
+        <Route path="/gallery" component={Gallery}/>
+     </Switch>
+    </>
   );
 }
 
