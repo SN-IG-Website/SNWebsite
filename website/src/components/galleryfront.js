@@ -11,7 +11,7 @@ function galleryfront() {
       <Grid>
         <Row>
           <Col xs={6} md={4}>
-          <Image src="https://us.123rf.com/450wm/utrasto/utrasto1910/utrasto191000026/134616504-watermelon-the-size-of-an-apricot-lie-together-in-one-hand-.jpg?ver=6" thumbnail />
+          <a href="gallery/label"><Image src="https://us.123rf.com/450wm/utrasto/utrasto1910/utrasto191000026/134616504-watermelon-the-size-of-an-apricot-lie-together-in-one-hand-.jpg?ver=6" thumbnail /></a>
               <h3>Thumbnail label</h3>
               <p>Description</p>
             

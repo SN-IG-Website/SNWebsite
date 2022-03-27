@@ -4,6 +4,7 @@ import { Navbar,Nav,NavDropdown,Container} from 'react-bootstrap';
 
 function NavbarComp() {
   return (
+    <>
       <Navbar bg="light" expand="lg">
         <Container>
           {/* <Navbar.Brand href="#home">Sarojini Naidu Indira Gandhi Hall Of Residence</Navbar.Brand> */}
@@ -12,8 +13,8 @@ function NavbarComp() {
             <Nav className="me-auto">
 
               <NavDropdown title="Home" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">About</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item href="about">About</NavDropdown.Item>
+                <NavDropdown.Item href="infrastructure">
                   Infrastructure
                 </NavDropdown.Item>
                 {/* <NavDropdown.Item href="#action/3.3">
@@ -26,13 +27,14 @@ function NavbarComp() {
               </NavDropdown>
               <Nav.Link href="#link">Office bearers</Nav.Link>
               <Nav.Link href="#link">Alumni</Nav.Link>
-              <Nav.Link href="#link">Gallery</Nav.Link>
+              <Nav.Link href="gallery">Gallery</Nav.Link>
               <Nav.Link href="#link">Achievements</Nav.Link>
               <Nav.Link href="#link">Our Team</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
+    </>
   );
 }
 

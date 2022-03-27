@@ -5,7 +5,7 @@ import Galleryback from '../components/galleryback';
 function gallery() {
   return (
     <div>
-        <Galleryfront/>
+        {/* <Galleryfront/> */}
         {/* <Galleryback/> */}
     </div>
   )
