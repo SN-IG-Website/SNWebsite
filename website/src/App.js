@@ -2,13 +2,13 @@
 import './App.css';
 import Homepage from './pages/homepage';
 import Gallery from './pages/gallery';
-
-
+import Alumni from './pages/alumni';
 function App() {
   return (
     <div>
       {/* <Homepage/> */}
-      <Gallery/>
+      {/* <Gallery/> */}
+      <Alumni/>
     </div>
   );
 }
