@@ -33,15 +33,14 @@ function AlumniCard() {
                             width: "40%",
                             margin: "1%",
                             // color: "#BF9270"
-                            textAlign: "center",
                             alignItems: "center",
                         }}>
                             <img src='../images/1.JPG' alt='error'/>
-                        <h1>Lorem Ipsum</h1>
+                        <h3>PROF SUSMITA SUR KOLAY</h3>
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                            Quaerat officiis eaque optio. Reiciendis, nostrum? Ullam facilis cumque minima distinctio sapiente,
-                             ducimus doloribus, nulla optio earum quidem est assumenda! Tempora, voluptas!
+                        1980/BTech/EC
+                        <br/>
+                        Professor, ACM Unit, Indian Statistical Institute, Kolkata
                         </p>
                     </div>
                     <div
