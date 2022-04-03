@@ -1,11 +1,14 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import AlumniTable from '../components/AlumniTable'
+import AlumniCard from '../components/AlumniCards';
+import NavbarComp from '../components/NavbarComp';
+
 
 function alumni() {
     return (
       <div>
-        <AlumniTable/>
+        <NavbarComp/>
+        <AlumniCard/>
       </div>
     )
   }

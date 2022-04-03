@@ -1,6 +1,7 @@
 
 import './App.css';
 import Homepage from './pages/homepage';
+
 // import Gallery from './pages/gallery';
 import Galleryfront from './components/galleryfront';
 import { Route, Switch } from "react-router-dom";
@@ -23,6 +24,7 @@ function App() {
 
      </Switch>
     </>
+
   );
 }
 
