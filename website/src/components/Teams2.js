@@ -4,6 +4,8 @@ import './Teams2.css';
 import {Link} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
+// import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+// import {faInstagram, faFacebook, fa} from '@fortawesome/free-brands-svg-icons';
 
 const Teams2 = () => {
     return ( 
@@ -39,7 +41,8 @@ const Teams2 = () => {
                       <Link href="#"><i className="fab fa-instagram"></i></Link>
                     </li>
                     <li className="vimeo">
-                      <Link href="#"><i className="fab fa-vimeo-v"></i></Link>
+                      <Link href="#"><i className="fab fa-
+                      -v"></i></Link>
                     </li>
                   </ul>
                 </div>
