@@ -4,6 +4,7 @@ import {Col,Row,Image } from 'react-bootstrap';
 import Grid from '@material-ui/core/Grid';
 
 
+
 function InfraComp() {
   return (
     <div className="infra">
@@ -13,7 +14,7 @@ function InfraComp() {
       <Grid className="wrap">
         <Row>
           <Col xs={6} md={4}>
-          <Image className="image" src="https://us.123rf.com/450wm/norrie3699/norrie36991802/norrie3699180200136/96460768-a-stack-of-coloured-houses-against-a-plain-background-.jpg?ver=6" thumbnail />
+          <Image className="image" src="#" thumbnail />,
               <h3>Thumbnail label</h3>
               {/* <p>Description</p> */}
             
