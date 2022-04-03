@@ -4,17 +4,17 @@ import "./CarouselComp.css";
 
 function CarouselComp() {
   return (
-    <div>
-      <Carousel>
+    <div className="carousel">
+      <Carousel className="styling">
         <Carousel.Item>
           <img
             className="d-block w-100"
             src="https://demos.creative-tim.com/material-kit-pro/assets/img/bg2.jpg"
             alt="First slide"
           />
-          <Carousel.Caption>
-            <h3>Sarojini Naidu Indira Gandhi Hall of Residence</h3>
-            <p>Sanskrita Striya Para Shakti.</p>
+          <Carousel.Caption className="InsideText">
+            <h1>Sarojini Naidu Indira Gandhi Hall of Residence</h1>
+            <h4>Sanskrita Striya Para Shakti.</h4>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -25,8 +25,8 @@ function CarouselComp() {
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            {/* <h3>Second slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -37,10 +37,10 @@ function CarouselComp() {
           />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
+            {/* <h3>Third slide label</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            </p> */}
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

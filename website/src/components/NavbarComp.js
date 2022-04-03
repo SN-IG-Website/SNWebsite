@@ -7,6 +7,15 @@ function NavbarComp() {
     <>
       <Navbar bg="light" expand="lg">
         <Container>
+        <Navbar.Brand href="#home">
+      <img
+        src=""
+        width="30"
+        height="30"
+        className="d-inline-block align-top"
+        alt="SN/IG logo"
+      />
+    </Navbar.Brand>
           {/* <Navbar.Brand href="#home">Sarojini Naidu Indira Gandhi Hall Of Residence</Navbar.Brand> */}
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
