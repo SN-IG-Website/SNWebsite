@@ -4,6 +4,7 @@ import NavbarComp from '../components/NavbarComp';
 import CarouselComp from '../components/CarouselComp';
 import AboutComp from '../components/AboutComp';
 import InfraComp from '../components/InfraComp';
+import Footer from '../components/footer';
 
 function homepage() {
   return (
@@ -12,6 +13,7 @@ function homepage() {
          <CarouselComp/>
          <AboutComp/>
          <InfraComp/>
+         <Footer/>
       </div>
   )
 }
