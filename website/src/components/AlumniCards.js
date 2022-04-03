@@ -1,5 +1,4 @@
 import React from 'react';
-import '../images/1.JPG';
 
 function AlumniCard() {
     return (
@@ -35,8 +34,10 @@ function AlumniCard() {
                             // color: "#BF9270"
                             alignItems: "center",
                         }}>
-                            <img src="https://lh6.googleusercontent.com/7mt2vkpxc1_eMIMs63OnrNuHY-9j2TkZ9WeLRsfYoOHnPL5sV43B6M2JAkywKSaeRk_MZK3K0vI9wjPf4UNP6rkWGARtp3a3WF7Hq3cjBYml-6kADQvZ72fOXwQaqYk_VjQ8jwc" alt='error'/>
-                        <h3>PROF SUSMITA SUR KOLAY</h3>
+                            <img style={{
+                                width: "80%",  padding: "20px", marginLeft: "40px"
+                            }} src="https://lh6.googleusercontent.com/7mt2vkpxc1_eMIMs63OnrNuHY-9j2TkZ9WeLRsfYoOHnPL5sV43B6M2JAkywKSaeRk_MZK3K0vI9wjPf4UNP6rkWGARtp3a3WF7Hq3cjBYml-6kADQvZ72fOXwQaqYk_VjQ8jwc" alt='error'/>
+                        <h4>PROF SUSMITA SUR KOLAY</h4>
                         <p>
                         1980/BTech/EC
                         <br/>
@@ -48,12 +49,17 @@ function AlumniCard() {
                             padding: "2% 5%",
                             width: "40%",
                             margin: "1%",
+                            // color: "#BF9270"
+                            alignItems: "center",
                         }}>
-                        <h1>Lorem Ipsum</h1>
+                            <img style={{
+                                width: "80%",  padding: "20px", marginLeft: "40px"
+                            }} src="https://lh6.googleusercontent.com/7mt2vkpxc1_eMIMs63OnrNuHY-9j2TkZ9WeLRsfYoOHnPL5sV43B6M2JAkywKSaeRk_MZK3K0vI9wjPf4UNP6rkWGARtp3a3WF7Hq3cjBYml-6kADQvZ72fOXwQaqYk_VjQ8jwc" alt='error'/>
+                        <h4>PROF SUSMITA SUR KOLAY</h4>
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                            Quaerat officiis eaque optio. Reiciendis, nostrum? Ullam facilis cumque minima distinctio sapiente,
-                             ducimus doloribus, nulla optio earum quidem est assumenda! Tempora, voluptas!
+                        1980/BTech/EC
+                        <br/>
+                        Professor, ACM Unit, Indian Statistical Institute, Kolkata
                         </p>
                     </div>
                     <div
@@ -61,12 +67,17 @@ function AlumniCard() {
                             padding: "2% 5%",
                             width: "40%",
                             margin: "1%",
+                            // color: "#BF9270"
+                            alignItems: "center",
                         }}>
-                        <h1>Lorem Ipsum</h1>
+                            <img style={{
+                                width: "80%",  padding: "20px", marginLeft: "40px"
+                            }} src="https://lh6.googleusercontent.com/7mt2vkpxc1_eMIMs63OnrNuHY-9j2TkZ9WeLRsfYoOHnPL5sV43B6M2JAkywKSaeRk_MZK3K0vI9wjPf4UNP6rkWGARtp3a3WF7Hq3cjBYml-6kADQvZ72fOXwQaqYk_VjQ8jwc" alt='error'/>
+                        <h4>PROF SUSMITA SUR KOLAY</h4>
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                            Quaerat officiis eaque optio. Reiciendis, nostrum? Ullam facilis cumque minima distinctio sapiente,
-                             ducimus doloribus, nulla optio earum quidem est assumenda! Tempora, voluptas!
+                        1980/BTech/EC
+                        <br/>
+                        Professor, ACM Unit, Indian Statistical Institute, Kolkata
                         </p>
                     </div>
                 </div>
