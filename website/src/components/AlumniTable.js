@@ -10,6 +10,8 @@ import "../components/AlumniTable.css";
 function AlumniTable() {
     return (
         <>
+        <div>
+        <Row>
 
                     <Col style={{
                         textAlign: "center",
