@@ -1,4 +1,5 @@
 import React from 'react';
+import "./galleryfront.css"
 import {Col,Row,Image } from 'react-bootstrap';
 import Grid from '@material-ui/core/Grid';
 import NavbarComp from './NavbarComp';
@@ -16,19 +17,19 @@ function galleryfront() {
       <Grid>
         <Row>
           <Col xs={6} md={4}>
-          <a href="gallery/label"><Image src={freshers} thumbnail /></a>
+          <a href="gallery/label"><Image className="gallery-img" src={freshers} thumbnail /></a>
               <h3>Freshers Party</h3>
               {/* <p>Description</p> */}
             
           </Col>
           <Col xs={6} md={4}>
-          <Image src={illu} thumbnail />
+          <Image className="gallery-img" src={illu} thumbnail />
               <h3>Illumination</h3>
               {/* <p>Description</p> */}
            
           </Col>
           <Col xs={6} md={4}>
-          <Image src={republic} thumbnail />
+          <Image className="gallery-img" src={republic} thumbnail />
               <h3>Republic Day</h3>
               {/* <p>Description</p> */}
             
@@ -36,7 +37,7 @@ function galleryfront() {
         </Row>
         <Row>
           <Col xs={6} md={4}>
-          <Image src="https://us.123rf.com/450wm/utrasto/utrasto1910/utrasto191000026/134616504-watermelon-the-size-of-an-apricot-lie-together-in-one-hand-.jpg?ver=6" thumbnail />
+          <Image className="gallery-img" src="https://us.123rf.com/450wm/utrasto/utrasto1910/utrasto191000026/134616504-watermelon-the-size-of-an-apricot-lie-together-in-one-hand-.jpg?ver=6" thumbnail />
               <h3>Thumbnail label</h3>
               <p>Description</p>
             
