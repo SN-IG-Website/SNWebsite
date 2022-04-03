@@ -35,7 +35,7 @@ function AlumniCard() {
                             // color: "#BF9270"
                             alignItems: "center",
                         }}>
-                            <img src='../images/1.JPG' alt='error'/>
+                            <img src="https://lh6.googleusercontent.com/7mt2vkpxc1_eMIMs63OnrNuHY-9j2TkZ9WeLRsfYoOHnPL5sV43B6M2JAkywKSaeRk_MZK3K0vI9wjPf4UNP6rkWGARtp3a3WF7Hq3cjBYml-6kADQvZ72fOXwQaqYk_VjQ8jwc" alt='error'/>
                         <h3>PROF SUSMITA SUR KOLAY</h3>
                         <p>
                         1980/BTech/EC
