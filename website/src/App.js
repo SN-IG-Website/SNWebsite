@@ -1,7 +1,7 @@
 //import logo from './logo.svg';
 // import './App.css';
 // import Navbar from './components/Navbar';
-import Teams from './components/Teams';
+import Teams2 from './components/Teams2';
 
 import {BrowserRouter as Router} from 'react-router-dom' ;
 
@@ -12,7 +12,7 @@ function App() {
        <center><h1 className="heading">Sarojini Naidu/Indira Gandhi Hall of Residence</h1></center> 
     </div> */}
 
-     <Teams/>
+     <Teams2/>
     </Router>
   );
 }
