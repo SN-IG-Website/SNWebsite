@@ -18,3 +18,12 @@
     padding: 15px;
     text-align: center;
   } */
+.infra{
+  background-color: #FBE5E5;
+}
+.image:hover{
+  transform: scale(1.2);
+}
+image{
+  transition: transform .2s;
+}

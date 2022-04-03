@@ -10,8 +10,7 @@ import "../components/AlumniTable.css";
 function AlumniTable() {
     return (
         <>
-            <div style={{ display: 'block', padding: 50, backgroundImage: "linear-gradient(150deg,#557B83,#A2D5AB,#E5EFC1", fontSize: "20px", fontFamily: "'Gothic A1', sans-serif" }}>
-                <Row style={{}}>
+
                     <Col style={{
                         textAlign: "center",
                         borderStyle: "solid",
@@ -34,7 +33,9 @@ function AlumniTable() {
                         width: "30%",
                         padding: "15px"
                     }}>
+
                         Awards
+
                     </Col>
                 </Row>
                 <Row>
@@ -89,6 +90,7 @@ function AlumniTable() {
                         Lorem ipsum 
                     </Col>
                 </Row>
+
 
                 <Row>
                     <Col style={{
@@ -220,6 +222,7 @@ function AlumniTable() {
                         Lorem ipsum 
                     </Col>
                 </Row>
+
             </div>
         </>
     );
