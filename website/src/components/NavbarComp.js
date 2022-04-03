@@ -1,21 +1,22 @@
 import React from "react";
-// import "./navbar.css";
+import "./NavbarComp.css";
 import { Navbar,Nav,NavDropdown,Container} from 'react-bootstrap';
 
 function NavbarComp() {
   return (
     <>
-      <Navbar bg="light" expand="lg" sticky="top">
-        <Container>
-        {/* <Navbar.Brand href="/">
+      <Navbar className="nav-bar"bg="light" expand="lg" sticky="top">
+      {/* <Navbar.Brand href="/">
       <img
-        src="/logo.png"
-        width="10"
-        height="10"
+        src="logo.svg"
+        width="3"
+        height="3"
         className="d-inline-block align-top"
-        alt="SN/IG logo"
+        alt="logo"
       />
     </Navbar.Brand> */}
+        <Container className="content">
+      
           {/* <Navbar.Brand href="#home">Sarojini Naidu / Indira Gandhi Hall Of Residence</Navbar.Brand> */}
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

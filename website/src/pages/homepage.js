@@ -9,7 +9,7 @@ import Footer from '../components/footer';
 function homepage() {
   return (
       <div>
-         <NavbarComp/>
+          <NavbarComp/>
          <CarouselComp/>
          <AboutComp/>
          <InfraComp/>

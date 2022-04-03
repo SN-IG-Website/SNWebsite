@@ -6,7 +6,7 @@ import Grid from '@material-ui/core/Grid';
 
 function InfraComp() {
   return (
-    <>
+    <div className="infra">
       <center>
         <h2>Infrastucture</h2>
       </center>
@@ -32,8 +32,7 @@ function InfraComp() {
           </Col>
         </Row>
       </Grid>
-      ;
-    </>
+    </div>
   );
 }
 

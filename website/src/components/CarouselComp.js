@@ -13,9 +13,10 @@ function CarouselComp() {
             alt="First slide"
           />
           <Carousel.Caption className="InsideText">
+            
             <h1>Sarojini Naidu/Indira Gandhi </h1>
             <h2>Hall of Residence</h2>
-            <h4>संस्कृत स्ट्रिया परा शक्ति</h4>
+            <h5>संस्कृत स्ट्रिया परा शक्ति</h5>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>

@@ -19,6 +19,7 @@ function AboutComp() {
           consistently held offices at Technology Students’ Gymkhana.
         </p>
       </center>
+      <hr/>
     </div>
   );
 }
