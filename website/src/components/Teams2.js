@@ -15,6 +15,7 @@ import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 const Teams2 = () => {
     return ( 
     <section id="team" className="team-area">
+        <center>
     <div className="container">
       <div className="row">
         <div className="col-md-12">
@@ -159,6 +160,7 @@ const Teams2 = () => {
         </div>
       </div>
     </div>
+    </center>
   </section> );
 }
  
