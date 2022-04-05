@@ -3,6 +3,9 @@ import NavbarComp from "./NavbarComp";
 import Tabs from "./Tabs";
 import "./AchievComp.css";
 import { Dropdown } from "react-bootstrap";
+import Flipcard from "./Flipcard";
+import { Col, Row, Image } from "react-bootstrap";
+import Grid from "@material-ui/core/Grid";
 
 function AchievComp() {
   return (
@@ -15,8 +18,30 @@ function AchievComp() {
         <div label="Social & Culture">
           <Tabs>
             <div label="2017-18">
-              <p>Hello!</p>
+             <center><div>
+              <Grid >
+                <Row className="mx-2">
+                  <Col xs={6} md={3}>
+                    <Flipcard />
+                  </Col>
+                  <Col xs={6} md={3}>
+                    <Flipcard />
+                  </Col>
+                  <Col xs={6} md={3}>
+                    <Flipcard />
+                  </Col>
+                  <Col xs={6} md={3}>
+                    <Flipcard />
+                  </Col>
+                  {/* <Col xs={6} md={3}>
+                    <Flipcard />
+                  </Col> */}
+                </Row>
+              </Grid>
             </div>
+            </center>
+            </div>
+          
             <div label="2018-19"></div>
             <div label="2019-20"></div>
             <div label="2020-21"></div>
