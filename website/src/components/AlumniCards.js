@@ -441,7 +441,7 @@ function AlumniCard() {
                             display: "flex",
                             justifyContent: "space-around",
                             height: "auto",
-                            marginTop: "0",
+                            marginTop: "0 ",
 
                         }}>
                         <div
