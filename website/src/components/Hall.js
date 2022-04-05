@@ -11,6 +11,42 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faFacebookF , faLinkedin , faInstagram} from '@fortawesome/free-brands-svg-icons';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
+//images
+
+import AlishaChannel from './images2/AlishaChandel.jpg';
+import AnweshaPatel from './images2/AnweshaPatel.jpg';
+import AshlesaGoyal from './images2/AshlesaGoyal.jpeg';
+import CharviJain from './images2/CharviJain.jpeg';
+import DishaChoraria from './images2/DishaChoraria.jpeg';
+import elizaroy from './images2/elizaroy.JPG';
+import FizaNissam from './images2/FizaNissam.jpg';
+import GargiDas from './images2/GargiDas.jpeg';
+import GauriPatki from './images2/GauriPatki.jpg';
+import GunjanAgarwal from './images2/GunjanAgarwal.jpg';
+import IshitaJhunjhunwala from './images2/IshitaJhunjhunwala.jpg';
+import KashishLundia from './images2/KashishLundia.jpg';
+import KirtiChoudhary from './images2/KirtiChoudhary.JPG';
+import navya from './images2/navya.jpg';
+import NidhiGoyal from './images2/NidhiGoyal.jpg';
+import NikithaBobbary from './images2/NikithaBobbary.jpg';
+import PoulomiChaudhuri from './images2/PoulomiChaudhuri.jpeg';
+import PrachiBajpai from './images2/PrachiBajpai.jpg';
+import RajshreeSharma from './images2/RajshreeSharma.jpg';
+import rhea from './images2/rhea.jpg';
+import RoshniKar from './images2/RoshniKar.png';
+import Rushali from './images2/RushaliChakraborty.jpg'
+import SanskritiKashyap from './images2/SanskritiKashyap.jpg';
+import SejalShambharkar from './images2/SejalShambharkar.jpg';
+import ShikhaBagaria from './images2/ShikhaBagaria.jpeg';
+import ShivaniAnneboina from './images2/ShivaniAnneboina.jpeg';
+import SraavyaUppala from './images2/SraavyaUppala.jpg';
+import SwastikaMandal from './images2/SwastikaMandal.jpg';
+import TanayaRamane from './images2/TanayaRamane.jpg';
+import YashasviRathore from './images2/YashasviRathore.PNG';
+
+
+
+
 
 const Hall = () => {
     return ( 
@@ -63,7 +99,7 @@ const Hall = () => {
         <div className="col-md-4 single-item">
           <div className="item">
             <div className="thumb">
-              <img className="img-fluid" src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Thumb"/>
+              <img className="img-fluid" src={PrachiBajpai} alt="Thumb"/>
               <div className="overlay">
                 {/* <h4>Second Senate Member</h4> */}
                 <p>
@@ -107,7 +143,7 @@ const Hall = () => {
         <div className="col-md-4 single-item">
           <div className="item">
             <div className="thumb">
-              <img className="img-fluid" src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Thumb"/>
+              <img className="img-fluid" src={Rushali} alt="Thumb"/>
               <div className="overlay">
                 {/* <h4>Lorem Ipsum</h4> */}
                 <p>
@@ -139,7 +175,7 @@ const Hall = () => {
         <div className="col-md-4 single-item">
           <div className="item">
             <div className="thumb">
-              <img className="img-fluid" src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Thumb"/>
+              <img className="img-fluid" src={rhea} alt="Thumb"/>
               <div className="overlay">
                 {/* <h4>Lorem Ipsum</h4> */}
                 {/* <p>
@@ -172,7 +208,7 @@ const Hall = () => {
         <div className="col-md-4 single-item">
           <div className="item">
             <div className="thumb">
-              <img className="img-fluid" src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Thumb"/>
+              <img className="img-fluid" src={PoulomiChaudhuri} alt="Thumb"/>
               <div className="overlay">
                 {/* <h4>Lorem Ipsum</h4> */}
                 <p>
@@ -204,7 +240,7 @@ const Hall = () => {
         <div className="col-md-4 single-item">
           <div className="item">
             <div className="thumb">
-              <img className="img-fluid" src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Thumb"/>
+              <img className="img-fluid" src={CharviJain} alt="Thumb"/>
               <div className="overlay">
                 {/* <h4>Lorem Ipsum</h4> */}
                 {/* <p>
@@ -237,7 +273,7 @@ const Hall = () => {
         <div className="col-md-4 single-item">
           <div className="item">
             <div className="thumb">
-              <img className="img-fluid" src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Thumb"/>
+              <img className="img-fluid" src={ShikhaBagaria} alt="Thumb"/>
               <div className="overlay">
                 {/* <h4>Lorem Ipsum</h4> */}
                 <p>
@@ -269,7 +305,7 @@ const Hall = () => {
         <div className="col-md-4 single-item">
           <div className="item">
             <div className="thumb">
-              <img className="img-fluid" src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Thumb"/>
+              <img className="img-fluid" src={TanayaRamane} alt="Thumb"/>
               <div className="overlay">
                 {/* <h4>Lorem Ipsum</h4> */}
                 <p>
@@ -301,7 +337,7 @@ const Hall = () => {
         <div className="col-md-4 single-item">
           <div className="item">
             <div className="thumb">
-              <img className="img-fluid" src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Thumb"/>
+              <img className="img-fluid" src={KashishLundia} alt="Thumb"/>
               <div className="overlay">
                 {/* <h4>Lorem Ipsum</h4> */}
                 <p>
@@ -333,7 +369,7 @@ const Hall = () => {
         <div className="col-md-4 single-item">
           <div className="item">
             <div className="thumb">
-              <img className="img-fluid" src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Thumb"/>
+              <img className="img-fluid" src={IshitaJhunjhunwala} alt="Thumb"/>
               <div className="overlay">
                 {/* <h4>Lorem Ipsum</h4> */}
                 <p>
@@ -377,7 +413,7 @@ const Hall = () => {
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
-      <img className="img-fluid" src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Thumb"/>
+      <img className="img-fluid" src={RoshniKar} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         {/* <p>
@@ -410,7 +446,7 @@ const Hall = () => {
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
-      <img className="img-fluid" src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Thumb"/>
+      <img className="img-fluid" src={GargiDas} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         <p>
@@ -442,7 +478,7 @@ I will drink life to the lees and follow knowledge like a sinking star!         
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
-      <img className="img-fluid" src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Thumb"/>
+      <img className="img-fluid" src={YashasviRathore} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         <p>
@@ -474,7 +510,7 @@ I will drink life to the lees and follow knowledge like a sinking star!         
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
-      <img className="img-fluid" src="SNWebsite\website\src\components\images\Sejal Shambharkar.jpg" alt="Thumb"/>
+      <img className="img-fluid" src={SejalShambharkar} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         {/* <p>
@@ -519,7 +555,7 @@ I will drink life to the lees and follow knowledge like a sinking star!         
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
-      <img className="img-fluid" src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Thumb"/>
+      <img className="img-fluid" src={Rushali} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         {/* <p>
@@ -552,7 +588,7 @@ I will drink life to the lees and follow knowledge like a sinking star!         
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
-      <img className="img-fluid" src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Thumb"/>
+      <img className="img-fluid" src={GunjanAgarwal} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         <p>
@@ -584,7 +620,7 @@ I will drink life to the lees and follow knowledge like a sinking star!         
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
-      <img className="img-fluid" src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Thumb"/>
+      <img className="img-fluid" src={RajshreeSharma} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         <p>
@@ -616,7 +652,7 @@ I will drink life to the lees and follow knowledge like a sinking star!         
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
-      <img className="img-fluid" src="SNWebsite\website\src\components\images\Sejal Shambharkar.jpg" alt="Thumb"/>
+      <img className="img-fluid" src={DishaChoraria} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         <p>
@@ -649,7 +685,7 @@ I will drink life to the lees and follow knowledge like a sinking star!         
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
-      <img className="img-fluid" src="SNWebsite\website\src\components\images\Sejal Shambharkar.jpg" alt="Thumb"/>
+      <img className="img-fluid" src={navya} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         {/* <p>
@@ -682,7 +718,7 @@ I will drink life to the lees and follow knowledge like a sinking star!         
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
-      <img className="img-fluid" src="SNWebsite\website\src\components\images\Sejal Shambharkar.jpg" alt="Thumb"/>
+      <img className="img-fluid" src={NikithaBobbary} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         <p>
@@ -714,7 +750,7 @@ I will drink life to the lees and follow knowledge like a sinking star!         
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
-      <img className="img-fluid" src="SNWebsite\website\src\components\images\Sejal Shambharkar.jpg" alt="Thumb"/>
+      <img className="img-fluid" src={SanskritiKashyap} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         <p>
@@ -746,7 +782,7 @@ I will drink life to the lees and follow knowledge like a sinking star!         
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
-      <img className="img-fluid" src="SNWebsite\website\src\components\images\Sejal Shambharkar.jpg" alt="Thumb"/>
+      <img className="img-fluid" src={FizaNissam} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         <p>
@@ -778,7 +814,7 @@ I think, therefore I am        </p>
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
-      <img className="img-fluid" src="SNWebsite\website\src\components\images\Sejal Shambharkar.jpg" alt="Thumb"/>
+      <img className="img-fluid" src={GauriPatki} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         <p>
@@ -811,7 +847,7 @@ Soaring Above Imagination         </p>
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
-      <img className="img-fluid" src="SNWebsite\website\src\components\images\Sejal Shambharkar.jpg" alt="Thumb"/>
+      <img className="img-fluid" src={AshlesaGoyal} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         <p>
@@ -844,7 +880,7 @@ Unstoppably optimistic!        </p>
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
-      <img className="img-fluid" src="SNWebsite\website\src\components\images\Sejal Shambharkar.jpg" alt="Thumb"/>
+      <img className="img-fluid" src={AnweshaPatel} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         <p>
@@ -876,7 +912,7 @@ In a constant process to discover myself in this labyrinth called life        </
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
-      <img className="img-fluid" src="SNWebsite\website\src\components\images\Sejal Shambharkar.jpg" alt="Thumb"/>
+      <img className="img-fluid" src={elizaroy} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         <p>
@@ -908,7 +944,7 @@ Connecting the alumni to the budding batch        </p>
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
-      <img className="img-fluid" src="SNWebsite\website\src\components\images\Sejal Shambharkar.jpg" alt="Thumb"/>
+      <img className="img-fluid" src={NidhiGoyal} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         <p>
@@ -940,7 +976,7 @@ Connecting the alumni to the budding batch        </p>
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
-      <img className="img-fluid" src="SNWebsite\website\src\components\images\Sejal Shambharkar.jpg" alt="Thumb"/>
+      <img className="img-fluid" src={KirtiChoudhary} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         {/* <p>
@@ -973,7 +1009,7 @@ Connecting the alumni to the budding batch        </p>
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
-      <img className="img-fluid" src="SNWebsite\website\src\components\images\Sejal Shambharkar.jpg" alt="Thumb"/>
+      <img className="img-fluid" src={SwastikaMandal} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         <p>
@@ -1006,7 +1042,7 @@ Connecting the alumni to the budding batch        </p>
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
-      <img className="img-fluid" src="SNWebsite\website\src\components\images\Sejal Shambharkar.jpg" alt="Thumb"/>
+      <img className="img-fluid" src={SraavyaUppala} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         <p>
@@ -1039,7 +1075,7 @@ If your glasses do tint in the sun, let me tell you, it is odd if the odds aren'
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
-      <img className="img-fluid" src="SNWebsite\website\src\components\images\Sejal Shambharkar.jpg" alt="Thumb"/>
+      <img className="img-fluid" src={AlishaChannel} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         <p>
@@ -1071,7 +1107,7 @@ Have faith in yourself....        </p>
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
-      <img className="img-fluid" src="SNWebsite\website\src\components\images\Sejal Shambharkar.jpg" alt="Thumb"/>
+      <img className="img-fluid" src={ShivaniAnneboina} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         <p>
