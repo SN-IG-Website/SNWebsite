@@ -11,7 +11,8 @@ import InfraComp from './components/InfraComp';
 import Galleryback from './components/galleryback';
 import Alumni from './pages/alumni';
 import AchievComp from './components/AchievComp';
-
+import Hall from './components/Hall';
+import Teams2 from './components/Teams2';
 
 function App() {
   return (
@@ -24,8 +25,8 @@ function App() {
         <Route path="/infrastructure" component={InfraComp}/>
         <Route path="/alumni" component={Alumni}/>
         <Route path="/achievements" component={AchievComp}/>
-      
-
+        <Route path="/OfficeBearers" component={Hall}/>
+        <Route path="/OurTeam" component={Teams2}/>
      </Switch>
     </>
 

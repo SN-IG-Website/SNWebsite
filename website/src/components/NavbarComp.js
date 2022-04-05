@@ -40,11 +40,11 @@ function NavbarComp() {
                   Separated link
                 </NavDropdown.Item> */}
               </NavDropdown>
-              <Nav.Link href="#link">Office bearers</Nav.Link>
+              <Nav.Link href="Hall">Office bearers</Nav.Link>
               <Nav.Link href="alumni">Alumni</Nav.Link>
               <Nav.Link href="gallery">Gallery</Nav.Link>
               <Nav.Link href="achievements">Achievements</Nav.Link>
-              <Nav.Link href="#link">Our Team</Nav.Link>
+              <Nav.Link href="Teams2">Our Team</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
