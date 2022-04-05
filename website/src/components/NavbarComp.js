@@ -3,6 +3,7 @@ import React from "react";
 import "./NavbarComp.css";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 import logo from "./logo.png";
+// import AboutComp from "./AboutComp";
 
 
 
@@ -26,8 +27,8 @@ function NavbarComp() {
             <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
               <NavDropdown title="" id="basic-nav-dropdown">
-                <NavDropdown.Item href="about">About</NavDropdown.Item>
-                <NavDropdown.Item href="infrastructure">
+                <NavDropdown.Item href="#aboutsnig">About</NavDropdown.Item>
+                <NavDropdown.Item href="#infrasnig">
                   Infrastructure
                 </NavDropdown.Item>
                 {/* <NavDropdown.Item href="#action/3.3">

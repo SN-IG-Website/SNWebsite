@@ -13,46 +13,33 @@ function AchievComp() {
       </center>
       <Tabs>
         <div label="Social & Culture">
-          <Dropdown>
-            <Dropdown.Toggle variant="success" id="dropdown-basic">
-              2017-18
-            </Dropdown.Toggle>
-
-            <Dropdown.Menu>
-              <Dropdown.Item href="#/action-1">2018-19</Dropdown.Item>
-              <Dropdown.Item href="#/action-1">2019-20</Dropdown.Item>
-              <Dropdown.Item href="#/action-2">2020-21</Dropdown.Item>
-              <Dropdown.Item href="#/action-3">2021-22</Dropdown.Item>
-            </Dropdown.Menu>
-          </Dropdown>
+          <Tabs>
+            <div label="2017-18">
+              <p>Hello!</p>
+            </div>
+            <div label="2018-19"></div>
+            <div label="2019-20"></div>
+            <div label="2020-21"></div>
+            <div label="2021-22"></div>
+          </Tabs>
         </div>
         <div label="Sports & Games">
-        <Dropdown>
-            <Dropdown.Toggle variant="success" id="dropdown-basic">
-              2017-18
-            </Dropdown.Toggle>
-
-            <Dropdown.Menu>
-              <Dropdown.Item href="#/action-1">2018-19</Dropdown.Item>
-              <Dropdown.Item href="#/action-1">2019-20</Dropdown.Item>
-              <Dropdown.Item href="#/action-2">2020-21</Dropdown.Item>
-              <Dropdown.Item href="#/action-3">2021-22</Dropdown.Item>
-            </Dropdown.Menu>
-          </Dropdown>
+          <Tabs>
+            <div label="2017-18"></div>
+            <div label="2018-19"></div>
+            <div label="2019-20"></div>
+            <div label="2020-21"></div>
+            <div label="2021-22"></div>
+          </Tabs>
         </div>
         <div label="Technolgy">
-        <Dropdown>
-            <Dropdown.Toggle variant="success" id="dropdown-basic">
-              2017-18
-            </Dropdown.Toggle>
-
-            <Dropdown.Menu>
-              <Dropdown.Item href="#/action-1">2018-19</Dropdown.Item>
-              <Dropdown.Item href="#/action-1">2019-20</Dropdown.Item>
-              <Dropdown.Item href="#/action-2">2020-21</Dropdown.Item>
-              <Dropdown.Item href="#/action-3">2021-22</Dropdown.Item>
-            </Dropdown.Menu>
-          </Dropdown>
+          <Tabs>
+            <div label="2017-18"></div>
+            <div label="2018-19"></div>
+            <div label="2019-20"></div>
+            <div label="2020-21"></div>
+            <div label="2021-22"></div>
+          </Tabs>
         </div>
       </Tabs>
     </div>
