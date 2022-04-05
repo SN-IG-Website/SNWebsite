@@ -3,7 +3,7 @@ import "./AboutComp.css";
 
 function AboutComp() {
   return (
-    <div className="about">
+    <div className="about" id="aboutsnig">
       <center>
         <h2>About Us</h2>
         <p>

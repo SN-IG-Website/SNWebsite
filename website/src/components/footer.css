@@ -1,6 +1,15 @@
 .footer{
-    padding-top: 26px;
+    padding-top: 0px;
     background-color: #FBE5E5;
+}
+.logosize{
+  width:200px;
+  height:200px;
+  float: right;
+
+}
+.logo{
+  float: right;
 }
 .site-footer
 {
