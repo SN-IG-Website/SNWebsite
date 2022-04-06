@@ -23,13 +23,13 @@ function galleryfront() {
             
           </Col>
           <Col xs={6} md={4}>
-          <Image className="gallery-img" src={illu} thumbnail />
+          <a href="illu"><Image className="gallery-img" src={illu} thumbnail /></a>
               <h3>Illumination</h3>
               {/* <p>Description</p> */}
            
           </Col>
           <Col xs={6} md={4}>
-          <Image className="gallery-img" src={republic} thumbnail />
+          <a href="republic"><Image className="gallery-img" src={republic} thumbnail /></a>
               <h3>Republic Day</h3>
               {/* <p>Description</p> */}
             

@@ -1,5 +1,7 @@
 import React from 'react';
 import './Teams2.css';
+import NavbarComp from './NavbarComp';
+
 
 import {Link} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
@@ -14,6 +16,8 @@ import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 const Teams2 = () => {
     return ( 
+    <>
+    <NavbarComp/>
     <section id="team" className="team-area">
         <center>
     <div className="container">
@@ -227,7 +231,10 @@ const Teams2 = () => {
       </div>
     </div>
     </center>
-  </section> );
+  </section>
+  </>
+);
+
 }
  
 export default Teams2;

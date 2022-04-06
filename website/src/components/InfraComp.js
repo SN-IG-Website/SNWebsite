@@ -1,7 +1,7 @@
 import React from "react";
 import "./InfraComp.css";
-import {Col,Row,Image } from 'react-bootstrap';
-import Grid from '@material-ui/core/Grid';
+import { Col, Row, Image } from "react-bootstrap";
+import Grid from "@material-ui/core/Grid";
 import gym from "./images/gym.jpg";
 import mess from "./images/mess.jpg";
 import library from "./images/library.jpg";
@@ -12,72 +12,138 @@ import studyroom from "./images/studyroom.jpg";
 import daycanteen from "./images/daycanteen.jpg";
 import daycanteen2 from "./images/daycanteen2.jpg";
 
-
 function InfraComp() {
   return (
     <div className="infra" id="infrasnig">
       <center>
-        <h2>Infrastucture</h2>
+        <h2>Infrastructure</h2>
       </center>
       <Grid className="wrap">
         <Row className="row">
-          <Col xs={6} md={4}>
-          <Image className="image" src={gym}/>,
-              {/* <h3>Thumbnail label</h3> */}
-              {/* <p>Description</p> */}
-            
+          <Col xs={6} md={3}>
+            <div class="container">
+              <div class="content">
+                <div class="content-overlay"></div>
+                   <img class="content-image image" src={gym} />
+                <div class="content-details fadeIn-top">
+                  <h3>Gym</h3>
+                </div>
+              </div>
+            </div>
           </Col>
-          <Col xs={6} md={4}>
-          <Image className="image" src={library} />
-              {/* <h3>Thumbnail label</h3> */}
-              {/* <p>Description</p> */}
-           
+          <Col xs={6} md={3}>
+          <div class="container">
+              <div class="content">
+                <div class="content-overlay"></div>
+                   <img class="content-image image" src={library} />
+                <div class="content-details fadeIn-top">
+                  <h3>Library</h3>
+                </div>
+              </div>
+            </div>
           </Col>
-          <Col xs={6} md={4}>
-          <Image className="image" src={mess}/>
-              {/* <h3>Thumbnail label</h3> */}
-              {/* <p>Description</p> */}
-            
+          <Col xs={6} md={3}>
+          <div class="container">
+              <div class="content">
+                <div class="content-overlay"></div>
+                   <img class="content-image image" src={mess} />
+                <div class="content-details fadeIn-top">
+                  <h3>Mess</h3>
+                </div>
+              </div>
+            </div>
+          </Col>
+          <Col xs={6} md={3}>
+          <div class="container">
+              <div class="content">
+                <div class="content-overlay"></div>
+                   <img class="content-image image" src={daycanteen} />
+                <div class="content-details fadeIn-top">
+                  <h3>Day Canteen</h3>
+                </div>
+              </div>
+            </div>
           </Col>
         </Row>
         <Row className="row">
-          <Col xs={6} md={4}>
-          <Image className="image" src={music} />,
-              {/* <h3>Thumbnail label</h3> */}
-              {/* <p>Description</p> */}
-            
+          <Col xs={6} md={3}>
+          <div class="container">
+              <div class="content">
+                <div class="content-overlay"></div>
+                   <img class="content-image image" src={daycanteen2} />
+                <div class="content-details fadeIn-top">
+                  <h3>Store</h3>
+                </div>
+              </div>
+            </div>
           </Col>
-          <Col xs={6} md={4}>
-          <Image className="image" src={oldcommon}/>
-              {/* <h3>Thumbnail label</h3> */}
-              {/* <p>Description</p> */}
-           
+          <Col xs={6} md={3}>
+          <div class="container">
+              <div class="content">
+                <div class="content-overlay"></div>
+                   <img class="content-image image" src={studyroom} />
+                <div class="content-details fadeIn-top">
+                  <h3>Study Room</h3>
+                </div>
+              </div>
+            </div>
           </Col>
-          <Col xs={6} md={4}>
-          <Image className="image" src={newcommon} />
-              {/* <h3>Thumbnail label</h3> */}
-              {/* <p>Description</p> */}
-            
+          <Col xs={6} md={3}>
+          <div class="container">
+              <div class="content">
+                <div class="content-overlay"></div>
+                   <img class="content-image image" src={music} />
+                <div class="content-details fadeIn-top">
+                  <h3>Music Room</h3>
+                </div>
+              </div>
+            </div>
+          </Col>
+          <Col xs={6} md={3}>
+          <div class="container">
+              <div class="content">
+                <div class="content-overlay"></div>
+                   <img class="content-image image" src={newcommon} />
+                <div class="content-details fadeIn-top">
+                  <h3>New Common Room</h3>
+                </div>
+              </div>
+            </div>
           </Col>
         </Row>
         <Row className="row">
-          <Col xs={6} md={4}>
-          <Image className="image" src={studyroom} />,
-              {/* <h3>Thumbnail label</h3> */}
-              {/* <p>Description</p> */}
-            
+          <Col xs={6} md={3}>
+          <div class="container">
+              <div class="content">
+                <div class="content-overlay"></div>
+                   <img class="content-image image" src={oldcommon} />
+                <div class="content-details fadeIn-top">
+                  <h3>Old Common Room</h3>
+                </div>
+              </div>
+            </div>
           </Col>
-          <Col xs={6} md={4}>
-          <Image className="image" src={daycanteen} />
-              {/* <h3>Thumbnail label</h3> */}
-              {/* <p>Description</p> */}
-           
+          <Col xs={6} md={3}>
+          <div class="container">
+              <div class="content">
+                <div class="content-overlay"></div>
+                   <img class="content-image image" src={gym} />
+                <div class="content-details fadeIn-top">
+                  <h3>Gym</h3>
+                </div>
+              </div>
+            </div>
           </Col>
-          <Col xs={6} md={4}>
-          <Image className="image" src={daycanteen2} />
-              {/* <h3>Thumbnail label</h3> */}
-              {/* <p>Description</p> */}
-            
+          <Col xs={6} md={3}>
+          <div class="container">
+              <div class="content">
+                <div class="content-overlay"></div>
+                   <img class="content-image image" src={gym} />
+                <div class="content-details fadeIn-top">
+                  <h3>Gym</h3>
+                </div>
+              </div>
+            </div>
           </Col>
         </Row>
       </Grid>

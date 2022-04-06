@@ -45,6 +45,8 @@ function NavbarComp() {
               <Nav.Link href="gallery">Gallery</Nav.Link>
               <Nav.Link href="achievements">Achievements</Nav.Link>
               <Nav.Link href="teams2">Our Team</Nav.Link>
+
+              
             </Nav>
           </Navbar.Collapse>
         </Container>
