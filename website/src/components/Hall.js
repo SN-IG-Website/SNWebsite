@@ -14,6 +14,7 @@ import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 //images
 
+import DebarpitaJyoti from './images2/DebarpitaJyoti.jpg';
 import AlishaChannel from './images2/AlishaChandel.jpg';
 import AnweshaPatel from './images2/AnweshaPatel.jpg';
 import AshlesaGoyal from './images2/AshlesaGoyal.jpeg';
@@ -69,22 +70,22 @@ const Hall = () => {
           <div className="col-md-4 single-item">
           <div className="item">
             <div className="thumb">
-              <img className="img-fluid" src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Thumb"/>
+              <img className="img-fluid" src={DebarpitaJyoti} alt="Thumb"/>
               <div className="overlay">
-                <h4>Hall President</h4>
+                {/* <h4>Hall President</h4> */}
                 <p>
-                    Hall President
+                Sarojini Naidu Indira Gandhi Hall is just not a place of residence, it's a family where we grow together. The hall has attributed a lot to what I have become today and each and every person in the hall has shaped me for the better. I hope these sentiments are carried forward as we thrive for the development and betterment of the family.
                 </p>
                 <div className="social">
                   <ul>
                   <li className="twitter">
-                      <a href="#"><FontAwesomeIcon icon={faFacebookF} /></a>
+                      <a href="https://www.facebook.com/debarpita.jyoti.9" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
                     </li>
                     <li className="pinterest">
-                      <a href="#"><FontAwesomeIcon icon={faLinkedin} /></a>
+                      <a href="https://www.linkedin.com/in/debarpita-jyoti-10242518b" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
                     </li>
                     <li className="instagram">
-                      <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
+                      <a href="https://www.instagram.com/debarpitajyoti/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
                     </li>
                   </ul>
                 </div>
@@ -94,7 +95,7 @@ const Hall = () => {
               <span className="message">
                 <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
-              <h4>Hall President</h4>
+              <h4>Debarpita Jyoti</h4>
               <span>Hall President</span>
             </div>
           </div>
@@ -171,7 +172,7 @@ const Hall = () => {
                 <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
               <h4>Rushali Chakraborty </h4>
-              <span>General Secretary, Social and Cultural </span>
+              <span>General Secretary Social and Cultural </span>
             </div>
           </div>
         </div>
@@ -181,9 +182,8 @@ const Hall = () => {
               <img className="img-fluid" src={rhea} alt="Thumb"/>
               <div className="overlay">
                 {/* <h4>Lorem Ipsum</h4> */}
-                {/* <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </p> */}
+                <p>
+                Commending the wins and celebrating the losses.                </p>
                 <div className="social">
                   <ul>
                   <li className="twitter">
@@ -204,7 +204,7 @@ const Hall = () => {
                 <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
               <h4>Rhea Sundaresan</h4>
-              <span>General Secretary, Sports and Games</span>
+              <span>General Secretary Sports and Games</span>
             </div>
           </div>
         </div>

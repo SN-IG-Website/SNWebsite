@@ -34,15 +34,8 @@ function App() {
         <Route path="/republic" component={gallerback_republicday}/>
 
         <Route path="/achievements" component={AchievComp}/>
-
         <Route path="/hall" component={Hall}/>
         <Route path="/teams2" component={Teams2}/>
-
-        {/* <Route path="/officebearers" component={Officebearers}/>
-        <Route path="/ourteam" component={Ourteam}/> */}
-
-
-
      </Switch>
     </>
 
