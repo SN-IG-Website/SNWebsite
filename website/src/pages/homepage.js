@@ -6,10 +6,11 @@ import AboutComp from '../components/AboutComp';
 import InfraComp from '../components/InfraComp';
 import Footer from '../components/footer';
 import Infra from '../components/infra';
+import "./homepage.css";
 
 function homepage() {
   return (
-      <div style={{backgroundColor: "#FBE5E5"}}>
+      <div className='homepage'>
           <NavbarComp/>
          <CarouselComp/>
          <AboutComp/>

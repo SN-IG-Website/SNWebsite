@@ -33,7 +33,7 @@ const Teams2 = () => {
         <div className="col-md-4 single-item">
           <div className="item">
             <div className="thumb">
-              <img className="img-fluid" src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Thumb"/>
+              <img className="img-fluid" src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Thumb" />
               <div className="overlay">
                 <h4>Lorem Ipsum</h4>
                 <p>
