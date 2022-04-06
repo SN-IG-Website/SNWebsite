@@ -33,6 +33,10 @@ function App() {
         <Route path="/republic" component={gallerback_republicday}/>
 
         <Route path="/achievements" component={AchievComp}/>
+<<<<<<< HEAD
+        <Route path="/hall" component={Hall}/>
+        <Route path="/teams2" component={Teams2}/>
+=======
 
         <Route path="/hall" component={Hall}/>
         <Route path="/teams2" component={Teams2}/>
@@ -42,6 +46,7 @@ function App() {
 
 
 
+>>>>>>> main
      </Switch>
     </>
 
