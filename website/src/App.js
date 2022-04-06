@@ -1,7 +1,7 @@
 
 import './App.css';
 import Homepage from './pages/homepage';
-
+import galleryback_granddinner from './components/galleryback_granddinner';
 
 // import Gallery from './pages/gallery';
 import Galleryfront from './components/galleryfront';
@@ -30,11 +30,9 @@ function App() {
 
         <Route path="/illu" component={gallerback_illu}/>
         <Route path="/republic" component={gallerback_republicday}/>
-
+        <Route path="/grand-dinner" component={galleryback_granddinner}/>
         <Route path="/achievements" component={AchievComp}/>
-        {/* <Route path="/officebearers" component={Officebearers}/>
-        <Route path="/ourteam" component={Ourteam}/> */}
-
+        
 
      </Switch>
     </>

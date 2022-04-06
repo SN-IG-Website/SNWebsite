@@ -1,10 +1,10 @@
 import React from "react";
 import "./galleryback.css";
-import granddinner1 from "./images/granddinner1.HEIC" ;
-import granddinner2 from "./images/granddinner2.HEIC" ;
-import granddinner3 from "./images/granddinner3.HEIC" ;
-import granddinner4 from "./images/granddinner4.HEIC" ;
-import granddinner5 from "./images/granddinner5.HEIC" ;
+import granddinner1 from "./images/granddinner1.jpg" ;
+import granddinner2 from "./images/granddinner2.jpg" ;
+import granddinner3 from "./images/granddinner3.jpg" ;
+import granddinner4 from "./images/granddinner4.jpg" ;
+import granddinner5 from "./images/granddinner5.jpg" ;
 
 
 

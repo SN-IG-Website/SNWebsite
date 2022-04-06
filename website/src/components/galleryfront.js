@@ -6,6 +6,7 @@ import NavbarComp from './NavbarComp';
 import freshers from "./images/freshers.JPG";
 import illu from "./images/illu.JPG";
 import republic from "./images/republic.jpg";
+import granddinner1 from "./images/granddinner1.jpg";
 
 function galleryfront() {
   return (
@@ -37,19 +38,19 @@ function galleryfront() {
         </Row>
         <Row>
           <Col xs={6} md={4}>
-          <Image className="gallery-img" src={granddinner1} thumbnail />
+          <a href="grand-dinner"><Image className="gallery-img" src={granddinner1} thumbnail /></a>
               <h3>Grand Dinner</h3>
               {/* <p>Description</p> */}
             
           </Col>
           <Col xs={6} md={4}>
-          <Image className="gallery-img" src={alumni1} thumbnail />
+          <Image className="gallery-img" src={"./"} thumbnail />
               <h3>Alumni Meet</h3>
               {/* <p>Description</p> */}
            
           </Col>
           <Col xs={6} md={4}>
-          <Image className="gallery-img" src={holi} thumbnail />
+          <Image className="gallery-img" src={"./"} thumbnail />
               <h3>Holi</h3>
               {/* <p>Description</p> */}
             
