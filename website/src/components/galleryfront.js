@@ -23,7 +23,7 @@ function galleryfront() {
             
           </Col>
           <Col xs={6} md={4}>
-          <Image className="gallery-img" src={illu} thumbnail />
+          <a href="illu"><Image className="gallery-img" src={illu} thumbnail /></a>
               <h3>Illumination</h3>
               {/* <p>Description</p> */}
            

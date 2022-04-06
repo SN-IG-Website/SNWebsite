@@ -15,7 +15,7 @@ import illu11 from "./images/illu11.JPG" ;
 import illu12 from "./images/illu12.JPG" ;
 import illu13 from "./images/illu13.JPG" ;
 import illu14 from "./images/illu14.JPG" ;
-import illu15 from "./images/illu15.JPG" ;
+import illu15 from "./images/illu15.JPG" ; 
 import illu16 from "./images/illu16.JPG" ;
 import illu17 from "./images/illu17.JPG" ;
 import illu18 from "./images/illu18.JPG" ;
@@ -55,7 +55,7 @@ function galleryback() {
          
         </div>
         <div className="column">
-        <img src={illu5} />
+          <img src={illu5} />
           <img src={illu6} />
           <img src={illu7} />
           <img src={illu8} />
@@ -63,7 +63,7 @@ function galleryback() {
          
         </div>
         <div className="column">
-        <img src={illu10} />
+          <img src={illu10} />
           <img src={illu11} />
           <img src={illu12} />
           <img src={illu13} />
@@ -71,7 +71,7 @@ function galleryback() {
          
         </div>
         <div className="column">
-        <img src={illu} />
+          <img src={illu} />
           <img src={illu15} />
           <img src={illu16} />
           <img src={illu17} />
@@ -79,7 +79,7 @@ function galleryback() {
          
         </div>
         <div className="column">
-        <img src={illu19} />
+          <img src={illu19} />
           <img src={illu20} />
           <img src={illu21} />
           <img src={illu22} />
@@ -87,7 +87,7 @@ function galleryback() {
          
         </div>
         <div className="column">
-        <img src={illu24} />
+          <img src={illu24} />
           <img src={illu25} />
           <img src={illu26} />
           <img src={illu27} />
@@ -95,7 +95,7 @@ function galleryback() {
          
         </div>
         <div className="column">
-        <img src={ill29} />
+          <img src={illu29} />
           <img src={illu30} />
           <img src={illu31} />
           <img src={illu32} />
