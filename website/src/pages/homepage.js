@@ -5,14 +5,15 @@ import CarouselComp from '../components/CarouselComp';
 import AboutComp from '../components/AboutComp';
 import InfraComp from '../components/InfraComp';
 import Footer from '../components/footer';
+import Infra from '../components/infra';
 
 function homepage() {
   return (
-      <div>
+      <div style={{backgroundColor: "#FBE5E5"}}>
           <NavbarComp/>
          <CarouselComp/>
          <AboutComp/>
-         <InfraComp/>
+         <Infra/>
          <Footer/>
       </div>
   )

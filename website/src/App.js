@@ -8,6 +8,7 @@ import Galleryfront from './components/galleryfront';
 import { Route, Switch } from "react-router-dom";
 import AboutComp from './components/AboutComp';
 import InfraComp from './components/InfraComp';
+import infra from './components/infra';
 import Galleryback from './components/galleryback';
 import Alumni from './pages/alumni';
 
@@ -26,7 +27,7 @@ function App() {
         <Route exact path="/gallery" component={Galleryfront}/>
         <Route path="/gallery/label" component={Galleryback}/>
         <Route path="/about" component={AboutComp}/>
-        <Route path="/infrastructure" component={InfraComp}/>
+        <Route path="/infrastructure" component={infra}/>
         <Route path="/alumni" component={Alumni}/>
 
         <Route path="/illu" component={gallerback_illu}/>

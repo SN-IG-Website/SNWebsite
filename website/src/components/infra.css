@@ -1,10 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-
+.infrasnig{
+    padding-top: 60px;
+    background-color: #FBE5E5;
+}
 
 h1, h2, h3, h4, h5, h6 {
 }
 section {
-    padding: 5px 0;
+    padding: 0px 0;
 }
 a, a:hover, a:focus, a:active {
     text-decoration: none;
@@ -19,6 +22,7 @@ ul {
 .site-heading h2 {
   display: block;
   font-weight: 700;
+  margin-bottom: 10px;
   text-transform: uppercase;
 }
 
@@ -123,6 +127,8 @@ ul {
   -ms-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
+  height: 400px;
+  width: 100%;
 }
 
 .team-area .item:hover .thumb img {
@@ -233,3 +239,7 @@ ul {
   justify-content: center;
   align-items: center;
 }
+/* .infraimages{
+    width: 100%;
+    height: 400px;
+} */

@@ -25,7 +25,7 @@ const Teams2 = () => {
         <div className="col-md-12">
           <div className="site-heading text-center">
             <h2>Our <span>Team</span></h2>
-            <h4>Meet our awesome and expert team members</h4>
+            {/* <h4>Meet our awesome and expert team members</h4> */}
           </div>
         </div>
       </div>

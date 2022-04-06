@@ -16,7 +16,7 @@ function CarouselComp() {
             
             <h1>Sarojini Naidu/Indira Gandhi </h1>
             <h2>Hall of Residence</h2>
-            <h5>संस्कृत स्ट्रिया परा शक्ति</h5>
+            <h5>संस्कृता स्त्रीः पराशक्ति</h5>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
