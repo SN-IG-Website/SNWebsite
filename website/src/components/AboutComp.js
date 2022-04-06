@@ -21,6 +21,7 @@ function AboutComp() {
       </center>
       <hr/>
     </div>
+  
   );
 }
 
