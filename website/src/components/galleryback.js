@@ -1,46 +1,60 @@
 import React from "react";
 import "./galleryback.css";
+import farewell1 from "./images/farewell1.JPG" ;
+import farewell2 from "./images/farewell2.JPG" ;
+import farewell3 from "./images/farewell3.JPG" ;
+import farewell4 from "./images/farewell4.JPG" ;
+import farewell5 from "./images/farewell5.JPG" ;
+import farewell6 from "./images/farewell6.JPG" ;
+import farewell7 from "./images/farewell7.JPG" ;
+import farewell8 from "./images/farewell8.JPG" ;
+import farewell9 from "./images/farewell9.JPG" ;
+import farewell10 from "./images/farewell10.JPG" ;
+import farewell11 from "./images/farewell11.JPG" ;
+import farewell12 from "./images/farewell12.JPG" ;
+import farewell13 from "./images/farewell13.JPG" ;
+import farewell14 from "./images/farewell14.JPG" ;
+import farewell15 from "./images/farewell15.JPG" ;
+import farewell16 from "./images/farewell16.JPG" ;
+import farewell17 from "./images/farewell17.JPG" ;
+import farewell18 from "./images/farewell18.JPG" ;
+import farewell19 from "./images/farewell19.JPG" ;
+import farewell20 from "./images/farewell20.jpg" ;
 
 function galleryback() {
   return (
     <>
-    <center><h2>Page Title</h2></center>
+    <center><h1 className="heading">Freshers' Treat</h1></center>
       <div className="row">
         <div className="column">
-          <img src="https://us.123rf.com/450wm/tamara1k/tamara1k1907/tamara1k190700095/126274637-gran-canaria-canary-islands-la-isleta-peninsula-cluster-of-small-houses-of-barrio-las-coloradas.jpg?ver=6" />
-          <img src="https://us.123rf.com/450wm/alurk/alurk2001/alurk200100249/136981581-lots-of-little-stars-on-blue-background-.jpg?ver=6" />
-          <img src="https://us.123rf.com/450wm/ammit/ammit2005/ammit200500200/147598154-tungurahua-volcano-view-from-the-same-level-as-the-erupting-point-small-amount-of-noise-may-be-visib.jpg?ver=6" />
-          <img src="https://us.123rf.com/450wm/alurk/alurk2001/alurk200100249/136981581-lots-of-little-stars-on-blue-background-.jpg?ver=6" />
-          <img src="https://us.123rf.com/450wm/grase/grase2003/grase200300090/141583951-same-color-dogs-different-breeds-play-with-ball-in-modern-grey-appartment.jpg?ver=6" />
-          <img src="https://us.123rf.com/450wm/synell/synell2002/synell200200093/142414495-stone-wall-wall-of-stones-as-a-texture-wall-of-stones-wall-of-a-medieval-fortress-with-mainly-white-.jpg?ver=6" />
-          <img src="https://us.123rf.com/450wm/synell/synell2005/synell200500029/147609920-arch-window-with-stone-wall-wall-with-window-background-surface-with-asymmetrical-stones-old-wall-of.jpg?ver=6" />
+          <img src={farewell1} />
+          <img src={farewell2} />
+          <img src={farewell3} />
+          <img src={farewell4} />
+          <img src={farewell5} />
+
+         
         </div>
         <div className="column">
-          <img src="https://us.123rf.com/450wm/tamara1k/tamara1k1907/tamara1k190700095/126274637-gran-canaria-canary-islands-la-isleta-peninsula-cluster-of-small-houses-of-barrio-las-coloradas.jpg?ver=6" />
-          <img src="https://us.123rf.com/450wm/alurk/alurk2001/alurk200100249/136981581-lots-of-little-stars-on-blue-background-.jpg?ver=6" />
-          <img src="https://us.123rf.com/450wm/ammit/ammit2005/ammit200500200/147598154-tungurahua-volcano-view-from-the-same-level-as-the-erupting-point-small-amount-of-noise-may-be-visib.jpg?ver=6" />
-          <img src="https://us.123rf.com/450wm/alurk/alurk2001/alurk200100249/136981581-lots-of-little-stars-on-blue-background-.jpg?ver=6" />
-          <img src="https://us.123rf.com/450wm/grase/grase2003/grase200300090/141583951-same-color-dogs-different-breeds-play-with-ball-in-modern-grey-appartment.jpg?ver=6" />
-          <img src="https://us.123rf.com/450wm/synell/synell2002/synell200200093/142414495-stone-wall-wall-of-stones-as-a-texture-wall-of-stones-wall-of-a-medieval-fortress-with-mainly-white-.jpg?ver=6" />
-          <img src="https://us.123rf.com/450wm/synell/synell2005/synell200500029/147609920-arch-window-with-stone-wall-wall-with-window-background-surface-with-asymmetrical-stones-old-wall-of.jpg?ver=6" />
+          <img src={farewell6} />
+          <img src={farewell7} />
+          <img src={farewell8} />
+          <img src={farewell9} />
+          <img src={farewell10} />
         </div>
         <div className="column">
-          <img src="https://us.123rf.com/450wm/tamara1k/tamara1k1907/tamara1k190700095/126274637-gran-canaria-canary-islands-la-isleta-peninsula-cluster-of-small-houses-of-barrio-las-coloradas.jpg?ver=6" />
-          <img src="https://us.123rf.com/450wm/alurk/alurk2001/alurk200100249/136981581-lots-of-little-stars-on-blue-background-.jpg?ver=6" />
-          <img src="https://us.123rf.com/450wm/ammit/ammit2005/ammit200500200/147598154-tungurahua-volcano-view-from-the-same-level-as-the-erupting-point-small-amount-of-noise-may-be-visib.jpg?ver=6" />
-          <img src="https://us.123rf.com/450wm/alurk/alurk2001/alurk200100249/136981581-lots-of-little-stars-on-blue-background-.jpg?ver=6" />
-          <img src="https://us.123rf.com/450wm/grase/grase2003/grase200300090/141583951-same-color-dogs-different-breeds-play-with-ball-in-modern-grey-appartment.jpg?ver=6" />
-          <img src="https://us.123rf.com/450wm/synell/synell2002/synell200200093/142414495-stone-wall-wall-of-stones-as-a-texture-wall-of-stones-wall-of-a-medieval-fortress-with-mainly-white-.jpg?ver=6" />
-          <img src="https://us.123rf.com/450wm/synell/synell2005/synell200500029/147609920-arch-window-with-stone-wall-wall-with-window-background-surface-with-asymmetrical-stones-old-wall-of.jpg?ver=6" />
+          <img src={farewell11} />
+          <img src={farewell12} />
+          <img src={farewell13} />
+          <img src={farewell14} />
+          <img src={farewell15} />
         </div>
         <div className="column">
-          <img src="https://us.123rf.com/450wm/tamara1k/tamara1k1907/tamara1k190700095/126274637-gran-canaria-canary-islands-la-isleta-peninsula-cluster-of-small-houses-of-barrio-las-coloradas.jpg?ver=6" />
-          <img src="https://us.123rf.com/450wm/alurk/alurk2001/alurk200100249/136981581-lots-of-little-stars-on-blue-background-.jpg?ver=6" />
-          <img src="https://us.123rf.com/450wm/ammit/ammit2005/ammit200500200/147598154-tungurahua-volcano-view-from-the-same-level-as-the-erupting-point-small-amount-of-noise-may-be-visib.jpg?ver=6" />
-          <img src="https://us.123rf.com/450wm/alurk/alurk2001/alurk200100249/136981581-lots-of-little-stars-on-blue-background-.jpg?ver=6" />
-          <img src="https://us.123rf.com/450wm/grase/grase2003/grase200300090/141583951-same-color-dogs-different-breeds-play-with-ball-in-modern-grey-appartment.jpg?ver=6" />
-          <img src="https://us.123rf.com/450wm/synell/synell2002/synell200200093/142414495-stone-wall-wall-of-stones-as-a-texture-wall-of-stones-wall-of-a-medieval-fortress-with-mainly-white-.jpg?ver=6" />
-          <img src="https://us.123rf.com/450wm/synell/synell2005/synell200500029/147609920-arch-window-with-stone-wall-wall-with-window-background-surface-with-asymmetrical-stones-old-wall-of.jpg?ver=6" />
+          <img src={farewell16} />
+          <img src={farewell17} />
+          <img src={farewell18} />
+          <img src={farewell19} />
+          <img src={farewell20} />
         </div>
       </div>
     </>
