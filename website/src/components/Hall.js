@@ -1,5 +1,6 @@
 import React from 'react';
 import './Teams2.css';
+import NavbarComp from './NavbarComp';
 
 import {Link} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
@@ -49,7 +50,9 @@ import YashasviRathore from './images2/YashasviRathore.PNG';
 
 
 const Hall = () => {
-    return ( 
+    return (
+      <>
+      <NavbarComp/>
         <section id="team" className="team-area">
         <center>
     <div className="container">
@@ -1143,6 +1146,7 @@ Have faith in yourself....        </p>
     </div>
     </center>
   </section>
+  </> 
         );
 }
  
