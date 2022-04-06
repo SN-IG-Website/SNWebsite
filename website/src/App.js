@@ -24,6 +24,8 @@ function App() {
         <Route path="/infrastructure" component={InfraComp}/>
         <Route path="/alumni" component={Alumni}/>
         <Route path="/achievements" component={AchievComp}/>
+        {/* <Route path="/officebearers" component={Officebearers}/>
+        <Route path="/ourteam" component={Ourteam}/> */}
       
 
      </Switch>
