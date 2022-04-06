@@ -7,6 +7,7 @@ import logo from "./logo.png";
 
 
 
+
 function NavbarComp() {
   return (
     <>
@@ -39,11 +40,14 @@ function NavbarComp() {
                   Separated link
                 </NavDropdown.Item> */}
               </NavDropdown>
-              <Nav.Link href="officebearers">Office bearers</Nav.Link>
+
+              <Nav.Link href="hall">Office bearers</Nav.Link>
               <Nav.Link href="alumni">Alumni</Nav.Link>
               <Nav.Link href="gallery">Gallery</Nav.Link>
               <Nav.Link href="achievements">Achievements</Nav.Link>
-              <Nav.Link href="ourteam">Our Team</Nav.Link>
+              <Nav.Link href="teams2">Our Team</Nav.Link>
+
+              
             </Nav>
           </Navbar.Collapse>
         </Container>

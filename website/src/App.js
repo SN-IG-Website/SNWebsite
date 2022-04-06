@@ -14,7 +14,8 @@ import Alumni from './pages/alumni';
 import gallerback_illu from './components/galleryback_illu';
 import gallerback_republicday from './components/galleryback_republicday';
 import AchievComp from './components/AchievComp';
-
+import Hall from './components/Hall';
+import Teams2 from './components/Teams2';
 
 
 function App() {
@@ -32,8 +33,13 @@ function App() {
         <Route path="/republic" component={gallerback_republicday}/>
 
         <Route path="/achievements" component={AchievComp}/>
+
+        <Route path="/hall" component={Hall}/>
+        <Route path="/teams2" component={Teams2}/>
+
         {/* <Route path="/officebearers" component={Officebearers}/>
         <Route path="/ourteam" component={Ourteam}/> */}
+
 
 
      </Switch>
