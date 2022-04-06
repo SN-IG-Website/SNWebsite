@@ -168,7 +168,7 @@ const Hall = () => {
                 <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
               <h4>Rushali Chakraborty </h4>
-              <span>General Secretary, Social and Cultural </span>
+              <span>General Secretary Social and Cultural </span>
             </div>
           </div>
         </div>
@@ -178,9 +178,8 @@ const Hall = () => {
               <img className="img-fluid" src={rhea} alt="Thumb"/>
               <div className="overlay">
                 {/* <h4>Lorem Ipsum</h4> */}
-                {/* <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </p> */}
+                <p>
+                Commending the wins and celebrating the losses.                </p>
                 <div className="social">
                   <ul>
                   <li className="twitter">
@@ -201,7 +200,7 @@ const Hall = () => {
                 <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
               <h4>Rhea Sundaresan</h4>
-              <span>General Secretary, Sports and Games</span>
+              <span>General Secretary Sports and Games</span>
             </div>
           </div>
         </div>

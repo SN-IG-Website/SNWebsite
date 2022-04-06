@@ -1,22 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
-
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 }
 section {
-    padding: 60px 0;
+  padding: 60px 0;
 }
-a, a:hover, a:focus, a:active {
-    text-decoration: none;
-    outline: none;
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  outline: none;
 }
 ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .site-heading h2 {
+  font-size: 3em;
   display: block;
   font-weight: 700;
   margin-bottom: 10px;
@@ -56,6 +64,11 @@ ul {
   margin-top: -5px;
 }
 
+.team-area {
+  background: url("https://cdn.pixabay.com/photo/2016/01/08/13/50/background-1127943_1280.jpg");
+  background-attachment: fixed;
+}
+
 .team-area .single-item {
   margin-bottom: 30px;
 }
@@ -84,6 +97,8 @@ ul {
 
 .team-area .team-items .item:hover .thumb::after {
   opacity: 0.7;
+  left: 68px;
+  width: 269.99px;
 }
 
 .team-area .item .thumb .overlay {
@@ -108,7 +123,12 @@ ul {
 }
 
 .team-area .item .thumb .overlay p {
-  color: #ffffff;
+  color: white;
+  font-weight: bold;
+  padding: 10%;
+  text-shadow: 2px 2px #232323;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .team-area .item .thumb .overlay h4 {
@@ -124,10 +144,12 @@ ul {
   -ms-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
+  width: 269.99px;
+  height: 234.99px;
 }
 
 .team-area .item:hover .thumb img {
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .team-area .item .thumb .social li {
@@ -157,6 +179,7 @@ ul {
   position: relative;
   text-align: center;
   z-index: 9;
+  width: 269.99px;
 }
 
 .team-area .info .message {
@@ -200,7 +223,7 @@ ul {
 
 .team-area .info span {
   color: #ff5a6e;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -233,4 +256,16 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* .info{
+  width: 22rem;
+}
+.img-fluid{
+  width: 22rem;
+  height: 21rem;
+} */
+
+.overlay p {
+  color: green;
 }
