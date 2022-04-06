@@ -1,5 +1,5 @@
 .about{
-    padding: 26px;
+    padding: 40px;
     background-color: #FBE5E5;
 }
 
@@ -10,4 +10,9 @@ hr{
     margin-right: 150px;
     margin-left: 150px;
    
+}
+.contentsnig{
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 18px;
 }

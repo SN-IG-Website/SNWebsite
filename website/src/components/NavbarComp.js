@@ -3,6 +3,7 @@ import React from "react";
 import "./NavbarComp.css";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 import logo from "./logo.png";
+// import AboutComp from "./AboutComp";
 
 
 
@@ -24,9 +25,10 @@ function NavbarComp() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <NavDropdown title="Home" id="basic-nav-dropdown">
-                <NavDropdown.Item href="about">About</NavDropdown.Item>
-                <NavDropdown.Item href="infrastructure">
+            <Nav.Link href="/">Home</Nav.Link>
+              <NavDropdown title="" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#aboutsnig">About</NavDropdown.Item>
+                <NavDropdown.Item href="#infrasnig">
                   Infrastructure
                 </NavDropdown.Item>
                 {/* <NavDropdown.Item href="#action/3.3">
@@ -37,11 +39,11 @@ function NavbarComp() {
                   Separated link
                 </NavDropdown.Item> */}
               </NavDropdown>
-              <Nav.Link href="#link">Office bearers</Nav.Link>
+              <Nav.Link href="officebearers">Office bearers</Nav.Link>
               <Nav.Link href="alumni">Alumni</Nav.Link>
               <Nav.Link href="gallery">Gallery</Nav.Link>
-              <Nav.Link href="#link">Achievements</Nav.Link>
-              <Nav.Link href="#link">Our Team</Nav.Link>
+              <Nav.Link href="achievements">Achievements</Nav.Link>
+              <Nav.Link href="ourteam">Our Team</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
