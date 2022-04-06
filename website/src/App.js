@@ -8,13 +8,15 @@ import Galleryfront from './components/galleryfront';
 import { Route, Switch } from "react-router-dom";
 import AboutComp from './components/AboutComp';
 import InfraComp from './components/InfraComp';
+import infra from './components/infra';
 import Galleryback from './components/galleryback';
 import Alumni from './pages/alumni';
 
 import gallerback_illu from './components/galleryback_illu';
 import gallerback_republicday from './components/galleryback_republicday';
 import AchievComp from './components/AchievComp';
-
+import Hall from './components/Hall';
+import Teams2 from './components/Teams2';
 
 
 function App() {
@@ -25,7 +27,7 @@ function App() {
         <Route exact path="/gallery" component={Galleryfront}/>
         <Route path="/gallery/label" component={Galleryback}/>
         <Route path="/about" component={AboutComp}/>
-        <Route path="/infrastructure" component={InfraComp}/>
+        <Route path="/infrastructure" component={infra}/>
         <Route path="/alumni" component={Alumni}/>
 
         <Route path="/illu" component={gallerback_illu}/>
@@ -33,6 +35,8 @@ function App() {
         <Route path="/grand-dinner" component={galleryback_granddinner}/>
         <Route path="/achievements" component={AchievComp}/>
         
+        <Route path="/hall" component={Hall}/>
+        <Route path="/teams2" component={Teams2}/>
 
      </Switch>
     </>

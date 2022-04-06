@@ -7,18 +7,20 @@ import logo from "./logo.png";
 
 
 
+
 function NavbarComp() {
   return (
     <>
-      <Navbar className="nav-bar" bg="light" expand="lg" sticky="top">
+      <Navbar className="nav-bar" bg="light" expand="lg" style={{position:'fixed', top:'0', zIndex:'100', width: '100%',paddingTop:'0',paddingBottom:'0'}}>
         <Container className="content">
           <Navbar.Brand href="/">
             <img
               src={logo}
-              width="30"
-              height="30"
+              width="45"
+              height="45"
               className="d-inline-block align-top"
               alt="logo"
+              padding="0"
             />
           </Navbar.Brand>
           {/* <Navbar.Brand href="#home">Sarojini Naidu / Indira Gandhi Hall Of Residence</Navbar.Brand> */}
@@ -39,11 +41,13 @@ function NavbarComp() {
                   Separated link
                 </NavDropdown.Item> */}
               </NavDropdown>
-              <Nav.Link href="officebearers">Office bearers</Nav.Link>
+              <Nav.Link href="hall">Office bearers</Nav.Link>
               <Nav.Link href="alumni">Alumni</Nav.Link>
               <Nav.Link href="gallery">Gallery</Nav.Link>
               <Nav.Link href="achievements">Achievements</Nav.Link>
-              <Nav.Link href="ourteam">Our Team</Nav.Link>
+              <Nav.Link href="teams2">Our Team</Nav.Link>
+
+              
             </Nav>
           </Navbar.Collapse>
         </Container>
