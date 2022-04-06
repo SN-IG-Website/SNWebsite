@@ -18,7 +18,7 @@ function galleryfront() {
         <Row>
           <Col xs={6} md={4}>
           <a href="gallery/label"><Image className="gallery-img" src={freshers} thumbnail /></a>
-              <h3>Freshers Party</h3>
+              <h3>Freshers' Party</h3>
               {/* <p>Description</p> */}
             
           </Col>
@@ -37,21 +37,21 @@ function galleryfront() {
         </Row>
         <Row>
           <Col xs={6} md={4}>
-          <Image className="gallery-img" src="https://us.123rf.com/450wm/utrasto/utrasto1910/utrasto191000026/134616504-watermelon-the-size-of-an-apricot-lie-together-in-one-hand-.jpg?ver=6" thumbnail />
-              <h3>Thumbnail label</h3>
-              <p>Description</p>
+          <Image className="gallery-img" src={granddinner1} thumbnail />
+              <h3>Grand Dinner</h3>
+              {/* <p>Description</p> */}
             
           </Col>
           <Col xs={6} md={4}>
-          <Image src="https://us.123rf.com/450wm/grase/grase2003/grase200300089/141583982-same-color-dogs-different-breeds-play-with-ball-in-modern-grey-appartment.jpg?ver=6" thumbnail />
-              <h3>Thumbnail label</h3>
-              <p>Description</p>
+          <Image className="gallery-img" src={alumni1} thumbnail />
+              <h3>Alumni Meet</h3>
+              {/* <p>Description</p> */}
            
           </Col>
           <Col xs={6} md={4}>
-          <Image src="https://us.123rf.com/450wm/synell/synell2005/synell200500029/147609920-arch-window-with-stone-wall-wall-with-window-background-surface-with-asymmetrical-stones-old-wall-of.jpg?ver=6" thumbnail />
-              <h3>Thumbnail label</h3>
-              <p>Description</p>
+          <Image className="gallery-img" src={holi} thumbnail />
+              <h3>Holi</h3>
+              {/* <p>Description</p> */}
             
           </Col>
         </Row>
@@ -61,4 +61,4 @@ function galleryfront() {
   )
 }
 
-export default galleryfront
+export default galleryfront ;
