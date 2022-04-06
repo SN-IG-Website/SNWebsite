@@ -14,7 +14,7 @@ import republic8 from "./images/republic8.jpg" ;
 function galleryback() {
   return (
     <>
-    <center><h1 className="heading">Freshers' Treat</h1></center>
+    <center><h1 className="heading">Republic Day</h1></center>
       <div className="row">
         <div className="column">
           <img src={republic1} />

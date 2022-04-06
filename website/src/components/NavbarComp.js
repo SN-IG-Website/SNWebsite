@@ -11,15 +11,16 @@ import logo from "./logo.png";
 function NavbarComp() {
   return (
     <>
-      <Navbar className="nav-bar" bg="light" expand="lg" sticky="top">
+      <Navbar className="nav-bar" bg="light" expand="lg" style={{position:'fixed', top:'0', zIndex:'100', width: '100%',paddingTop:'0',paddingBottom:'0'}}>
         <Container className="content">
           <Navbar.Brand href="/">
             <img
               src={logo}
-              width="30"
-              height="30"
+              width="45"
+              height="45"
               className="d-inline-block align-top"
               alt="logo"
+              padding="0"
             />
           </Navbar.Brand>
           {/* <Navbar.Brand href="#home">Sarojini Naidu / Indira Gandhi Hall Of Residence</Navbar.Brand> */}

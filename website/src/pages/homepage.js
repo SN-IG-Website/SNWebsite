@@ -5,14 +5,16 @@ import CarouselComp from '../components/CarouselComp';
 import AboutComp from '../components/AboutComp';
 import InfraComp from '../components/InfraComp';
 import Footer from '../components/footer';
+import Infra from '../components/infra';
+import "./homepage.css";
 
 function homepage() {
   return (
-      <div>
+      <div className='homepage'>
           <NavbarComp/>
          <CarouselComp/>
          <AboutComp/>
-         <InfraComp/>
+         <Infra/>
          <Footer/>
       </div>
   )

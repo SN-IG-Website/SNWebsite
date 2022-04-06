@@ -14,7 +14,7 @@ import daycanteen2 from "./images/daycanteen2.jpg";
 
 function InfraComp() {
   return (
-    <div className="infra" id="infrasnig">
+    <div className="infra" >
       <center>
         <h2>Infrastructure</h2>
       </center>
