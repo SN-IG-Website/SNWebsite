@@ -10,6 +10,7 @@ import InfraComp from './components/InfraComp';
 import Galleryback from './components/galleryback';
 import Alumni from './pages/alumni';
 import gallerback_illu from './components/galleryback_illu';
+import gallerback_republicday from './components/galleryback_republicday';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/infrastructure" component={InfraComp}/>
         <Route path="/alumni" component={Alumni}/>
         <Route path="/illu" component={gallerback_illu}/>
+        <Route path="/republic" component={gallerback_republicday}/>
 
      </Switch>
     </>
