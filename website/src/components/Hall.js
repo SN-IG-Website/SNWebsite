@@ -223,6 +223,7 @@ const Hall = () => {
                       {/* <p>
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 </p> */}
+                      <p>Commending the wins & celebrating the losses.</p>
                       <div className='social'>
                         <ul>
                           <li className='twitter'>
