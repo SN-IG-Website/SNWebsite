@@ -84,6 +84,8 @@ ul {
 
 .team-area .team-items .item:hover .thumb::after {
   opacity: 0.7;
+  left: 68px;
+  width: 269.99px;
 }
 
 .team-area .item .thumb .overlay {
@@ -124,6 +126,8 @@ ul {
   -ms-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
+  width: 269.99px;
+    height: 234.99px;
 }
 
 .team-area .item:hover .thumb img {
@@ -157,6 +161,7 @@ ul {
   position: relative;
   text-align: center;
   z-index: 9;
+  width: 269.99px;
 }
 
 .team-area .info .message {
@@ -230,7 +235,17 @@ ul {
 }
 
 .centered {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .info{
+  width: 22rem;
+}
+
+.img-fluid{
+  width: 22rem;
+  height: 21rem;
+} */
+
