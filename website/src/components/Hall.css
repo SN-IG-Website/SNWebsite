@@ -234,3 +234,12 @@ ul {
     justify-content: center;
     align-items: center;
   }
+
+.info{
+  width: 22rem;
+}
+
+.img-fluid{
+  width: 22rem;
+  height: 21rem;
+}
