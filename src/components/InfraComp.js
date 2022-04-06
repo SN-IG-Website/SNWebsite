@@ -1,0 +1,40 @@
+import React from "react";
+import "./InfraComp.css";
+import {Col,Row,Image } from 'react-bootstrap';
+import Grid from '@material-ui/core/Grid';
+
+
+
+function InfraComp() {
+  return (
+    <div className="infra">
+      <center>
+        <h2>Infrastucture</h2>
+      </center>
+      <Grid className="wrap">
+        <Row>
+          <Col xs={6} md={4}>
+          <Image className="image" src="#" thumbnail />,
+              <h3>Thumbnail label</h3>
+              {/* <p>Description</p> */}
+            
+          </Col>
+          <Col xs={6} md={4}>
+          <Image className="image" src="https://us.123rf.com/450wm/tamara1k/tamara1k1811/tamara1k181100212/112253053-gran-canaria-october-nature-park-pajonales-freshwater-reservoir-presa-de-las-ninas-visible.jpg?ver=6" thumbnail />
+              <h3>Thumbnail label</h3>
+              {/* <p>Description</p> */}
+           
+          </Col>
+          <Col xs={6} md={4}>
+          <Image className="image" src="https://us.123rf.com/450wm/nickvorobey/nickvorobey1703/nickvorobey170300395/74656416-eurasian-jay-and-tree-sparrow-size-camparison-on-a-willow-twig.jpg?ver=6" thumbnail />
+              <h3>Thumbnail label</h3>
+              {/* <p>Description</p> */}
+            
+          </Col>
+        </Row>
+      </Grid>
+    </div>
+  );
+}
+
+export default InfraComp;
