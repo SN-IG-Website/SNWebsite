@@ -209,24 +209,7 @@ const Teams2 = () => {
   <div className="item">
     <div className="thumb">
       <img className="img-fluid" src={YashasviRathore} alt="Thumb"/>
-      <div className="overlay">
-        {/* <h4>Lorem Ipsum</h4> */}
-        <p>
-        Dream Big, Stay Focused and Be Fearless!               </p>
-        <div className="social">
-          <ul>
-          <li className="twitter">
-              <a href="https://www.facebook.com/yashasvi.rathore.969/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
-            </li>
-            <li className="pinterest">
-              <a href="https://www.linkedin.com/in/yashasvi-rathore-06b3b4192/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
-            </li>
-            {/* <li className="instagram">
-              <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
-            </li> */}
-          </ul>
-        </div>
-      </div>
+      
     </div>
     <div className="info">
       <span className="message">
