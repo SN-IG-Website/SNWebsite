@@ -36,7 +36,7 @@ const infra = () => {
         <div className="col-md-4 single-item">
           <div className="item">
             <div className="thumb">
-              <img className="img-fluid infraimages" src={mess} alt="Thumb"/>
+              <img className="img-fluid infraimages" src={mess} alt="Thumb" style={{height:'350px',width:'400px'}}/>
               <div className="overlay">
                 <h4>Mess</h4>
                                
@@ -47,7 +47,7 @@ const infra = () => {
         <div className="col-md-4 single-item">
           <div className="item">
             <div className="thumb">
-              <img className="img-fluid infraimages" src={library} alt="Thumb"/>
+              <img className="img-fluid infraimages" src={library} alt="Thumb" style={{height:'350px',width:'400px'}}/>
               <div className="overlay">
                 <h4>Library</h4>
                                
@@ -58,7 +58,7 @@ const infra = () => {
         <div className="col-md-4 single-item">
           <div className="item">
             <div className="thumb">
-              <img className="img-fluid infraimages" src={music} alt="Thumb"/>
+              <img className="img-fluid infraimages" src={music} alt="Thumb" style={{height:'350px',width:'400px'}}/>
               <div className="overlay">
                 <h4>Music</h4>
                               
@@ -69,7 +69,7 @@ const infra = () => {
         <div className="col-md-4 single-item">
           <div className="item">
             <div className="thumb">
-              <img className="img-fluid infraimages" src={newcommon} alt="Thumb"/>
+              <img className="img-fluid infraimages" src={newcommon} alt="Thumb" style={{height:'350px',width:'400px'}}/>
               <div className="overlay">
                 <h4>New Common</h4>
                            
@@ -80,7 +80,7 @@ const infra = () => {
         <div className="col-md-4 single-item">
           <div className="item">
             <div className="thumb">
-              <img className="img-fluid infraimages" src={oldcommon} alt="Thumb"/>
+              <img className="img-fluid infraimages" src={oldcommon} alt="Thumb" style={{height:'350px',width:'400px'}}/>
               <div className="overlay">
                 <h4>Old Common Room</h4>
                              
@@ -91,7 +91,7 @@ const infra = () => {
         <div className="col-md-4 single-item">
           <div className="item">
             <div className="thumb">
-              <img className="img-fluid infraimages" src={daycanteen} alt="Thumb"/>
+              <img className="img-fluid infraimages" src={daycanteen} alt="Thumb" style={{height:'350px',width:'400px'}}/>
               <div className="overlay">
                 <h4>Day Canteen</h4>
                             
@@ -102,7 +102,7 @@ const infra = () => {
         <div className="col-md-4 single-item">
           <div className="item">
             <div className="thumb">
-              <img className="img-fluid infraimages" src={daycanteen2} alt="Thumb"/>
+              <img className="img-fluid infraimages" src={daycanteen2} alt="Thumb" style={{height:'350px',width:'400px'}}/>
               <div className="overlay">
                 <h4>Store Room</h4>
                             
@@ -113,7 +113,7 @@ const infra = () => {
         <div className="col-md-4 single-item">
           <div className="item">
             <div className="thumb">
-              <img className="img-fluid infraimages" src={studyroom} alt="Thumb"/>
+              <img className="img-fluid infraimages" src={studyroom} alt="Thumb" style={{height:'350px',width:'400px'}}/>
               <div className="overlay">
                 <h4>Study Room</h4>
                             
@@ -124,7 +124,7 @@ const infra = () => {
         <div className="col-md-4 single-item">
           <div className="item">
             <div className="thumb">
-              <img className="img-fluid infraimages" src={daycanteen} alt="Thumb"/>
+              <img className="img-fluid infraimages" src={daycanteen} alt="Thumb" style={{height:'350px',width:'400px'}}/>
               <div className="overlay">
                 <h4>Day Canteen</h4>
                             

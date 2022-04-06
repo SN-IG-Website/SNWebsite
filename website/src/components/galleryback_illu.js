@@ -42,15 +42,20 @@ import illu34 from "./images/illu34.JPG" ;
 function galleryback() {
   return (
     <>
-    <center><h1 className="heading">Freshers' Treat</h1></center>
+    <center><h1 className="heading">Illumination</h1></center>
       <div className="row">
         <div className="column">
           <img src={illu} />
-          <img src={illu1} />
+          {/* <img src={illu1} />
           <img src={illu2} />
-          <img src={illu3} />
+          <img src={illu3} /> */}
           <img src={illu4} />
-         
+          <img src={illu19} />
+          <img src={illu20} />
+          <img src={illu21} />
+          <img src={illu23} />
+          <img src={illu22} />
+          <img src={illu28} />
 
          
         </div>
@@ -60,6 +65,11 @@ function galleryback() {
           <img src={illu7} />
           <img src={illu8} />
           <img src={illu9} />
+          <img src={illu24} />
+          <img src={illu25} />
+          <img src={illu26} />
+         
+         
          
         </div>
         <div className="column">
@@ -68,6 +78,11 @@ function galleryback() {
           <img src={illu12} />
           <img src={illu13} />
           <img src={illu14} />
+          <img src={illu29} />
+          <img src={illu30} />
+          <img src={illu31} />
+         
+          
          
         </div>
         <div className="column">
@@ -76,32 +91,14 @@ function galleryback() {
           <img src={illu16} />
           <img src={illu17} />
           <img src={illu18} />
-         
-        </div>
-        <div className="column">
-          <img src={illu19} />
-          <img src={illu20} />
-          <img src={illu21} />
-          <img src={illu22} />
-          <img src={illu23} />
-         
-        </div>
-        <div className="column">
-          <img src={illu24} />
-          <img src={illu25} />
-          <img src={illu26} />
-          <img src={illu27} />
-          <img src={illu28} />
-         
-        </div>
-        <div className="column">
-          <img src={illu29} />
-          <img src={illu30} />
-          <img src={illu31} />
           <img src={illu32} />
           <img src={illu33} />
+          <img src={illu27} />
+        
          
         </div>
+       
+        
       </div>
     </>
   );

@@ -13,6 +13,39 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faFacebookF , faLinkedin , faInstagram} from '@fortawesome/free-brands-svg-icons';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
+//images
+
+import DebarpitaJyoti from './images2/DebarpitaJyoti.jpg';
+import AlishaChannel from './images2/AlishaChandel.jpg';
+import AnweshaPatel from './images2/AnweshaPatel.jpg';
+import AshlesaGoyal from './images2/AshlesaGoyal.jpeg';
+import CharviJain from './images2/CharviJain.jpeg';
+import DishaChoraria from './images2/DishaChoraria.jpeg';
+import elizaroy from './images2/elizaroy.JPG';
+import FizaNissam from './images2/FizaNissam.jpg';
+import GargiDas from './images2/GargiDas.jpeg';
+import GauriPatki from './images2/GauriPatki.jpg';
+import GunjanAgarwal from './images2/GunjanAgarwal.jpg';
+import IshitaJhunjhunwala from './images2/IshitaJhunjhunwala.jpg';
+import KashishLundia from './images2/KashishLundia.jpg';
+import KirtiChoudhary from './images2/KirtiChoudhary.JPG';
+import navya from './images2/navya.jpg';
+import NidhiGoyal from './images2/NidhiGoyal.jpg';
+import NikithaBobbary from './images2/NikithaBobbary.jpg';
+import PoulomiChaudhuri from './images2/PoulomiChaudhuri.jpeg';
+import PrachiBajpai from './images2/PrachiBajpai.jpg';
+import RajshreeSharma from './images2/RajshreeSharma.jpg';
+import rhea from './images2/rhea.jpg';
+import RoshniKar from './images2/RoshniKar.png';
+import Rushali from './images2/RushaliChakraborty.jpg'
+import SanskritiKashyap from './images2/SanskritiKashyap.jpg';
+import SejalShambharkar from './images2/SejalShambharkar.jpg';
+import ShikhaBagaria from './images2/ShikhaBagaria.jpeg';
+import ShivaniAnneboina from './images2/ShivaniAnneboina.jpeg';
+import SraavyaUppala from './images2/SraavyaUppala.jpg';
+import SwastikaMandal from './images2/SwastikaMandal.jpg';
+import TanayaRamane from './images2/TanayaRamane.jpg';
+import YashasviRathore from './images2/YashasviRathore.PNG';
 
 const Teams2 = () => {
     return ( 
@@ -30,91 +63,59 @@ const Teams2 = () => {
         </div>
       </div>
       <div className="row team-items">
-        <div className="col-md-4 single-item">
+      <div className="row team-items centered">
+
+      <div className="col-md-4 single-item">
           <div className="item">
             <div className="thumb">
-              <img className="img-fluid" src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Thumb"/>
+              <img className="img-fluid" src={rhea} alt="Thumb"/>
               <div className="overlay">
-                <h4>Lorem Ipsum</h4>
+                {/* <h4>Lorem Ipsum</h4> */}
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </p>
-                <div className="social">
-                  <ul>
-                    <li className="twitter">
-                      <Link href="#"><FontAwesomeIcon icon={faFacebookF} /></Link>
-                    </li>
-                    <li className="pinterest">
-                      <Link href="#"><FontAwesomeIcon icon={faLinkedin} /></Link>
-                    </li>
-                    <li className="instagram">
-                      <Link href="#"><FontAwesomeIcon icon={faInstagram} /></Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="info">
-              <span className="message">
-                <Link href="#"><FontAwesomeIcon icon={faEnvelope} /></Link>
-              </span>
-              <h4>Lorem Ipsum</h4>
-              <span>Project Manager</span>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-4 single-item">
-          <div className="item">
-            <div className="thumb">
-              <img className="img-fluid" src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Thumb"/>
-              <div className="overlay">
-                <h4>Lorem Ipsum</h4>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </p>
+                Commending the wins and celebrating the losses.                </p>
                 <div className="social">
                   <ul>
                   <li className="twitter">
-                      <Link href="#"><FontAwesomeIcon icon={faFacebookF} /></Link>
+                      <a href="https://www.facebook.com/rhea2801/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
                     </li>
                     <li className="pinterest">
-                      <Link href="#"><FontAwesomeIcon icon={faLinkedin} /></Link>
+                      <a href="https://www.linkedin.com/in/rhea2801/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
                     </li>
-                    <li className="instagram">
-                      <Link href="#"><FontAwesomeIcon icon={faInstagram} /></Link>
-                    </li>
+                    {/* <li className="instagram">
+                      <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+                    </li> */}
                   </ul>
                 </div>
               </div>
             </div>
             <div className="info">
               <span className="message">
-                <Link href="#"><FontAwesomeIcon icon={faEnvelope} /></Link>
+                <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
-              <h4>Lorem Ipsum</h4>
-              <span>App Developer</span>
+              <h4>Rhea Sundaresan</h4>
+              <span>General Secretary Sports and Games</span>
             </div>
           </div>
         </div>
+
         <div className="col-md-4 single-item">
           <div className="item">
             <div className="thumb">
-              <img className="img-fluid" src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Thumb"/>
+              <img className="img-fluid" src={IshitaJhunjhunwala} alt="Thumb"/>
               <div className="overlay">
-                <h4>Lorem Ipsum</h4>
+                {/* <h4>Lorem Ipsum</h4> */}
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </p>
+                The best is yet to come...                </p>
                 <div className="social">
                   <ul>
                   <li className="twitter">
-                      <Link href="#"><FontAwesomeIcon icon={faFacebookF} /></Link>
+                      <a href="https://www.facebook.com/prachi.bajpai.58726/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
                     </li>
                     <li className="pinterest">
-                      <Link href="#"><FontAwesomeIcon icon={faLinkedin} /></Link>
+                      <a href="https://www.linkedin.com/in/prachi-bajpai-011086172/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
                     </li>
                     <li className="instagram">
-                      <Link href="#"><FontAwesomeIcon icon={faInstagram} /></Link>
+                      <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
                     </li>
                   </ul>
                 </div>
@@ -122,112 +123,157 @@ const Teams2 = () => {
             </div>
             <div className="info">
               <span className="message">
-                <Link href="#"><FontAwesomeIcon icon={faEnvelope} /></Link>
+                <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
-              <h4>Lorem Ipsum</h4>
-              <span>Web designer</span>
+              <h4>Ishita Jhunjhunwala</h4>
+              <span>General Secretary Technology</span>
             </div>
           </div>
         </div>
-        <div className="col-md-4 single-item">
-          <div className="item">
-            <div className="thumb">
-              <img className="img-fluid" src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Thumb"/>
-              <div className="overlay">
-                <h4>Lorem Ipsum</h4>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </p>
-                <div className="social">
-                  <ul>
-                  <li className="twitter">
-                      <Link href="#"><FontAwesomeIcon icon={faFacebookF} /></Link>
-                    </li>
-                    <li className="pinterest">
-                      <Link href="#"><FontAwesomeIcon icon={faLinkedin} /></Link>
-                    </li>
-                    <li className="instagram">
-                      <Link href="#"><FontAwesomeIcon icon={faInstagram} /></Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="info">
-              <span className="message">
-                <Link href="#"><FontAwesomeIcon icon={faEnvelope} /></Link>
-              </span>
-              <h4>Lorem Ipsum</h4>
-              <span>Web designer</span>
-            </div>
-          </div>
+
+<div className="row team-items centered">
+
+
+<div className="col-md-4 single-item">
+  <div className="item">
+    <div className="thumb">
+      <img className="img-fluid" src={YashasviRathore} alt="Thumb"/>
+      <div className="overlay">
+        {/* <h4>Lorem Ipsum</h4> */}
+        <p>
+        Dream Big, Stay Focused and Be Fearless!               </p>
+        <div className="social">
+          <ul>
+          <li className="twitter">
+              <a href="https://www.facebook.com/yashasvi.rathore.969/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
+            </li>
+            <li className="pinterest">
+              <a href="https://www.linkedin.com/in/yashasvi-rathore-06b3b4192/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+            </li>
+            {/* <li className="instagram">
+              <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+            </li> */}
+          </ul>
         </div>
-        <div className="col-md-4 single-item">
-          <div className="item">
-            <div className="thumb">
-              <img className="img-fluid" src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Thumb"/>
-              <div className="overlay">
-                <h4>Lorem Ipsum</h4>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </p>
-                <div className="social">
-                  <ul>
-                  <li className="twitter">
-                      <Link href="#"><FontAwesomeIcon icon={faFacebookF} /></Link>
-                    </li>
-                    <li className="pinterest">
-                      <Link href="#"><FontAwesomeIcon icon={faLinkedin} /></Link>
-                    </li>
-                    <li className="instagram">
-                      <Link href="#"><FontAwesomeIcon icon={faInstagram} /></Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="info">
-              <span className="message">
-                <Link href="#"><FontAwesomeIcon icon={faEnvelope} /></Link>
-              </span>
-              <h4>Lorem Ipsum</h4>
-              <span>Web designer</span>
-            </div>
-          </div>
+      </div>
+    </div>
+    <div className="info">
+      <span className="message">
+        <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
+      </span>
+      <h4>Yashasvi Rathore</h4>
+      <span>Maintenance Coordinator</span>
+    </div>
+  </div>
+</div>
+<div className="col-md-4 single-item">
+  <div className="item">
+    <div className="thumb">
+      <img className="img-fluid" src={SejalShambharkar} alt="Thumb"/>
+      <div className="overlay">
+        {/* <h4>Lorem Ipsum</h4> */}
+        {/* <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p> */}
+        <div className="social">
+          <ul>
+          <li className="twitter">
+              <a href="https://www.facebook.com/sejal.shambharkar.501" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
+            </li>
+            <li className="pinterest">
+              <a href="https://www.linkedin.com/in/sejal-shambharkar-0398b91b4" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+            </li>
+            {/* <li className="instagram">
+              <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+            </li> */}
+          </ul>
         </div>
-        <div className="col-md-4 single-item">
-          <div className="item">
-            <div className="thumb">
-              <img className="img-fluid" src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Thumb"/>
-              <div className="overlay">
-                <h4>Lorem Ipsum</h4>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </p>
-                <div className="social">
-                  <ul>
-                  <li className="twitter">
-                      <Link href="#"><FontAwesomeIcon icon={faFacebookF} /></Link>
-                    </li>
-                    <li className="pinterest">
-                      <Link href="#"><FontAwesomeIcon icon={faLinkedin} /></Link>
-                    </li>
-                    <li className="instagram">
-                      <Link href="#"><FontAwesomeIcon icon={faInstagram} /></Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="info">
-              <span className="message">
-                <Link href="#"><FontAwesomeIcon icon={faEnvelope} /></Link>
-              </span>
-              <h4>Lorem Ipsum</h4>
-              <span>Web designer</span>
-            </div>
-          </div>
+      </div>
+    </div>
+    <div className="info">
+      <span className="message">
+        <a href="mailto:sejalshambharkar2001@gmail.com "><FontAwesomeIcon icon={faEnvelope} /></a>
+      </span>
+      <h4>Sejal Shambharkar</h4>
+      <span>Maintenance Coordinator</span>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div className="row team-items centered">
+
+
+<div className="col-md-4 single-item">
+  <div className="item">
+    <div className="thumb">
+      <img className="img-fluid" src={YashasviRathore} alt="Thumb"/>
+      <div className="overlay">
+        {/* <h4>Lorem Ipsum</h4> */}
+        <p>
+        Dream Big, Stay Focused and Be Fearless!               </p>
+        <div className="social">
+          <ul>
+          <li className="twitter">
+              <a href="https://www.facebook.com/yashasvi.rathore.969/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
+            </li>
+            <li className="pinterest">
+              <a href="https://www.linkedin.com/in/yashasvi-rathore-06b3b4192/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+            </li>
+            {/* <li className="instagram">
+              <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+            </li> */}
+          </ul>
         </div>
+      </div>
+    </div>
+    <div className="info">
+      <span className="message">
+        <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
+      </span>
+      <h4>Yashasvi Rathore</h4>
+      <span>Maintenance Coordinator</span>
+    </div>
+  </div>
+</div>
+<div className="col-md-4 single-item">
+  <div className="item">
+    <div className="thumb">
+      <img className="img-fluid" src={SejalShambharkar} alt="Thumb"/>
+      <div className="overlay">
+        {/* <h4>Lorem Ipsum</h4> */}
+        {/* <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p> */}
+        <div className="social">
+          <ul>
+          <li className="twitter">
+              <a href="https://www.facebook.com/sejal.shambharkar.501" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
+            </li>
+            <li className="pinterest">
+              <a href="https://www.linkedin.com/in/sejal-shambharkar-0398b91b4" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+            </li>
+            {/* <li className="instagram">
+              <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+            </li> */}
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div className="info">
+      <span className="message">
+        <a href="mailto:sejalshambharkar2001@gmail.com "><FontAwesomeIcon icon={faEnvelope} /></a>
+      </span>
+      <h4>Sejal Shambharkar</h4>
+      <span>Maintenance Coordinator</span>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
       </div>
     </div>
     </center>

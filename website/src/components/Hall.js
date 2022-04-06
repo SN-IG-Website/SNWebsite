@@ -478,6 +478,10 @@ I will drink life to the lees and follow knowledge like a sinking star!         
     </div>
   </div>
 </div>
+
+<div className="row team-items centered">
+
+
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
@@ -542,6 +546,7 @@ I will drink life to the lees and follow knowledge like a sinking star!         
       <span>Maintenance Coordinator</span>
     </div>
   </div>
+</div>
 </div>
 </div>
 
