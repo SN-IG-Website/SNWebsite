@@ -1,13 +1,13 @@
 .me-auto{
     font-size: larger;
-    font-weight: 400;
+    font-weight: 500;
     
 }
-/* .content{
-    background-color: #FFEDDB;
-} */
+.content{
+    background-color: #FBE5E5;
+}
 .nav-bar{
-    background-color: #EDCDBB;
+    background-color: #FBE5E5;
     
 
 }
