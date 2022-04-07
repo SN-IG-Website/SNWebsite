@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 .infrasnig{
     padding-top: 60px;
-    background-color: #FBE5E5;
+    
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -240,5 +240,10 @@ ul {
   align-items: center;
 }
 .infraimages{
-  background: url("https://cdn.pixabay.com/photo/2016/01/08/13/50/background-1127943_1280.jpg");
+  /* background: url("https://cdn.pixabay.com/photo/2016/01/08/13/50/background-1127943_1280.jpg") no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
 }
