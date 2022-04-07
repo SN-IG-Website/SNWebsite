@@ -1,5 +1,5 @@
 import React from 'react';
-import './Teams2.css';
+import './Warden.css';
 import NavbarComp from './NavbarComp';
 
 
@@ -47,7 +47,8 @@ import SwastikaMandal from './images2/SwastikaMandal.jpg';
 import TanayaRamane from './images2/TanayaRamane.jpg';
 import YashasviRathore from './images2/YashasviRathore.PNG';
 
-const Teams2 = () => {
+
+const Warden = () => {
     return ( 
     <>
     <NavbarComp/>
@@ -55,12 +56,12 @@ const Teams2 = () => {
         <center>
     <div className="container">
       <div className="row">
-        <div className="col-md-12">
+        {/* <div className="col-md-12">
           <div className="site-heading text-center">
             <h2>Our <span>Team</span></h2>
-            {/* <h4>Meet our awesome and expert team members</h4> */}
+            <h4>Meet our awesome and expert team members</h4>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="row team-items">
       <div className="row team-items centered">
@@ -70,14 +71,14 @@ const Teams2 = () => {
             <div className="thumb">
               <img className="img-fluid" src={rhea} alt="Thumb"/>
               <div className="overlay">
-                {/* <h4>Lorem Ipsum</h4> */}
+                <h4>Lorem Ipsum</h4>
                 <p>
                 Commending the wins and celebrating the losses.                </p>
                 <div className="social">
                   <ul>
-                  <li className="twitter">
+                  {/* <li className="twitter">
                       <a href="https://www.facebook.com/rhea2801/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
-                    </li>
+                    </li> */}
                     <li className="pinterest">
                       <a href="https://www.linkedin.com/in/rhea2801/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
                     </li>
@@ -108,15 +109,15 @@ const Teams2 = () => {
                 The best is yet to come...                </p>
                 <div className="social">
                   <ul>
-                  <li className="twitter">
+                  {/* <li className="twitter">
                       <a href="https://www.facebook.com/prachi.bajpai.58726/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
-                    </li>
+                    </li> */}
                     <li className="pinterest">
                       <a href="https://www.linkedin.com/in/prachi-bajpai-011086172/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
                     </li>
-                    <li className="instagram">
+                    {/* <li className="instagram">
                       <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -131,129 +132,42 @@ const Teams2 = () => {
           </div>
         </div>
 
-<div className="row team-items centered">
-
-
-<div className="col-md-4 single-item">
-  <div className="item">
-    <div className="thumb">
-      <img className="img-fluid" src={YashasviRathore} alt="Thumb"/>
-      <div className="overlay">
-        {/* <h4>Lorem Ipsum</h4> */}
-        <p>
-        Dream Big, Stay Focused and Be Fearless!               </p>
-        <div className="social">
-          <ul>
-          <li className="twitter">
-              <a href="https://www.facebook.com/yashasvi.rathore.969/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
-            </li>
-            <li className="pinterest">
-              <a href="https://www.linkedin.com/in/yashasvi-rathore-06b3b4192/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
-            </li>
-            {/* <li className="instagram">
-              <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
-            </li> */}
-          </ul>
+        <div className="col-md-4 single-item">
+          <div className="item">
+            <div className="thumb">
+              <img className="img-fluid" src={IshitaJhunjhunwala} alt="Thumb"/>
+              <div className="overlay">
+                {/* <h4>Lorem Ipsum</h4> */}
+                <p>
+                The best is yet to come...                </p>
+                <div className="social">
+                  <ul>
+                  {/* <li className="twitter">
+                      <a href="https://www.facebook.com/prachi.bajpai.58726/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
+                    </li> */}
+                    <li className="pinterest">
+                      <a href="https://www.linkedin.com/in/prachi-bajpai-011086172/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+                    </li>
+                    {/* <li className="instagram">
+                      <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+                    </li> */}
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="info">
+              <span className="message">
+                <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
+              </span>
+              <h4>Ishita Jhunjhunwala</h4>
+              <span>General Secretary Technology</span>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-    <div className="info">
-      <span className="message">
-        <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
-      </span>
-      <h4>Yashasvi Rathore</h4>
-      <span>Maintenance Coordinator</span>
-    </div>
-  </div>
-</div>
-<div className="col-md-4 single-item">
-  <div className="item">
-    <div className="thumb">
-      <img className="img-fluid" src={SejalShambharkar} alt="Thumb"/>
-      <div className="overlay">
-        {/* <h4>Lorem Ipsum</h4> */}
-        {/* <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        </p> */}
-        <div className="social">
-          <ul>
-          <li className="twitter">
-              <a href="https://www.facebook.com/sejal.shambharkar.501" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
-            </li>
-            <li className="pinterest">
-              <a href="https://www.linkedin.com/in/sejal-shambharkar-0398b91b4" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
-            </li>
-            {/* <li className="instagram">
-              <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
-            </li> */}
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div className="info">
-      <span className="message">
-        <a href="mailto:sejalshambharkar2001@gmail.com "><FontAwesomeIcon icon={faEnvelope} /></a>
-      </span>
-      <h4>Sejal Shambharkar</h4>
-      <span>Maintenance Coordinator</span>
-    </div>
-  </div>
-</div>
-</div>
+
 </div>
 
-<div className="row team-items centered">
 
-
-<div className="col-md-4 single-item">
-  <div className="item">
-    <div className="thumb">
-      <img className="img-fluid" src={YashasviRathore} alt="Thumb"/>
-      
-    </div>
-    <div className="info">
-      <span className="message">
-        <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
-      </span>
-      <h4>Yashasvi Rathore</h4>
-      <span>Maintenance Coordinator</span>
-    </div>
-  </div>
-</div>
-<div className="col-md-4 single-item">
-  <div className="item">
-    <div className="thumb">
-      <img className="img-fluid" src={SejalShambharkar} alt="Thumb"/>
-      <div className="overlay">
-        {/* <h4>Lorem Ipsum</h4> */}
-        {/* <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        </p> */}
-        <div className="social">
-          <ul>
-          <li className="twitter">
-              <a href="https://www.facebook.com/sejal.shambharkar.501" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
-            </li>
-            <li className="pinterest">
-              <a href="https://www.linkedin.com/in/sejal-shambharkar-0398b91b4" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
-            </li>
-            {/* <li className="instagram">
-              <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
-            </li> */}
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div className="info">
-      <span className="message">
-        <a href="mailto:sejalshambharkar2001@gmail.com "><FontAwesomeIcon icon={faEnvelope} /></a>
-      </span>
-      <h4>Sejal Shambharkar</h4>
-      <span>Maintenance Coordinator</span>
-    </div>
-  </div>
-</div>
-</div>
 
 
 
@@ -266,4 +180,4 @@ const Teams2 = () => {
 
 }
  
-export default Teams2;
+export default Warden;

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Teams2.css';
 import NavbarComp from './NavbarComp';
+import Warden from './Warden';
 
 import {Link} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
@@ -93,7 +94,7 @@ const Hall = () => {
             </div>
             <div className="info">
               <span className="message">
-                <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
+                <a href="mailto:debarpitajyoti@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
               <h4>Debarpita Jyoti</h4>
               <span>Hall President</span>
@@ -126,7 +127,7 @@ const Hall = () => {
             </div>
             <div className="info">
               <span className="message">
-                <a href="#" target="_blank"><FontAwesomeIcon icon={faEnvelope} /></a>
+                <a href="mailto:nationhind@gmail.com" target="_blank"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
               <h4>Prachi Bajpai</h4>
               <span>Second Senate Member</span>
@@ -201,7 +202,7 @@ const Hall = () => {
             </div>
             <div className="info">
               <span className="message">
-                <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
+                <a href="mailto:rhea2801@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
               <h4>Rhea Sundaresan</h4>
               <span>General Secretary Sports and Games</span>
@@ -233,7 +234,7 @@ const Hall = () => {
             </div>
             <div className="info">
               <span className="message">
-                <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
+                <a href="mailto:poulomisalomi@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
               <h4>Poulomi Chaudhuri</h4>
               <span>General Secretary Maintenance</span>
@@ -266,7 +267,7 @@ const Hall = () => {
             </div>
             <div className="info">
               <span className="message">
-                <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
+                <a href="mailto:charvijain9928@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
               <h4>Charvi Jain</h4>
               <span>General Secretary Mess</span>
@@ -298,7 +299,7 @@ const Hall = () => {
             </div>
             <div className="info">
               <span className="message">
-                <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
+                <a href="mailto:shikhabagaria11@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
               <h4>Shikha Bagaria</h4>
               <span>General Secretary Library</span>
@@ -312,7 +313,8 @@ const Hall = () => {
               <div className="overlay">
                 {/* <h4>Lorem Ipsum</h4> */}
                 <p>
-                It's been an amazing tenure owing to the enthusiastic response and the appreciation we received for all the offline as well as online events. Last but not the least...a virtual tempo shout SN KA TEMPO HIGH HAI!!                </p>
+                  An amazing tenure marked with enthusia response and appreciation from boarders...a shoutout to all boarders SN KA TEMPO HIGH HAI!!
+                </p>
                 <div className="social">
                   <ul>
                   <li className="twitter">
@@ -330,7 +332,7 @@ const Hall = () => {
             </div>
             <div className="info">
               <span className="message">
-                <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
+                <a href="mailto:ramanetanaya@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
               <h4>Tanaya Vijay Ramane</h4>
               <span>General Secretary Student's Welfare</span>
@@ -362,9 +364,9 @@ const Hall = () => {
             </div>
             <div className="info">
               <span className="message">
-                <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
+                <a href="mailto:kasis.lundia1@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
-              <h4>Kasis Lundia</h4>
+              <h4>Kashish Lundia</h4>
               <span>General Secretary Alumni Affairs</span>
             </div>
           </div>
@@ -380,13 +382,13 @@ const Hall = () => {
                 <div className="social">
                   <ul>
                   <li className="twitter">
-                      <a href="https://www.facebook.com/prachi.bajpai.58726/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
+                      <a href="https://www.facebook.com/ishita.jhunjhunwala.52/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
                     </li>
                     <li className="pinterest">
-                      <a href="https://www.linkedin.com/in/prachi-bajpai-011086172/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+                      <a href="https://www.linkedin.com/in/ishita-jhunjhunwala-73a1161a4/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
                     </li>
                     <li className="instagram">
-                      <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+                      <a href="https://www.instagram.com/jhunjhunwala_ishita/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
                     </li>
                   </ul>
                 </div>
@@ -394,7 +396,7 @@ const Hall = () => {
             </div>
             <div className="info">
               <span className="message">
-                <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
+                <a href="mailto:ishitajhunjhunwala.iitkgp@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
               <h4>Ishita Jhunjhunwala</h4>
               <span>General Secretary Technology</span>
@@ -438,7 +440,7 @@ const Hall = () => {
     </div>
     <div className="info">
       <span className="message">
-        <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
+        <a href="mailto:rushali.c1710@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Roshni Kar</h4>
       <span>Maintenance Coordinator</span>
@@ -471,7 +473,7 @@ I will drink life to the lees and follow knowledge like a sinking star!         
     </div>
     <div className="info">
       <span className="message">
-        <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
+        <a href="mailto:dasgargi607@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Gargi Das</h4>
       <span>Maintenance Coordinator</span>
@@ -507,7 +509,7 @@ I will drink life to the lees and follow knowledge like a sinking star!         
     </div>
     <div className="info">
       <span className="message">
-        <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
+        <a href="mailto:yasharathore9462@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Yashasvi Rathore</h4>
       <span>Maintenance Coordinator</span>
@@ -1149,6 +1151,7 @@ Have faith in yourself....        </p>
 
       </div>
     </div>
+    <Warden/>
     </center>
   </section>
   </> 
