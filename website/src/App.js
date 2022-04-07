@@ -14,7 +14,7 @@ import Alumni from './pages/alumni';
 import gallerback_illu from './components/galleryback_illu';
 import gallerback_republicday from './components/galleryback_republicday';
 import AchievComp from './components/AchievComp';
-
+import galleryback_classsong from './components/galleryback_classsong';
 
 
 function App() {
@@ -31,6 +31,7 @@ function App() {
         <Route path="/illu" component={gallerback_illu}/>
         <Route path="/republic" component={gallerback_republicday}/>
         <Route path="/grand-dinner" component={galleryback_granddinner}/>
+        <Route path="/class-song" component={galleryback_classsong}/>
         <Route path="/achievements" component={AchievComp}/>
         
 
