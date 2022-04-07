@@ -12,7 +12,7 @@ function CarouselComp() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={homeimage1}
+            src={homepageimage}
             alt="First slide"
             style={{height:'700px', width:'100%'}}
             
@@ -27,7 +27,7 @@ function CarouselComp() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={homepageimage}
+            src={homeimage1}
             alt="Second slide"
             style={{height:'700px', width:'100%'}}
           />
