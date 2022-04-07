@@ -90,7 +90,7 @@ const Teams2 = () => {
             </div>
             <div className="info">
               <span className="message">
-                <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
+                <a href="mailto:rhea2801@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
               <h4>Rhea Sundaresan</h4>
               <span>General Secretary Sports and Games</span>
@@ -109,13 +109,13 @@ const Teams2 = () => {
                 <div className="social">
                   <ul>
                   <li className="twitter">
-                      <a href="https://www.facebook.com/prachi.bajpai.58726/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
+                      <a href="https://www.facebook.com/ishita.jhunjhunwala.52/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
                     </li>
                     <li className="pinterest">
-                      <a href="https://www.linkedin.com/in/prachi-bajpai-011086172/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+                      <a href="https://www.linkedin.com/in/ishita-jhunjhunwala-73a1161a4/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
                     </li>
                     <li className="instagram">
-                      <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+                      <a href="https://www.instagram.com/jhunjhunwala_ishita/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
                     </li>
                   </ul>
                 </div>
@@ -123,7 +123,7 @@ const Teams2 = () => {
             </div>
             <div className="info">
               <span className="message">
-                <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
+                <a href="mailto:ishitajhunjhunwala.iitkgp@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
               <h4>Ishita Jhunjhunwala</h4>
               <span>General Secretary Technology</span>
