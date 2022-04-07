@@ -27,7 +27,7 @@ function AlumniCard() {
                         } > DISTINGUISHED ALUMNI </h4>
                     </div>
                     <div>
-                        <div className='Distinguished Alumni Awards'>
+                        <div className='Distinguished Alumni Awards' id='Distinguished Alumni Awards'>
 
                             <h4 style={
                                 {
@@ -159,7 +159,7 @@ function AlumniCard() {
 
 
                         <div>
-                            <div className='Distinguished Service Awards'>
+                            <div className='Distinguished Service Awards' id='Distinguished Service Awards'>
 
                                 <h4 style={
                                     {
@@ -296,7 +296,7 @@ function AlumniCard() {
 
 
                     <div>
-                        <div className='Young Alumni Achiever Awards'>
+                        <div className='Young Alumni Achiever Awards' id='Young Alumni Achiever Awards'>
 
                             <h4 style={
                                 {

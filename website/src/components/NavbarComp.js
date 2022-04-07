@@ -11,7 +11,7 @@ import logo from "./logo.png";
 function NavbarComp() {
   return (
     <>
-      <Navbar className="nav-bar" bg="light" expand="lg" style={{position:'fixed', top:'0', zIndex:'100', width: '100%',paddingTop:'0',paddingBottom:'0'}}>
+      <Navbar className="nav-bar" bg="light" expand="lg" style={{ position: 'fixed', top: '0', zIndex: '100', width: '100%', paddingTop: '0', paddingBottom: '0' }}>
         <Container className="content">
           <Navbar.Brand href="/">
             <img
@@ -27,7 +27,7 @@ function NavbarComp() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
               <NavDropdown title="" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#aboutsnig">About</NavDropdown.Item>
                 <NavDropdown.Item href="#infrasnig">
@@ -43,11 +43,16 @@ function NavbarComp() {
               </NavDropdown>
               <Nav.Link href="hall">Office bearers</Nav.Link>
               <Nav.Link href="alumni">Alumni</Nav.Link>
+              <NavDropdown title="" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#Distinguished Alumni Awards">Distinguished Alumni Awards</NavDropdown.Item>
+                <NavDropdown.Item href="#Distinguished Service Awards">Distinguished Service Awards</NavDropdown.Item>
+                <NavDropdown.Item href="#Young Alumni Achiever Awards">Young Alumni Achiever Awards</NavDropdown.Item>
+              </NavDropdown>
               <Nav.Link href="gallery">Gallery</Nav.Link>
               <Nav.Link href="achievements">Achievements</Nav.Link>
               <Nav.Link href="teams2">Our Team</Nav.Link>
 
-              
+
             </Nav>
           </Navbar.Collapse>
         </Container>
