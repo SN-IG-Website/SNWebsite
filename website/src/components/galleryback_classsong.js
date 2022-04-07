@@ -23,7 +23,7 @@ import classsong16 from "./images/classsong16.jpg" ;
 function galleryback() {
     return (
       <>
-      <center><h1 className="heading">Class Song</h1></center>
+      <center><div className="heading"><h1 >Class Song</h1></div></center>
         <div className="row">
           <div className="column">
           <img src={classsong1} />

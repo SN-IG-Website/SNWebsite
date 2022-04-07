@@ -42,7 +42,7 @@ import illu34 from "./images/illu34.JPG" ;
 function galleryback() {
   return (
     <>
-    <center><h1 className="heading">Illumination</h1></center>
+    <center><div className="heading"><h1 >Illumination</h1></div></center>
       <div className="row">
         <div className="column">
           <img src={illu} />

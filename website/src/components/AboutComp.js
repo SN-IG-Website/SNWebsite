@@ -5,7 +5,7 @@ function AboutComp() {
   return (
     <div className="about" id="aboutsnig">
       <center>
-        <h2>About Us</h2>
+        <h2 >About Us</h2>
         <p className="contentsnig">
           SN/IG hall of residence is one of the oldest hall in the Institute.
           For decades, the Hall has been the home away from home for both
