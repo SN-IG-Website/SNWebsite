@@ -11,7 +11,7 @@ import logo from "./logo.png";
 function NavbarComp() {
   return (
     <>
-      <Navbar className="nav-bar" bg="light" expand="lg" style={{position:'fixed', top:'0', zIndex:'100', width: '100%',paddingTop:'0',paddingBottom:'0'}}>
+      <Navbar className="nav-bar"  expand="lg" style={{position:'fixed', top:'0', zIndex:'100', width: '100%',paddingTop:'0',paddingBottom:'0'}}>
         <Container className="content">
           <Navbar.Brand href="/">
             <img

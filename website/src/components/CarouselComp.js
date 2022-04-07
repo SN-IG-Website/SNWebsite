@@ -1,6 +1,9 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import "./CarouselComp.css";
+import homepageimage from "./images/homepageimage.jpeg";
+import homeimage1 from "./images/homeimage1.jpeg";
+import homeimage2 from "./images/homeimage2.jpeg";
 
 function CarouselComp() {
   return (
@@ -9,8 +12,10 @@ function CarouselComp() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://demos.creative-tim.com/material-kit-pro/assets/img/bg2.jpg"
+            src={homeimage1}
             alt="First slide"
+            style={{height:'700px', width:'100%'}}
+            
           />
           <Carousel.Caption className="InsideText">
             
@@ -22,8 +27,9 @@ function CarouselComp() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://wowslider.com/sliders/demo-93/data1/images/lake.jpg"
+            src={homepageimage}
             alt="Second slide"
+            style={{height:'700px', width:'100%'}}
           />
 
           <Carousel.Caption>
@@ -34,8 +40,9 @@ function CarouselComp() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://mdbootstrap.com/img/Photos/Slides/img%20(31).jpg"
+            src={homeimage2}
             alt="Third slide"
+            style={{height:'700px', width:'100%'}}
           />
 
           <Carousel.Caption>
