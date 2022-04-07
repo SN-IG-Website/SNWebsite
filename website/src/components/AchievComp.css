@@ -1,19 +1,26 @@
- .tab-list {
-    border-bottom: 1px solid #ccc;
-    padding-left: 0;
-  }
-  
-  .tab-list-item {
-    display: inline-block;
-    list-style: none;
-    margin-bottom: -1px;
-    padding: 0.5rem 0.75rem;
-  }
-  
-  .tab-list-active {
-    background-color: white;
-    border: solid #ccc;
-    border-width: 1px 1px 0 1px;
-  }
-  
-  
+.tab-list {
+  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+}
+.achiev-section {
+  background: url("https://cdn.pixabay.com/photo/2016/01/08/13/50/background-1127943_1280.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+}
+
+.tab-list-active {
+  background-color: white;
+  border: solid #ccc;
+  border-width: 1px 1px 0 1px;
+}
