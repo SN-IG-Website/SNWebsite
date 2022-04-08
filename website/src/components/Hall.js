@@ -2,6 +2,7 @@ import React from 'react';
 import './Teams2.css';
 import NavbarComp from './NavbarComp';
 import Warden from './Warden';
+import Table from'./Table';
 
 import {Link} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
@@ -1156,6 +1157,7 @@ Have faith in yourself....        </p>
           <h4>Wardens</h4>
           </div>
     <Warden/>
+    <Table/>
     </center>
   </section>
   </> 
