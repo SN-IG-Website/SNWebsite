@@ -18,8 +18,7 @@ import Picture5 from "./images/Picture5.jpg";
 import Picture6 from "./images/Picture6.jpg";
 import Picture7 from "./images/Picture7.jpg";
 import Picture8 from "./images/Picture8.jpg";
-
-
+import Footer from '../components/footer';
 
 
 
@@ -186,6 +185,7 @@ function AchievComp() {
         <div label="Social & Culture">
         </div>
       </Tabs>
+      <Footer/>
     </div>
   );
 }

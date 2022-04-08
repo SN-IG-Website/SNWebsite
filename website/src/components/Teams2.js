@@ -1,6 +1,8 @@
 import React from 'react';
 import './Teams2.css';
 import NavbarComp from './NavbarComp';
+import Footer from '../components/footer';
+
 
 
 import {Link} from "react-router-dom";
@@ -278,6 +280,7 @@ const Teams2 = () => {
     </div>
     </center>
   </section>
+  <Footer/>
   </>
 );
 
