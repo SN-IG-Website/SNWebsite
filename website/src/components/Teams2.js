@@ -49,6 +49,7 @@ import SwastikaMandal from './images2/SwastikaMandal.jpg';
 import TanayaRamane from './images2/TanayaRamane.jpg';
 import YashasviRathore from './images2/YashasviRathore.PNG';
 
+
 const Teams2 = () => {
     return ( 
     <>
