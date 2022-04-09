@@ -7,31 +7,34 @@ import freshers from "./images/freshers.JPG";
 import illu from "./images/illu.JPG";
 import republic from "./images/republic.jpg";
 import granddinner1 from "./images/granddinner1.jpg";
+import classsong1 from "./images/classsong1.jpg";
+import alumni1 from "./images/alumni1.jpg";
 
 function galleryfront() {
   return (
     <>
     <NavbarComp/>
       <center>
-        <h2>Photo Gallery</h2>
+        <h2 className='gallery_heading'>Photo Gallery</h2>
       </center>
+     
       <Grid>
         <Row>
           <Col xs={6} md={4}>
           <a href="gallery/label"><Image className="gallery-img" src={freshers} thumbnail /></a>
-              <h3>Freshers' Party</h3>
+             <center> <h3>Freshers' Party</h3>  </center>
               {/* <p>Description</p> */}
             
           </Col>
           <Col xs={6} md={4}>
           <a href="illu"><Image className="gallery-img" src={illu} thumbnail /></a>
-              <h3>Illumination</h3>
+          <center><h3>Illumination</h3></center>
               {/* <p>Description</p> */}
            
           </Col>
           <Col xs={6} md={4}>
           <a href="republic"><Image className="gallery-img" src={republic} thumbnail /></a>
-              <h3>Republic Day</h3>
+          <center> <h3>Republic Day</h3></center>
               {/* <p>Description</p> */}
             
           </Col>
@@ -39,19 +42,19 @@ function galleryfront() {
         <Row>
           <Col xs={6} md={4}>
           <a href="grand-dinner"><Image className="gallery-img" src={granddinner1} thumbnail /></a>
-              <h3>Grand Dinner</h3>
+          <center><h3>Grand Dinner</h3></center>
               {/* <p>Description</p> */}
             
           </Col>
           <Col xs={6} md={4}>
-          <Image className="gallery-img" src={"./"} thumbnail />
-              <h3>Alumni Meet</h3>
+          <a href="alumni-meet"><Image className="gallery-img" src={alumni1} thumbnail /></a>
+          <center><h3>Alumni Meet</h3></center>
               {/* <p>Description</p> */}
            
           </Col>
           <Col xs={6} md={4}>
-          <Image className="gallery-img" src={"./"} thumbnail />
-              <h3>Holi</h3>
+          <a href="class-song"><Image className="gallery-img" src={classsong1} thumbnail /></a>
+          <center> <h3>Class Song</h3></center>
               {/* <p>Description</p> */}
             
           </Col>

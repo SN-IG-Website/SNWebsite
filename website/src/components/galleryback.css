@@ -24,7 +24,9 @@
       max-width: 50%;
     }
   }
-  
+  body{
+    background-color: #FBE5E5;
+  }
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .column {
@@ -33,8 +35,71 @@
     }
   }
 
-  .heading{
+  /* .heading{
     margin-top: 20px;
     margin-bottom: 20px;
 
+  } */
+
+  .column img:hover {
+    transform: scale(1.4); 
+    transition: transform 0.7s ease;
   }
+
+  img{
+    border-radius: 1%;
+  }
+
+  h1 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: black;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+  }
+  
+  h1 span {
+    display: block;
+    font-size: 0.5em;
+    line-height: 1.3;
+  }
+  h1 em {
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  /* === HEADING STYLE #1 === */
+  .heading h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    margin-top: 30px;
+  }
+  .heading h1:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: #E60965;
+  }
+  .heading h1:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 25px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: #E60965;
+  }
+  
