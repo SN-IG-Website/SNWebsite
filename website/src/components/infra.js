@@ -9,6 +9,9 @@ import oldcommon from "./images/oldcommon.jpg";
 import studyroom from "./images/studyroom.jpg";
 import daycanteen from "./images/daycanteen.jpg";
 import daycanteen2 from "./images/daycanteen2.jpg";
+import nightcanteen from "./images/nightcanteen.jpg";
+import Basketball from "./images/basketball.jpg";
+import Nescafe from "./images/nescafe.jpg";
 
 import {Link} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
@@ -121,12 +124,44 @@ const infra = () => {
             </div>           
           </div>
         </div>
-        <div className="col-md-4 single-item">
+        {/* <div className="col-md-4 single-item">
           <div className="item">
             <div className="thumb">
               <img className="img-fluid infraimages" src={daycanteen} alt="Thumb" style={{height:'350px',width:'400px'}}/>
               <div className="overlay">
                 <h4>Day Canteen</h4>
+                            
+              </div>
+            </div>           
+          </div>
+        </div> */}
+        <div className="col-md-4 single-item">
+          <div className="item">
+            <div className="thumb">
+              <img className="img-fluid infraimages" src={nightcanteen} alt="Thumb" style={{height:'350px',width:'400px'}}/>
+              <div className="overlay">
+                <h4>Night Canteen</h4>
+                            
+              </div>
+            </div>           
+          </div>
+        </div>       
+        <div className="col-md-4 single-item">
+          <div className="item">
+            <div className="thumb">
+              <img className="img-fluid infraimages" src={Nescafe} alt="Thumb" style={{height:'350px',width:'400px'}}/>
+              <div className="overlay">
+                <h4>Nescafe</h4>                           
+              </div>
+            </div>           
+          </div>
+        </div>
+        <div className="col-md-4 single-item">
+          <div className="item">
+            <div className="thumb">
+              <img className="img-fluid infraimages" src={Basketball} alt="Thumb" style={{height:'350px',width:'400px'}}/>
+              <div className="overlay">
+                <h4>Basketball Court</h4>
                             
               </div>
             </div>           

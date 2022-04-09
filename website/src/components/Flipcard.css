@@ -3,7 +3,7 @@
     height: 300px;
     perspective: 600;
     position: relative;
-    width: 300px;
+    width: 100%;
   }
   .card {
     height: 100%;
@@ -26,11 +26,11 @@
   .card .back {
     background: #eaeaed;
     color: #0087cc;
-    line-height: 150px;
+    line-height: 80px;
     text-align: center;
     transform: rotateY(180deg);
   }
   .flipimage{
       height: 300px;
-      width:300px;
+      width:100%;
   }

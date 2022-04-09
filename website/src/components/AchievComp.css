@@ -1,6 +1,8 @@
 .tab-list {
   border-bottom: 1px solid #ccc;
   padding-left: 0;
+  text-align: center;
+  
 }
 .achiev-section {
   background: url("https://cdn.pixabay.com/photo/2016/01/08/13/50/background-1127943_1280.jpg")
@@ -15,12 +17,20 @@
 .tab-list-item {
   display: inline-block;
   list-style: none;
-  margin-bottom: -1px;
+  margin-bottom: 16px;
+  margin-right: 18px;
+  margin-top: 16px;
   padding: 0.5rem 0.75rem;
+  background-color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
 }
 
+
 .tab-list-active {
-  background-color: white;
+  background-color: #BF9270;
   border: solid #ccc;
   border-width: 1px 1px 0 1px;
 }
