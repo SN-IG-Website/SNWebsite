@@ -7,6 +7,7 @@ import Flipcard from "./Flipcard";
 import { Col, Row, Image } from "react-bootstrap";
 import Grid from "@material-ui/core/Grid";
 import "./Flipcard.css";
+import Athletics from "./images/athletics.jpg";
 import tec1 from "./images/tec1.jpg";
 import tech2 from "./images/tech2.jpeg";
 import gold from "./images/gold-medal.png";
@@ -43,7 +44,7 @@ function AchievComp() {
                             <div class="side">
                               <img
                                 class="flipimage"
-                                src={Picture1}
+                                src={Athletics}
                               />
                             </div>
                             <div class="side back"><h1 style={{marginTop:'15px'}}>Athletics</h1></div>
