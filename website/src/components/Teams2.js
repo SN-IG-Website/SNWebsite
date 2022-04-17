@@ -96,7 +96,7 @@ const Teams2 = () => {
                 <a href="mailto:rhea2801@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
               <h4>Rhea Sundaresan</h4>
-              <span>General Secretary Sports and Games</span>
+              <span>Web Coordinator</span>
             </div>
           </div>
         </div>
@@ -129,7 +129,7 @@ const Teams2 = () => {
                 <a href="mailto:ishitajhunjhunwala.iitkgp@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
               <h4>Ishita Jhunjhunwala</h4>
-              <span>General Secretary Technology</span>
+              <span>Web Coordinator</span>
             </div>
           </div>
         </div>
