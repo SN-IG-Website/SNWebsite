@@ -11,7 +11,7 @@ import granddinner5 from "./images/granddinner5.jpg" ;
 function galleryback() {
   return (
     <>
-     <center><div className="heading"><h1 >Grand Dinner</h1></div></center>
+     <center><div className="heading"><h1 className="backimagecontent" >Grand Dinner</h1></div></center>
       <div className="row">
         <div className="column">
           <img src={granddinner1} />

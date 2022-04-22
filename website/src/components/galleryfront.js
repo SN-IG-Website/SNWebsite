@@ -15,7 +15,7 @@ function galleryfront() {
     <>
     <NavbarComp/>
       <center>
-        <h2 className='gallery_heading'>Photo Gallery</h2>
+        <h2 className='gallery_heading' style={{paddingTop:'50px'}}>Photo Gallery</h2>
       </center>
      
       <Grid>

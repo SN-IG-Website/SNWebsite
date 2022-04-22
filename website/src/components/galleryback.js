@@ -24,7 +24,7 @@ import farewell20 from "./images/farewell20.jpg" ;
 function galleryback() {
   return (
     <>
-    <center><div className="heading"><h1 >Freshers' Treat</h1></div></center>
+    <center><div className="heading"><h1 className="backimagecontent">Freshers' Treat</h1></div></center>
       <div className="row">
         <div className="column">
           <div className="imageHover"> <img src={farewell1} /></div>

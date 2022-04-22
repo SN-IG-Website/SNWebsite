@@ -9,7 +9,7 @@ import alumni4 from "./images/alumni4.jpg" ;
 function galleryback() {
   return (
     <>
-    <center><div className="heading"><h1 >Alumni Meet</h1></div></center>
+    <center><div className="heading"><h1 className="backimagecontent">Alumni Meet</h1></div></center>
       <div className="row">
         <div className="column">
           <img src={alumni1} />
