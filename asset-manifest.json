@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SNWebsite/static/css/main.46a32dfb.css",
-    "main.js": "/SNWebsite/static/js/main.8aaf460a.js",
+    "main.css": "/SNWebsite/static/css/main.642dcb69.css",
+    "main.js": "/SNWebsite/static/js/main.aed24424.js",
     "static/js/787.71e672d5.chunk.js": "/SNWebsite/static/js/787.71e672d5.chunk.js",
     "static/media/classsong3.jpg": "/SNWebsite/static/media/classsong3.1aba8a5a2dacf5cb936f.jpg",
     "static/media/classsong1.jpg": "/SNWebsite/static/media/classsong1.66121802563f16c0772d.jpg",
@@ -120,7 +120,10 @@
     "static/media/SwastikaMandal.jpg": "/SNWebsite/static/media/SwastikaMandal.d41d8ee23d0121cb59eb.jpg",
     "static/media/SejalShambharkar.jpg": "/SNWebsite/static/media/SejalShambharkar.61d8b46b388838e5c578.jpg",
     "static/media/GargiDas.jpeg": "/SNWebsite/static/media/GargiDas.e04f1f2dcdf49bbcd190.jpeg",
+    "static/media/Siddhi.jpeg": "/SNWebsite/static/media/Siddhi.96538aa25c2c14b125af.jpeg",
+    "static/media/Jessica.jpeg": "/SNWebsite/static/media/Jessica.4804baac7e05699b5a16.jpeg",
     "static/media/rhea.jpg": "/SNWebsite/static/media/rhea.8ff4371791e32df58508.jpg",
+    "static/media/Vidushi.jpeg": "/SNWebsite/static/media/Vidushi.f51a5afb32fe70f1f04e.jpeg",
     "static/media/alumni1.jpg": "/SNWebsite/static/media/alumni1.a9da8a048661f1e5fdda.jpg",
     "static/media/tech2.jpeg": "/SNWebsite/static/media/tech2.5ba8102973ca59b7ba36.jpeg",
     "static/media/logo.png": "/SNWebsite/static/media/logo.ad83c93a6c629899a91a.png",
@@ -132,6 +135,7 @@
     "static/media/Picture6.jpg": "/SNWebsite/static/media/Picture6.18b2f4216efe1d073a75.jpg",
     "static/media/basketballteam.jpeg": "/SNWebsite/static/media/basketballteam.966cd12a6a92eea32df7.jpeg",
     "static/media/CharviJain.jpeg": "/SNWebsite/static/media/CharviJain.f8defb40e8828486d749.jpeg",
+    "static/media/Yashika.jpeg": "/SNWebsite/static/media/Yashika.e5fe44d5ef7bb222e936.jpeg",
     "static/media/alumni3.jpg": "/SNWebsite/static/media/alumni3.dc79e957cb10b10aeb5b.jpg",
     "static/media/navya.jpg": "/SNWebsite/static/media/navya.1374b375a301d462aeea.jpg",
     "static/media/YashasviRathore.PNG": "/SNWebsite/static/media/YashasviRathore.5d6eb3e585529d40378c.PNG",
@@ -158,12 +162,12 @@
     "static/media/gold-medal.png": "/SNWebsite/static/media/gold-medal.76b5e912909749f19043.png",
     "static/media/bronze-medal.png": "/SNWebsite/static/media/bronze-medal.6cb4162c1bbe656e5c52.png",
     "index.html": "/SNWebsite/index.html",
-    "main.46a32dfb.css.map": "/SNWebsite/static/css/main.46a32dfb.css.map",
-    "main.8aaf460a.js.map": "/SNWebsite/static/js/main.8aaf460a.js.map",
+    "main.642dcb69.css.map": "/SNWebsite/static/css/main.642dcb69.css.map",
+    "main.aed24424.js.map": "/SNWebsite/static/js/main.aed24424.js.map",
     "787.71e672d5.chunk.js.map": "/SNWebsite/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.46a32dfb.css",
-    "static/js/main.8aaf460a.js"
+    "static/css/main.642dcb69.css",
+    "static/js/main.aed24424.js"
   ]
 }
