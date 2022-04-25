@@ -5,7 +5,7 @@ import galleryback_granddinner from './components/galleryback_granddinner';
 
 // import Gallery from './pages/gallery';
 import Galleryfront from './components/galleryfront';
-import { Route, Switch } from "react-router-dom";
+import {Router, Route, Switch } from "react-router-dom";
 import AboutComp from './components/AboutComp';
 import InfraComp from './components/InfraComp';
 import infra from './components/infra';
