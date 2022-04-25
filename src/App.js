@@ -26,25 +26,27 @@ import Teams2 from './components/Teams2';
 function App() {
   return (
     <>
-     <Switch>
-        <Route exact path="/" component={Homepage}/>
-        <Route exact path="/gallery" component={Galleryfront}/>
-        <Route path="/gallery/label" component={Galleryback}/>
-        <Route path="/about" component={AboutComp}/>
-        <Route path="/infrastructure" component={infra}/>
-        <Route path="/alumni" component={Alumni}/>
+     <Router basename='/index.html'>
+      <Switch>
+          <Route exact path="/" component={Homepage}/>
+          <Route exact path="/gallery" component={Galleryfront}/>
+          <Route path="/gallery/label" component={Galleryback}/>
+          <Route path="/about" component={AboutComp}/>
+          <Route path="/infrastructure" component={infra}/>
+          <Route path="/alumni" component={Alumni}/>
 
-        <Route path="/illu" component={gallerback_illu}/>
-        <Route path="/republic" component={gallerback_republicday}/>
-        <Route path="/grand-dinner" component={galleryback_granddinner}/>
-        <Route path="/class-song" component={galleryback_classsong}/>
-        <Route path="/achievements" component={AchievComp}/>
-        <Route path="/alumni-meet" component={galleryback_alumnimeet}/>
-        
-        <Route path="/hall" component={Hall}/>
-        <Route path="/teams2" component={Teams2}/>
+          <Route path="/illu" component={gallerback_illu}/>
+          <Route path="/republic" component={gallerback_republicday}/>
+          <Route path="/grand-dinner" component={galleryback_granddinner}/>
+          <Route path="/class-song" component={galleryback_classsong}/>
+          <Route path="/achievements" component={AchievComp}/>
+          <Route path="/alumni-meet" component={galleryback_alumnimeet}/>
+          
+          <Route path="/hall" component={Hall}/>
+          <Route path="/teams2" component={Teams2}/>
 
-     </Switch>
+      </Switch>
+     </Router>
     </>
 
   );
