@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SNWebsite/static/css/main.46a32dfb.css",
-    "main.js": "/SNWebsite/static/js/main.775b90fd.js",
+    "main.js": "/SNWebsite/static/js/main.8aaf460a.js",
     "static/js/787.71e672d5.chunk.js": "/SNWebsite/static/js/787.71e672d5.chunk.js",
     "static/media/classsong3.jpg": "/SNWebsite/static/media/classsong3.1aba8a5a2dacf5cb936f.jpg",
     "static/media/classsong1.jpg": "/SNWebsite/static/media/classsong1.66121802563f16c0772d.jpg",
@@ -159,11 +159,11 @@
     "static/media/bronze-medal.png": "/SNWebsite/static/media/bronze-medal.6cb4162c1bbe656e5c52.png",
     "index.html": "/SNWebsite/index.html",
     "main.46a32dfb.css.map": "/SNWebsite/static/css/main.46a32dfb.css.map",
-    "main.775b90fd.js.map": "/SNWebsite/static/js/main.775b90fd.js.map",
+    "main.8aaf460a.js.map": "/SNWebsite/static/js/main.8aaf460a.js.map",
     "787.71e672d5.chunk.js.map": "/SNWebsite/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.46a32dfb.css",
-    "static/js/main.775b90fd.js"
+    "static/js/main.8aaf460a.js"
   ]
 }
