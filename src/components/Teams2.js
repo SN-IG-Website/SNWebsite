@@ -17,37 +17,12 @@ import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 //images
 
-import DebarpitaJyoti from './images2/DebarpitaJyoti.jpg';
-import AlishaChannel from './images2/AlishaChandel.jpg';
-import AnweshaPatel from './images2/AnweshaPatel.jpg';
-import AshlesaGoyal from './images2/AshlesaGoyal.jpeg';
-import CharviJain from './images2/CharviJain.jpeg';
-import DishaChoraria from './images2/DishaChoraria.jpeg';
-import elizaroy from './images2/elizaroy.JPG';
-import FizaNissam from './images2/FizaNissam.jpg';
-import GargiDas from './images2/GargiDas.jpeg';
-import GauriPatki from './images2/GauriPatki.jpg';
-import GunjanAgarwal from './images2/GunjanAgarwal.jpg';
 import IshitaJhunjhunwala from './images2/IshitaJhunjhunwala.jpg';
-import KashishLundia from './images2/KashishLundia.jpg';
-import KirtiChoudhary from './images2/KirtiChoudhary.JPG';
-import navya from './images2/navya.jpg';
-import NidhiGoyal from './images2/NidhiGoyal.jpg';
-import NikithaBobbary from './images2/NikithaBobbary.jpg';
-import PoulomiChaudhuri from './images2/PoulomiChaudhuri.jpeg';
-import PrachiBajpai from './images2/PrachiBajpai.jpg';
-import RajshreeSharma from './images2/RajshreeSharma.jpg';
 import rhea from './images2/rhea.jpg';
-import RoshniKar from './images2/RoshniKar.png';
-import Rushali from './images2/RushaliChakraborty.jpg'
-import SanskritiKashyap from './images2/SanskritiKashyap.jpg';
-import SejalShambharkar from './images2/SejalShambharkar.jpg';
-import ShikhaBagaria from './images2/ShikhaBagaria.jpeg';
-import ShivaniAnneboina from './images2/ShivaniAnneboina.jpeg';
-import SraavyaUppala from './images2/SraavyaUppala.jpg';
-import SwastikaMandal from './images2/SwastikaMandal.jpg';
-import TanayaRamane from './images2/TanayaRamane.jpg';
-import YashasviRathore from './images2/YashasviRathore.PNG';
+import Yashika from './images2/Yashika.jpeg';
+import Jessica from './images2/Jessica.jpeg';
+import Vidushi from './images2/Vidushi.jpeg';
+import Siddhi from './images2/Siddhi.jpeg';
 
 
 const Teams2 = () => {
@@ -67,6 +42,39 @@ const Teams2 = () => {
       </div>
       <div className="row team-items">
       <div className="row team-items centered">
+
+      <div className="col-md-4 single-item">
+          <div className="item">
+            <div className="thumb">
+              <img className="img-fluid" src={IshitaJhunjhunwala} alt="Thumb"/>
+              <div className="overlay">
+                {/* <h4>Lorem Ipsum</h4> */}
+                <p>
+                The best is yet to come...                </p>
+                <div className="social">
+                  <ul>
+                  <li className="twitter">
+                      <a href="https://www.facebook.com/ishita.jhunjhunwala.52/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
+                    </li>
+                    <li className="pinterest">
+                      <a href="https://www.linkedin.com/in/ishita-jhunjhunwala-73a1161a4/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+                    </li>
+                    <li className="instagram">
+                      <a href="https://www.instagram.com/jhunjhunwala_ishita/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="info">
+              <span className="message">
+                <a href="mailto:ishitajhunjhunwala.iitkgp@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+              </span>
+              <h4>Ishita Jhunjhunwala</h4>
+              <span>Web Coordinator</span>
+            </div>
+          </div>
+        </div>
 
       <div className="col-md-4 single-item">
           <div className="item">
@@ -101,38 +109,7 @@ const Teams2 = () => {
           </div>
         </div>
 
-        <div className="col-md-4 single-item">
-          <div className="item">
-            <div className="thumb">
-              <img className="img-fluid" src={IshitaJhunjhunwala} alt="Thumb"/>
-              <div className="overlay">
-                {/* <h4>Lorem Ipsum</h4> */}
-                <p>
-                The best is yet to come...                </p>
-                <div className="social">
-                  <ul>
-                  <li className="twitter">
-                      <a href="https://www.facebook.com/ishita.jhunjhunwala.52/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
-                    </li>
-                    <li className="pinterest">
-                      <a href="https://www.linkedin.com/in/ishita-jhunjhunwala-73a1161a4/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
-                    </li>
-                    <li className="instagram">
-                      <a href="https://www.instagram.com/jhunjhunwala_ishita/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="info">
-              <span className="message">
-                <a href="mailto:ishitajhunjhunwala.iitkgp@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
-              </span>
-              <h4>Ishita Jhunjhunwala</h4>
-              <span>Web Coordinator</span>
-            </div>
-          </div>
-        </div>
+        
 
 <div className="row team-items centered">
 
@@ -140,22 +117,22 @@ const Teams2 = () => {
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
-      <img className="img-fluid" src={YashasviRathore} alt="Thumb"/>
+      <img className="img-fluid" src={Yashika} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         <p>
-        Dream Big, Stay Focused and Be Fearless!               </p>
+        Keep looking up…             </p>
         <div className="social">
           <ul>
           <li className="twitter">
-              <a href="https://www.facebook.com/yashasvi.rathore.969/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
+              <a href="https://www.facebook.com/yashika.aggarwal.3154/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
             </li>
             <li className="pinterest">
-              <a href="https://www.linkedin.com/in/yashasvi-rathore-06b3b4192/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+              <a href="https://www.linkedin.com/in/yashika-aggarwal-bb2926205/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
             </li>
-            {/* <li className="instagram">
-              <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
-            </li> */}
+            <li className="instagram">
+              <a href="https://www.instagram.com/y.a.s.h.i.ka/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+            </li>
           </ul>
         </div>
       </div>
@@ -164,15 +141,15 @@ const Teams2 = () => {
       <span className="message">
         <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
-      <h4>Yashasvi Rathore</h4>
-      <span>Maintenance Coordinator</span>
+      <h4>Yashika Aggarwal</h4>
+      <span>Web Secretary</span>
     </div>
   </div>
 </div>
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
-      <img className="img-fluid" src={SejalShambharkar} alt="Thumb"/>
+      <img className="img-fluid" src={Jessica} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         {/* <p>
@@ -181,24 +158,24 @@ const Teams2 = () => {
         <div className="social">
           <ul>
           <li className="twitter">
-              <a href="https://www.facebook.com/sejal.shambharkar.501" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
+              <a href="https://www.facebook.com/jessica.britto.395/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
             </li>
             <li className="pinterest">
-              <a href="https://www.linkedin.com/in/sejal-shambharkar-0398b91b4" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+              <a href="https://www.linkedin.com/in/jessica-john-britto-97ab71205/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
             </li>
-            {/* <li className="instagram">
-              <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
-            </li> */}
+            <li className="instagram">
+              <a href="https://www.instagram.com/jess__britto/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+            </li>
           </ul>
         </div>
       </div>
     </div>
     <div className="info">
       <span className="message">
-        <a href="mailto:sejalshambharkar2001@gmail.com "><FontAwesomeIcon icon={faEnvelope} /></a>
+        <a href="mailto:jessjohnbritto@gmail.com "><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
-      <h4>Sejal Shambharkar</h4>
-      <span>Maintenance Coordinator</span>
+      <h4>Jessica John Britto</h4>
+           <span>Web Secretary</span>
     </div>
   </div>
 </div>
@@ -211,22 +188,22 @@ const Teams2 = () => {
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
-      <img className="img-fluid" src={YashasviRathore} alt="Thumb"/>
+      <img className="img-fluid" src={Vidushi} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
-        <p>
-        Dream Big, Stay Focused and Be Fearless!               </p>
+        {/* <p>
+        Dream Big, Stay Focused and Be Fearless!               </p> */}
         <div className="social">
           <ul>
           <li className="twitter">
-              <a href="https://www.facebook.com/yashasvi.rathore.969/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
+              <a href="https://www.facebook.com/vidushi.agarwal.1671" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
             </li>
             <li className="pinterest">
-              <a href="https://www.linkedin.com/in/yashasvi-rathore-06b3b4192/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+              <a href="https://www.linkedin.com/in/vidushi-agarwal-4704a8205/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
             </li>
-            {/* <li className="instagram">
-              <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
-            </li> */}
+            <li className="instagram">
+              <a href="https://www.instagram.com/vidushi_2510/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+            </li>
           </ul>
         </div>
       </div>
@@ -235,15 +212,15 @@ const Teams2 = () => {
       <span className="message">
         <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
-      <h4>Yashasvi Rathore</h4>
-      <span>Maintenance Coordinator</span>
+      <h4>Vidushi Agarwal</h4>
+      <span>Web Secretary</span>
     </div>
   </div>
 </div>
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
-      <img className="img-fluid" src={SejalShambharkar} alt="Thumb"/>
+      <img className="img-fluid" src={Siddhi} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         {/* <p>
@@ -252,24 +229,24 @@ const Teams2 = () => {
         <div className="social">
           <ul>
           <li className="twitter">
-              <a href="https://www.facebook.com/sejal.shambharkar.501" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
+              <a href="https://www.facebook.com/profile.php?id=100009117742880" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
             </li>
             <li className="pinterest">
-              <a href="https://www.linkedin.com/in/sejal-shambharkar-0398b91b4" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+              <a href="https://www.linkedin.com/in/siddhi-agrawal-b208a91bb/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
             </li>
-            {/* <li className="instagram">
-              <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
-            </li> */}
+            <li className="instagram">
+              <a href="https://www.instagram.com/__siddhiagrawal__/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+            </li>
           </ul>
         </div>
       </div>
     </div>
     <div className="info">
       <span className="message">
-        <a href="mailto:sejalshambharkar2001@gmail.com "><FontAwesomeIcon icon={faEnvelope} /></a>
+        <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
-      <h4>Sejal Shambharkar</h4>
-      <span>Maintenance Coordinator</span>
+      <h4>Siddhi Agrawal</h4>
+      <span>Web Secretary</span>
     </div>
   </div>
 </div>
