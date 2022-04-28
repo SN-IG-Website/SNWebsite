@@ -90,7 +90,7 @@ function AchievComp() {
                               />
                             </div>
                             <div class="side back"><h1 style={{marginTop:'15px'}}>Basketball</h1>
-                                <p>2022-23| Interhall Tournament- Gold 
+                                <p>2021-22| Interhall Tournament- Gold 
                                     <img src={gold} style={{height:'30px',width:'30px'}}></img>
                                 </p>
                             </div>
@@ -170,7 +170,7 @@ function AchievComp() {
                                 src={tech2}
                               />
                             </div>
-                            <div class="side back"><h1 style={{marginTop:'15px'}}>Hand Modelling</h1></div>
+                            <div class="side back"><h1 style={{marginTop:'15px'}}>Hardware Modelling</h1></div>
                           </div>
                         </div>
                       </Col>   

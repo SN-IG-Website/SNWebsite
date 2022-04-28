@@ -167,6 +167,17 @@ const infra = () => {
             </div>           
           </div>
         </div>
+        <div className="col-md-4 single-item">
+          <div className="item">
+            <div className="thumb">
+              <img className="img-fluid infraimages" src={gym} alt="Thumb" style={{height:'350px',width:'400px'}}/>
+              <div className="overlay">
+                <h4>Gym</h4>
+                            
+              </div>
+            </div>           
+          </div>
+        </div>
       </div>
     </div>
     </center>
