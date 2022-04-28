@@ -5,7 +5,7 @@ import galleryback_granddinner from './components/galleryback_granddinner';
 
 // import Gallery from './pages/gallery';
 import Galleryfront from './components/galleryfront';
-import {Router, Route, Switch } from "react-router-dom";
+import { Route, Routes, BrowserRouter, Switch} from "react-router-dom";
 import AboutComp from './components/AboutComp';
 import InfraComp from './components/InfraComp';
 import infra from './components/infra';
@@ -26,7 +26,7 @@ import Teams2 from './components/Teams2';
 function App() {
   return (
     <>
-     <Router basename='/index.html'>
+     <BrowserRouter basename='/index.html'>
       <Switch>
           <Route exact path="/" component={Homepage}/>
           <Route exact path="/gallery" component={Galleryfront}/>
@@ -46,7 +46,7 @@ function App() {
           <Route path="/teams2" component={Teams2}/>
 
       </Switch>
-     </Router>
+     </BrowserRouter>
     </>
 
   );

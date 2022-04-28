@@ -243,7 +243,7 @@ const Teams2 = () => {
     </div>
     <div className="info">
       <span className="message">
-        <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
+        <a href="mailto:siddhiagrawal2106@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Siddhi Agrawal</h4>
       <span>Web Secretary</span>

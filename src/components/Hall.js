@@ -592,8 +592,8 @@ I will drink life to the lees and follow knowledge like a sinking star!         
       <span className="message">
         <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
-      <h4>Roshni Kar</h4>
-      <span>Maintenance Coordinator</span>
+      <h4>Sakshi Agrawal</h4>
+      <span></span>
     </div>
   </div>
 </div>
@@ -724,7 +724,7 @@ I will drink life to the lees and follow knowledge like a sinking star!         
         <a href="mailto:sejalshambharkar2001@gmail.com "><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Navya</h4>
-      <span>Entertainment Secretary</span>
+      <span>Secretary Entertainment</span>
     </div>
   </div>
 </div>
@@ -885,7 +885,7 @@ Unstoppably optimistic!        </p>
         <a href="mailto:sejalshambharkar2001@gmail.com "><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Ashlesa Goyal</h4>
-      <span>Social and Cultural Secretary</span>
+      <span>Secretary Social and Cultural</span>
     </div>
   </div>
 </div>
@@ -1047,7 +1047,7 @@ Connecting the alumni to the budding batch        </p>
         <a href="mailto:sejalshambharkar2001@gmail.com "><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Swastika Mandal</h4>
-      <span>Fine Arts Secretary</span>
+      <span>Secretary Fine Arts</span>
     </div>
   </div>
 </div>
