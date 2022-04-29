@@ -26,7 +26,7 @@
   .card .back {
     background: #eaeaed;
     color: #0087cc;
-    line-height: 80px;
+    line-height: 20px;
     text-align: center;
     transform: rotateY(180deg);
   }
