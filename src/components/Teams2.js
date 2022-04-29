@@ -21,7 +21,7 @@ import IshitaJhunjhunwala from './images2/IshitaJhunjhunwala.jpg';
 import rhea from './images2/rhea.jpg';
 import Yashika from './images2/Yashika.jpeg';
 import Jessica from './images2/Jessica.jpeg';
-import Vidushi from './images2/Vidushi.jpeg';
+import Vidushi from './images2/Vidushi.jpg';
 import Siddhi from './images2/Siddhi.jpeg';
 
 
