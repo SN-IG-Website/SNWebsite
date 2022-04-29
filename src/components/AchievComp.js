@@ -372,7 +372,7 @@ function AchievComp() {
             </div>
           </center>
         </div>
-        <div label="Social & Culture">
+        <div label="Social & Cultural">
           <div style={{ marginBottom: "195px" }}>
             <p>This page will be updated soon...</p>
           </div>
