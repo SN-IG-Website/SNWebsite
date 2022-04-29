@@ -11,8 +11,8 @@ import logo from "./logo.png";
 function NavbarComp() {
   return (
     <>
-      <Navbar className="nav-bar"  expand="lg" style={{position:'fixed', top:'0', zIndex:'100', width: '100%',paddingTop:'0',paddingBottom:'0'}}>
-        <Container className="content">
+      <Navbar className="nav-bar" expand="lg" style={{ position: 'fixed', top: '0', zIndex: '100', width: '100%', paddingTop: '0', paddingBottom: '0', marginLeft: '0' }}>
+        <Container className="content" style={{ marginLeft: '2px'}}>
           <Navbar.Brand href="/">
             <img
               src={logo}
@@ -46,10 +46,10 @@ function NavbarComp() {
               <Nav.Link style={{
                 color: "#FBE5E5"
               }} href="hall">Office bearers</Nav.Link>
-              <Nav.Link 
-              style={{
-                color: "#FBE5E5"
-              }} className="navLink" href="alumni">Alumni</Nav.Link>
+              <Nav.Link
+                style={{
+                  color: "#FBE5E5"
+                }} className="navLink" href="alumni">Alumni</Nav.Link>
               {/* <NavDropdown title="" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#Distinguished Alumni Awards">Distinguished Alumni Awards</NavDropdown.Item>
                 <NavDropdown.Item href="#Distinguished Service Awards">Distinguished Service Awards</NavDropdown.Item>
