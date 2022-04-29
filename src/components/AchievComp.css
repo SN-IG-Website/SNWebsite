@@ -30,7 +30,8 @@
 
 
 .tab-list-active {
-  background-color: #BF9270;
-  border: solid #ccc;
-  border-width: 1px 1px 0 1px;
+  background-image: linear-gradient(180deg,#BF9270,#FBE5E5);
+    padding: 10px;
+    border: solid #ccc;
+    border-width: 1px 0px 0 1px;
 }
