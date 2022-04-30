@@ -28,10 +28,13 @@ const Warden = () => {
     <section id="team" className="team-area">
         <center>
     <div className="container">
+      <pre></pre>
+      <pre></pre>
       <div className="row">
         <div className="col-md-12">
           <div className="site-heading text-center">
             <h2>Wardens</h2>
+            <h4></h4>
           </div>
         </div>
       </div>
