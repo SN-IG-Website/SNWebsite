@@ -61,6 +61,7 @@ const Hall = () => {
         <section id="team" className="team-area">
         <center>
     <div className="container">
+      <pre> </pre>
       <div className="row">
         <div className="col-md-12">
           <div className="site-heading text-center">
@@ -140,7 +141,7 @@ const Hall = () => {
           </div>
           <pre> </pre>
           <div className="site-heading text-center">
-          <h4>Student Representatives</h4>
+          <h3>Student Representatives</h3>
 
           </div>
 
