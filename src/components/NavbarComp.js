@@ -43,9 +43,17 @@ function NavbarComp() {
                   Separated link
                 </NavDropdown.Item>
               </NavDropdown> */}
-              <Nav.Link style={{
+              {/* <Nav.Link style={{
                 color: "#FBE5E5"
-              }} href="hall">Office bearers</Nav.Link>
+              }} href="hall">Office bearers</Nav.Link> */}
+              <NavDropdown  title={
+                <span style={{
+                  color: "#FBE5E5"
+                }}>Office bearers</span>
+            } id="basic-nav-dropdown" >
+          <NavDropdown.Item href="warden">Warden</NavDropdown.Item>
+          <NavDropdown.Item href="hall">Student Representative</NavDropdown.Item>
+        </NavDropdown>
               <Nav.Link
                 style={{
                   color: "#FBE5E5"
