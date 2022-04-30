@@ -152,9 +152,8 @@ const Teams2 = () => {
       <img className="img-fluid" src={Jessica} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
-        {/* <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        </p> */}
+        <p>
+Seize the moment!        </p>
         <div className="social">
           <ul>
           <li className="twitter">
@@ -223,9 +222,9 @@ const Teams2 = () => {
       <img className="img-fluid" src={Siddhi} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
-        {/* <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        </p> */}
+        <p>
+        Be you, do you, for you.
+        </p>
         <div className="social">
           <ul>
           <li className="twitter">
