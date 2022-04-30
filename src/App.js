@@ -20,6 +20,7 @@ import galleryback_classsong from './components/galleryback_classsong';
 import galleryback_alumnimeet from './components/galleryback_alumni';
 import Hall from './components/Hall';
 import Teams2 from './components/Teams2';
+import Warden from './components/Warden';
 
 
 
@@ -44,6 +45,8 @@ function App() {
           
           <Route path="/hall" component={Hall}/>
           <Route path="/teams2" component={Teams2}/>
+          <Route path="/warden" component={Warden}/>
+         
 
       </Switch>
      </BrowserRouter>
