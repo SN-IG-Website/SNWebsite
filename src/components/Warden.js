@@ -1,6 +1,7 @@
 import React from 'react';
 import './Warden.css';
 import NavbarComp from './NavbarComp';
+import Footer from '../components/footer';
 
 
 import {Link} from "react-router-dom";
@@ -146,6 +147,7 @@ const Warden = () => {
     </div>
     </center>
   </section>
+  <Footer/>
   </>
 );
 

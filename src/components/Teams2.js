@@ -32,11 +32,12 @@ const Teams2 = () => {
     <section id="team" className="team-area">
         <center>
     <div className="container">
+      <pre></pre>
       <div className="row">
         <div className="col-md-12">
           <div className="site-heading text-center">
             <h2>Our <span>Team</span></h2>
-            {/* <h4>Meet our awesome and expert team members</h4> */}
+            {/* <h4></h4> */}
           </div>
         </div>
       </div>
@@ -153,7 +154,7 @@ const Teams2 = () => {
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         <p>
-Seize the moment!        </p>
+        Try To Be A Rainbow In Someone’s Cloud!    </p>
         <div className="social">
           <ul>
           <li className="twitter">
@@ -190,8 +191,8 @@ Seize the moment!        </p>
       <img className="img-fluid" src={Vidushi} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
-        {/* <p>
-        Dream Big, Stay Focused and Be Fearless!               </p> */}
+        <p>
+        Stay a mystery; it’s better.            </p>
         <div className="social">
           <ul>
           <li className="twitter">

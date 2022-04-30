@@ -350,7 +350,7 @@ const Hall = () => {
               <div className="overlay">
                 {/* <h4>Lorem Ipsum</h4> */}
                 <p>
-                Hall is an integral part of every college student's life and contributing towards its welfare   only makes the stay more memorable. During my tenure, I worked towards making our alumni base stronger and helping our alumnae reminisce their hall memories.                </p>
+                Hall is an integral part of every college student's life and contributing towards its welfare   only makes the stay more memorable.                </p>
                 <div className="social">
                   <ul>
                   <li className="twitter">
