@@ -33,9 +33,9 @@ function footer() {
             </ul>
           </div> */}
 
-          {/* <div class="col-xs-6 col-md-3 logo">
-            <img class="logosize"src={logo} alt="SN/IG logo"/>
-          </div> */}
+          <div class="col-xs-6 col-md-6 logo">
+            <img style={{height:'150px',width:'150px',paddingRight:'0'}}class="logosize"src={logo} alt="SN/IG logo"/>
+          </div>
         </div>
         <hr/>
       </div>
