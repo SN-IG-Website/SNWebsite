@@ -28,12 +28,11 @@ const Warden = () => {
         <center>
     <div className="container">
       <div className="row">
-        {/* <div className="col-md-12">
+        <div className="col-md-12">
           <div className="site-heading text-center">
-            <h2>Our <span>Team</span></h2>
-            <h4>Meet our awesome and expert team members</h4>
+            <h2>Wardens</h2>
           </div>
-        </div> */}
+        </div>
       </div>
       <div className="row team-items">
       <div className="row team-items centered">
