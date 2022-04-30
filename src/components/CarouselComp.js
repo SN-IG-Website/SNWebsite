@@ -31,7 +31,12 @@ function CarouselComp() {
             alt="Second slide"
             style={{height:'700px', width:'100%'}}
           />
-
+          <Carousel.Caption className="InsideText">
+            
+            <h1>Sarojini Naidu/Indira Gandhi </h1>
+            <h2>Hall of Residence</h2>
+            <h5>संस्कृता स्त्रीः पराशक्ति</h5>
+          </Carousel.Caption>
           <Carousel.Caption>
             {/* <h3>Second slide label</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
@@ -43,8 +48,14 @@ function CarouselComp() {
             src={homeimage2}
             alt="Third slide"
             style={{height:'700px', width:'100%'}}
+            
           />
-
+          <Carousel.Caption className="InsideText">
+            
+            <h1>Sarojini Naidu/Indira Gandhi </h1>
+            <h2>Hall of Residence</h2>
+            <h5>संस्कृता स्त्रीः पराशक्ति</h5>
+          </Carousel.Caption>
           <Carousel.Caption>
             {/* <h3>Third slide label</h3>
             <p>

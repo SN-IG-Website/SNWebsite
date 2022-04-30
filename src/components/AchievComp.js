@@ -22,6 +22,8 @@ import BaddyTeam from "./images/baddy-team.jpeg";
 import Picture6 from "./images/Picture6.jpg";
 import Picture7 from "./images/Picture7.jpg";
 import Picture8 from "./images/Picture8.jpg";
+import TableTennisTeam from "./images/tennisteam.jpeg";
+import LawnTennisTeam from "./images/lawnteam.jpeg";
 import Footer from "../components/footer";
 import BasketballTeam from "./images/basketballteam.jpeg";
 
@@ -51,28 +53,28 @@ function AchievComp() {
                             Athletics
                           </h1>
                           <p>
-                            2021-22| Interhall Tournament- Gold
+                            2021-22 | Interhall Tournament- Gold
                             <img
                               src={gold}
                               style={{ height: "30px", width: "30px" }}
                             ></img>
                           </p>
                           <p>
-                            2018-19| Interhall Tournament- Gold
+                            2018-19 | General Championship- Gold
                             <img
                               src={gold}
                               style={{ height: "30px", width: "30px" }}
                             ></img>
                           </p>
                           <p>
-                            2017-18| Interhall Tournament- Gold
+                            2017-18 | General Championship- Gold
                             <img
                               src={gold}
                               style={{ height: "30px", width: "30px" }}
                             ></img>
                           </p>
                           <p>
-                            2016-17| Interhall Tournament- Gold
+                            2016-17 | General Championship- Gold
                             <img
                               src={gold}
                               style={{ height: "30px", width: "30px" }}
@@ -96,28 +98,28 @@ function AchievComp() {
                             Volleyball
                           </h1>
                           <p>
-                            2021-22|Interhall Tournament- Silver
+                            2021-22 | Interhall Tournament- Silver
                             <img
                               src={silver}
                               style={{ height: "40px", width: "30px" }}
                             ></img>
                           </p>
                           <p>
-                            2018-19|Interhall Tournament- Bronze
+                            2018-19 | General Championship- Bronze
                             <img
                               src={bronze}
                               style={{ height: "30px", width: "30px" }}
                             ></img>
                           </p>
                           <p>
-                            2017-18|Interhall Tournament- Silver
+                            2017-18 | General Championship- Silver
                             <img
                               src={silver}
                               style={{ height: "40px", width: "30px" }}
                             ></img>
                           </p>
                           <p>
-                            2016-17|Interhall Tournament- Silver
+                            2016-17 | General Championship- Silver
                             <img
                               src={silver}
                               style={{ height: "40px", width: "30px" }}
@@ -140,21 +142,21 @@ function AchievComp() {
                             Badminton
                           </h1>
                           <p>
-                            2021-22| Interhall Tournament- Gold
+                            2021-22 | Interhall Tournament- Gold
                             <img
                               src={gold}
                               style={{ height: "30px", width: "30px" }}
                             ></img>
                           </p>
                           <p>
-                            2019-20| Interhall Tournament- Gold
+                            2019-20 | General Championship- Gold
                             <img
                               src={gold}
                               style={{ height: "30px", width: "30px" }}
                             ></img>
                           </p>
                           <p>
-                            2017-18| Interhall Tournament- Gold
+                            2017-18 | General Championship- Gold
                             <img
                               src={gold}
                               style={{ height: "30px", width: "30px" }}
@@ -179,21 +181,21 @@ function AchievComp() {
                             Basketball
                           </h1>
                           <p>
-                            2021-22| Interhall Tournament- Gold
+                            2021-22 | Interhall Tournament- Gold
                             <img
                               src={gold}
                               style={{ height: "30px", width: "30px" }}
                             ></img>
                           </p>
                           <p>
-                            2018-19| Interhall Tournament- Gold
+                            2018-19 | General Championship- Gold
                             <img
                               src={gold}
                               style={{ height: "30px", width: "30px" }}
                             ></img>
                           </p>
                           <p>
-                            2016-17| Interhall Tournament- Gold
+                            2016-17 | General Championship- Gold
                             <img
                               src={gold}
                               style={{ height: "30px", width: "30px" }}
@@ -202,23 +204,30 @@ function AchievComp() {
                         </div>
                       </div>
                     </div>
-                  </Col>
+                  </Col>                 
                   <Col xs={6} md={4}>
                     <div class="card-container">
                       <div class="card">
                         <div class="side">
-                          <img class="flipimage" src={Picture2} />
+                          <img class="flipimage" src={TableTennisTeam} />
                         </div>
                         <div class="side back">
                           <h1
                             style={{ marginTop: "15px", marginBottom: "20px" }}
                           >
-                            Aquatics
+                            Table Tennis
                           </h1>
                           <p>
-                            2017-18| Interhall Tournament- Gold
+                            2021-22 | Interhall Tournament- Gold
                             <img
                               src={gold}
+                              style={{ height: "30px", width: "30px" }}
+                            ></img>
+                          </p>
+                          <p>
+                            2018-19 | General Championship- Bronze
+                            <img
+                              src={bronze}
                               style={{ height: "30px", width: "30px" }}
                             ></img>
                           </p>
@@ -230,7 +239,7 @@ function AchievComp() {
                     <div class="card-container">
                       <div class="card">
                         <div class="side">
-                          <img class="flipimage" src={Picture6} />
+                          <img class="flipimage" src={LawnTennisTeam} />
                         </div>
                         <div class="side back">
                           <h1
@@ -239,14 +248,14 @@ function AchievComp() {
                             Lawn Tennis
                           </h1>
                           <p>
-                            2021-22|Interhall Tournament- Bronze
+                            2021-22 | Interhall Tournament- Bronze
                             <img
                               src={bronze}
                               style={{ height: "30px", width: "30px" }}
                             ></img>
                           </p>
                           <p>
-                            2018-19|Interhall Tournament- Bronze
+                            2018-19 | General Championship- Bronze
                             <img
                               src={bronze}
                               style={{ height: "30px", width: "30px" }}
@@ -262,36 +271,6 @@ function AchievComp() {
                     <div class="card-container">
                       <div class="card">
                         <div class="side">
-                          <img class="flipimage" src={Picture7} />
-                        </div>
-                        <div class="side back">
-                          <h1
-                            style={{ marginTop: "15px", marginBottom: "20px" }}
-                          >
-                            Table Tennis
-                          </h1>
-                          <p>
-                            2021-22| Interhall Tournament- Gold
-                            <img
-                              src={gold}
-                              style={{ height: "30px", width: "30px" }}
-                            ></img>
-                          </p>
-                          <p>
-                            2018-19|Interhall Tournament- Bronze
-                            <img
-                              src={bronze}
-                              style={{ height: "30px", width: "30px" }}
-                            ></img>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </Col>
-                  <Col xs={6} md={4}>
-                    <div class="card-container">
-                      <div class="card">
-                        <div class="side">
                           <img class="flipimage" src={Picture8} />
                         </div>
                         <div class="side back">
@@ -301,14 +280,14 @@ function AchievComp() {
                             Chess
                           </h1>
                           <p>
-                            2021-22|Interhall Tournament- Bronze
+                            2021-22 | Interhall Tournament- Bronze
                             <img
                               src={bronze}
                               style={{ height: "30px", width: "30px" }}
                             ></img>
                           </p>
                           <p>
-                            2018-19| Interhall Tournament- Gold
+                            2018-19 | General Championship- Gold
                             <img
                               src={gold}
                               style={{ height: "30px", width: "30px" }}
@@ -340,6 +319,13 @@ function AchievComp() {
                           >
                             Hardware Modelling
                           </h1>
+                          <p>
+                            2018-19 | General Championship- Bronze
+                            <img
+                              src={bronze}
+                              style={{ height: "30px", width: "30px" }}
+                            ></img>
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -357,7 +343,7 @@ function AchievComp() {
                             Data Analytics
                           </h1>
                           <p>
-                            2021-22| Open IIT- Bronze
+                            2020-21 | Open IIT- Bronze
                             <img
                               src={bronze}
                               style={{ height: "30px", width: "30px" }}

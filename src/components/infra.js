@@ -63,7 +63,7 @@ const infra = () => {
             <div className="thumb">
               <img className="img-fluid infraimages" src={music} alt="Thumb" style={{height:'350px',width:'400px'}}/>
               <div className="overlay">
-                <h4>Music</h4>
+                <h4>Music Room</h4>
                               
               </div>
             </div>           
@@ -74,7 +74,7 @@ const infra = () => {
             <div className="thumb">
               <img className="img-fluid infraimages" src={newcommon} alt="Thumb" style={{height:'350px',width:'400px'}}/>
               <div className="overlay">
-                <h4>New Common</h4>
+                <h4>New Common Room</h4>
                            
               </div>
             </div>           
@@ -107,7 +107,7 @@ const infra = () => {
             <div className="thumb">
               <img className="img-fluid infraimages" src={daycanteen2} alt="Thumb" style={{height:'350px',width:'400px'}}/>
               <div className="overlay">
-                <h4>Store Room</h4>
+                <h4>General Store</h4>
                             
               </div>
             </div>           

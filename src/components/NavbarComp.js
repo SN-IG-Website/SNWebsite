@@ -12,12 +12,12 @@ function NavbarComp() {
   return (
     <>
       <Navbar className="nav-bar" expand="lg" style={{ position: 'fixed', top: '0', zIndex: '100', width: '100%', paddingTop: '0', paddingBottom: '0', marginLeft: '0' }}>
-        <Container className="content" style={{ marginLeft: '2px'}}>
+        <Container className="content" style={{ marginLeft: '20px'}}>
           <Navbar.Brand href="/">
             <img
               src={logo}
-              width="45"
-              height="45"
+              width="50"
+              height="50"
               className="d-inline-block align-top"
               alt="logo"
               padding="0"
