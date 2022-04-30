@@ -1,5 +1,7 @@
 import React from "react";
 import "./galleryback.css";
+import NavbarComp from './NavbarComp';
+import Footer from '../components/footer';
 import classsong1 from "./images/classsong1.jpg" ;
 import classsong2 from "./images/classsong2.jpg" ;
 import classsong3 from "./images/classsong3.jpg" ;
@@ -22,7 +24,7 @@ import classsong16 from "./images/classsong16.jpg" ;
 
 function galleryback() {
     return (
-      <>
+      <><NavbarComp/>
       <center><div className="heading"><h1 className="backimagecontent" >Class Song</h1></div></center>
         <div className="row">
           <div className="column">
@@ -53,6 +55,7 @@ function galleryback() {
           <img src={classsong15} />
           </div>
         </div>
+        <Footer/>
       </>
     );
   }
