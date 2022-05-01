@@ -6,8 +6,8 @@ import holi1 from "./images/holi1.jpeg" ;
 import holi2 from "./images/holi2.jpeg" ;
 import holi3 from "./images/holi3.jpeg" ;
 import holi4 from "./images/holi4.jpeg" ;
-import holi5 from "./images/holi5.jpeg" ;
-import holi6 from "./images/holi6.jpeg" ;
+// import holi5 from "./images/holi5.jpeg" ;
+// import holi6 from "./images/holi6.jpeg" ;
 
 
 function galleryback() {
@@ -16,22 +16,22 @@ function galleryback() {
     <center><div className="heading"><h1 className="backimagecontent">Holi</h1></div></center>
       <div className="row">
         <div className="column">
-          <img src={holi1} />
+          <img alt=""  src={holi1} />
           
      
         </div>
         <div className="column">
-          <img src={holi2} />
+          <img alt=""  src={holi2} />
         
          
         </div>
         <div className="column">
-          <img src={holi3} />
+          <img alt=""  src={holi3} />
         
 
         </div>
         <div className="column">
-          <img src={holi4} />
+          <img alt=""  src={holi4} />
         
           
         </div>
