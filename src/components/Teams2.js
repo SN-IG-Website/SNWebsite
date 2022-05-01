@@ -5,7 +5,7 @@ import Footer from '../components/footer';
 
 
 
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
@@ -21,7 +21,7 @@ import IshitaJhunjhunwala from './images2/IshitaJhunjhunwala.jpg';
 import rhea from './images2/rhea.jpg';
 import Yashika from './images2/Yashika.jpeg';
 import Jessica from './images2/Jessica.jpeg';
-import Vidushi from './images2/Vidushi.jpeg';
+import Vidushi from './images2/Vidushi.jpg';
 import Siddhi from './images2/Siddhi.jpeg';
 
 
@@ -32,11 +32,12 @@ const Teams2 = () => {
     <section id="team" className="team-area">
         <center>
     <div className="container">
+      <pre></pre>
       <div className="row">
         <div className="col-md-12">
           <div className="site-heading text-center">
             <h2>Our <span>Team</span></h2>
-            {/* <h4>Meet our awesome and expert team members</h4> */}
+            {/* <h4></h4> */}
           </div>
         </div>
       </div>
@@ -54,13 +55,13 @@ const Teams2 = () => {
                 <div className="social">
                   <ul>
                   <li className="twitter">
-                      <a href="https://www.facebook.com/ishita.jhunjhunwala.52/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
+                      <a href="https://www.facebook.com/ishita.jhunjhunwala.52/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
                     </li>
                     <li className="pinterest">
-                      <a href="https://www.linkedin.com/in/ishita-jhunjhunwala-73a1161a4/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+                      <a href="https://www.linkedin.com/in/ishita-jhunjhunwala-73a1161a4/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
                     </li>
                     <li className="instagram">
-                      <a href="https://www.instagram.com/jhunjhunwala_ishita/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+                      <a href="https://www.instagram.com/jhunjhunwala_ishita/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
                     </li>
                   </ul>
                 </div>
@@ -87,10 +88,10 @@ const Teams2 = () => {
                 <div className="social">
                   <ul>
                   <li className="twitter">
-                      <a href="https://www.facebook.com/rhea2801/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
+                      <a href="https://www.facebook.com/rhea2801/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
                     </li>
                     <li className="pinterest">
-                      <a href="https://www.linkedin.com/in/rhea2801/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+                      <a href="https://www.linkedin.com/in/rhea2801/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
                     </li>
                     {/* <li className="instagram">
                       <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
@@ -121,17 +122,17 @@ const Teams2 = () => {
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         <p>
-        Keep looking up…             </p>
+        Be your own kind of beautiful      </p>
         <div className="social">
           <ul>
           <li className="twitter">
-              <a href="https://www.facebook.com/yashika.aggarwal.3154/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
+              <a href="https://www.facebook.com/yashika.aggarwal.3154/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
             </li>
             <li className="pinterest">
-              <a href="https://www.linkedin.com/in/yashika-aggarwal-bb2926205/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+              <a href="https://www.linkedin.com/in/yashika-aggarwal-bb2926205/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
             </li>
             <li className="instagram">
-              <a href="https://www.instagram.com/y.a.s.h.i.ka/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+              <a href="https://www.instagram.com/y.a.s.h.i.ka/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
             </li>
           </ul>
         </div>
@@ -139,7 +140,7 @@ const Teams2 = () => {
     </div>
     <div className="info">
       <span className="message">
-        <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
+        <a href="mailto:aggarwalyashi49@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Yashika Aggarwal</h4>
       <span>Web Secretary</span>
@@ -152,19 +153,18 @@ const Teams2 = () => {
       <img className="img-fluid" src={Jessica} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
-        {/* <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        </p> */}
+        <p>
+        Try To Be A Rainbow In Someone’s Cloud!    </p>
         <div className="social">
           <ul>
           <li className="twitter">
-              <a href="https://www.facebook.com/jessica.britto.395/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
+              <a href="https://www.facebook.com/jessica.britto.395/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
             </li>
             <li className="pinterest">
-              <a href="https://www.linkedin.com/in/jessica-john-britto-97ab71205/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+              <a href="https://www.linkedin.com/in/jessica-john-britto-97ab71205/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
             </li>
             <li className="instagram">
-              <a href="https://www.instagram.com/jess__britto/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+              <a href="https://www.instagram.com/jess__britto/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
             </li>
           </ul>
         </div>
@@ -191,18 +191,18 @@ const Teams2 = () => {
       <img className="img-fluid" src={Vidushi} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
-        {/* <p>
-        Dream Big, Stay Focused and Be Fearless!               </p> */}
+        <p>
+        Stay a mystery; it’s better.            </p>
         <div className="social">
           <ul>
           <li className="twitter">
-              <a href="https://www.facebook.com/vidushi.agarwal.1671" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
+              <a href="https://www.facebook.com/vidushi.agarwal.1671" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
             </li>
             <li className="pinterest">
-              <a href="https://www.linkedin.com/in/vidushi-agarwal-4704a8205/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+              <a href="https://www.linkedin.com/in/vidushi-agarwal-4704a8205/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
             </li>
             <li className="instagram">
-              <a href="https://www.instagram.com/vidushi_2510/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+              <a href="https://www.instagram.com/vidushi_2510/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
             </li>
           </ul>
         </div>
@@ -223,19 +223,19 @@ const Teams2 = () => {
       <img className="img-fluid" src={Siddhi} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
-        {/* <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        </p> */}
+        <p>
+        Be you, do you, for you.
+        </p>
         <div className="social">
           <ul>
           <li className="twitter">
-              <a href="https://www.facebook.com/profile.php?id=100009117742880" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
+              <a href="https://www.facebook.com/profile.php?id=100009117742880" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
             </li>
             <li className="pinterest">
-              <a href="https://www.linkedin.com/in/siddhi-agrawal-b208a91bb/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+              <a href="https://www.linkedin.com/in/siddhi-agrawal-b208a91bb/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
             </li>
             <li className="instagram">
-              <a href="https://www.instagram.com/__siddhiagrawal__/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+              <a href="https://www.instagram.com/__siddhiagrawal__/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
             </li>
           </ul>
         </div>
@@ -243,7 +243,7 @@ const Teams2 = () => {
     </div>
     <div className="info">
       <span className="message">
-        <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
+        <a href="mailto:siddhiagrawal2106@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Siddhi Agrawal</h4>
       <span>Web Secretary</span>

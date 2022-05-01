@@ -1,16 +1,18 @@
 import React from 'react';
 import './Warden.css';
 import NavbarComp from './NavbarComp';
+import Footer from '../components/footer';
 
 
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 // import {faInstagramI, faFacebookF, faLinkedInL} from '@fortawesome/free-brands-svg-icons';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faFacebookF , faLinkedin , faInstagram} from '@fortawesome/free-brands-svg-icons';
+// import {  faFacebookF , faLinkedin , faInstagram} from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 //images
@@ -27,13 +29,15 @@ const Warden = () => {
     <section id="team" className="team-area">
         <center>
     <div className="container">
+      <pre></pre>
+      <pre></pre>
       <div className="row">
-        {/* <div className="col-md-12">
+        <div className="col-md-12">
           <div className="site-heading text-center">
-            <h2>Our <span>Team</span></h2>
-            <h4>Meet our awesome and expert team members</h4>
+            <h2>Wardens</h2>
+            <h4> </h4>
           </div>
-        </div> */}
+        </div>
       </div>
       <div className="row team-items">
       <div className="row team-items centered">
@@ -52,7 +56,7 @@ const Warden = () => {
                       <a href="https://www.facebook.com/rhea2801/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
                     </li> */}
                     <li className="pinterest">
-                      <a href="https://www.linkedin.com/in/archana-patnaik-1483637/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+                      <a href="https://www.linkedin.com/in/archana-patnaik-1483637/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
                     </li>
                     {/* <li className="instagram">
                       <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
@@ -63,7 +67,7 @@ const Warden = () => {
             </div>
             <div className="info">
               <span className="message">
-                <a href="mailto:archana@hss.iitkgp.ac.in" target="_blank"><FontAwesomeIcon icon={faEnvelope} /></a>
+                <a href="mailto:archana@hss.iitkgp.ac.in" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
               <h4>Archana Patnaik</h4>
               <span>Warden</span>
@@ -85,7 +89,7 @@ const Warden = () => {
                       <a href="https://www.facebook.com/prachi.bajpai.58726/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
                     </li> */}
                     <li className="pinterest">
-                      <a href="https://www.linkedin.com/in/niharikasahoo/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+                      <a href="https://www.linkedin.com/in/niharikasahoo/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
                     </li>
                     {/* <li className="instagram">
                       <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
@@ -96,7 +100,7 @@ const Warden = () => {
             </div>
             <div className="info">
               <span className="message">
-                <a href="mailto:niharika@rgsoipl.iitkgp.ac.in" target="_blank"><FontAwesomeIcon icon={faEnvelope} /></a>
+                <a href="mailto:niharika@rgsoipl.iitkgp.ac.in" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
               <h4>Niharika Sahoo</h4>
               <span>Assistant Warden</span>
@@ -118,7 +122,7 @@ const Warden = () => {
                       <a href="https://www.facebook.com/prachi.bajpai.58726/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
                     </li> */}
                     <li className="pinterest">
-                      <a href="https://www.linkedin.com/in/sunita-mishra-06739769/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+                      <a href="https://www.linkedin.com/in/sunita-mishra-06739769/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
                     </li>
                     {/* <li className="instagram">
                       <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
@@ -129,7 +133,7 @@ const Warden = () => {
             </div>
             <div className="info">
               <span className="message">
-                <a href="mailto:smishra@mining.iitkgp.ac.in" target="_blank"><FontAwesomeIcon icon={faEnvelope} /></a>
+                <a href="mailto:smishra@mining.iitkgp.ac.in" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
               <h4>Sunita Mishra</h4>
               <span>Assistant Warden</span>
@@ -147,6 +151,7 @@ const Warden = () => {
     </div>
     </center>
   </section>
+  <Footer/>
   </>
 );
 

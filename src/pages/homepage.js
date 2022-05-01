@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarComp from '../components/NavbarComp';
 import CarouselComp from '../components/CarouselComp';
 import AboutComp from '../components/AboutComp';
-import InfraComp from '../components/InfraComp';
+// import InfraComp from '../components/InfraComp';
 import Footer from '../components/footer';
 import Infra from '../components/infra';
 import "./homepage.css";

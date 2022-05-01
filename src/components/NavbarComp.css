@@ -4,10 +4,16 @@
     
 }
 .content{
-    background-color: #FBE5E5;
+    background-color: #26272b;
+    padding-left: 0px;
 }
 .nav-bar{
-    background-color: #FBE5E5;
-    
+    background-color: #26272b;
+}
 
+.navLink{
+    color: black;
+}
+.content container{
+    margin-left: 0px;
 }
