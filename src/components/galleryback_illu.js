@@ -1,9 +1,9 @@
 import React from "react";
 import "./galleryback.css";
 import illu from "./images/illu.JPG" ;
-import illu1 from "./images/illu1.jpg" ;
-import illu2 from "./images/illu2.jpg" ;
-import illu3 from "./images/illu3.jpg" ;
+// import illu1 from "./images/illu1.jpg" ;
+// import illu2 from "./images/illu2.jpg" ;
+// import illu3 from "./images/illu3.jpg" ;
 import illu4 from "./images/illu4.JPG" ;
 import illu5 from "./images/illu5.JPG" ;
 import illu6 from "./images/illu6.JPG" ;
@@ -34,7 +34,7 @@ import illu30 from "./images/illu30.JPG" ;
 import illu31 from "./images/illu31.JPG" ;
 import illu32 from "./images/illu32.JPG" ;
 import illu33 from "./images/illu33.JPG" ;
-import illu34 from "./images/illu34.JPG" ;
+// import illu34 from "./images/illu34.JPG" ;
 
 
 
@@ -45,55 +45,55 @@ function galleryback() {
     <center><div className="heading"><h1 className="backimagecontent" >Illumination</h1></div></center>
       <div className="row">
         <div className="column">
-          <img src={illu} />
-          {/* <img src={illu1} />
-          <img src={illu2} />
-          <img src={illu3} /> */}
-          <img src={illu4} />
-          <img src={illu19} />
-          <img src={illu20} />
-          <img src={illu21} />
-          <img src={illu23} />
-          <img src={illu22} />
-          <img src={illu28} />
+          <img alt="" src={illu} />
+          {/* <img alt="" src={illu1} />
+          <img alt="" src={illu2} />
+          <img alt="" src={illu3} /> */}
+          <img alt="" src={illu4} />
+          <img alt="" src={illu19} />
+          <img alt="" src={illu20} />
+          <img alt="" src={illu21} />
+          <img alt="" src={illu23} />
+          <img alt="" src={illu22} />
+          <img alt="" src={illu28} />
 
          
         </div>
         <div className="column">
-          <img src={illu5} />
-          <img src={illu6} />
-          <img src={illu7} />
-          <img src={illu8} />
-          <img src={illu9} />
-          <img src={illu24} />
-          <img src={illu25} />
-          <img src={illu26} />
+          <img alt="" src={illu5} />
+          <img alt="" src={illu6} />
+          <img alt="" src={illu7} />
+          <img alt="" src={illu8} />
+          <img alt="" src={illu9} />
+          <img alt="" src={illu24} />
+          <img alt="" src={illu25} />
+          <img alt="" src={illu26} />
          
          
          
         </div>
         <div className="column">
-          <img src={illu10} />
-          <img src={illu11} />
-          <img src={illu12} />
-          <img src={illu13} />
-          <img src={illu14} />
-          <img src={illu29} />
-          <img src={illu30} />
-          <img src={illu31} />
+          <img alt="" src={illu10} />
+          <img alt="" src={illu11} />
+          <img alt="" src={illu12} />
+          <img alt="" src={illu13} />
+          <img alt="" src={illu14} />
+          <img alt="" src={illu29} />
+          <img alt="" src={illu30} />
+          <img alt="" src={illu31} />
          
           
          
         </div>
         <div className="column">
-          <img src={illu} />
-          <img src={illu15} />
-          <img src={illu16} />
-          <img src={illu17} />
-          <img src={illu18} />
-          <img src={illu32} />
-          <img src={illu33} />
-          <img src={illu27} />
+          <img alt="" src={illu} />
+          <img alt="" src={illu15} />
+          <img alt="" src={illu16} />
+          <img alt="" src={illu17} />
+          <img alt="" src={illu18} />
+          <img alt="" src={illu32} />
+          <img alt="" src={illu33} />
+          <img alt="" src={illu27} />
         
          
         </div>
