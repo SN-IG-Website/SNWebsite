@@ -9,6 +9,8 @@ import republic from "./images/republic.jpg";
 import granddinner1 from "./images/granddinner1.jpg";
 import classsong1 from "./images/classsong1.jpg";
 import alumni1 from "./images/alumni1.jpg";
+import holi1 from "./images/holi1.jpeg";
+import saraswatipuja1 from "./images/saraswatipuja1.jpg";
 
 function galleryfront() {
   return (
@@ -55,6 +57,26 @@ function galleryfront() {
           <Col xs={6} md={4}>
           <a href="class-song"><Image className="gallery-img" src={classsong1} thumbnail /></a>
           <center> <h3>Class Song</h3></center>
+              {/* <p>Description</p> */}
+            
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={6} md={4}>
+          <a href="holi"><Image className="gallery-img" src={holi1} thumbnail /></a>
+          <center><h3>Holi</h3></center>
+              {/* <p>Description</p> */}
+            
+          </Col>
+          <Col xs={6} md={4}>
+          <a href="saraswati-puja"><Image className="gallery-img" src={saraswatipuja1} thumbnail /></a>
+          <center><h3>Saraswati Puja</h3></center>
+              {/* <p>Description</p> */}
+           
+          </Col>
+          <Col xs={6} md={4}>
+          <a href="farewell"><Image className="gallery-img" src={classsong1} thumbnail /></a>
+          <center> <h3>Farewell</h3></center>
               {/* <p>Description</p> */}
             
           </Col>

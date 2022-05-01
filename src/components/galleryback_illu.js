@@ -1,5 +1,7 @@
 import React from "react";
 import "./galleryback.css";
+import NavbarComp from './NavbarComp';
+import Footer from '../components/footer';
 import illu from "./images/illu.JPG" ;
 // import illu1 from "./images/illu1.jpg" ;
 // import illu2 from "./images/illu2.jpg" ;
@@ -41,7 +43,7 @@ import illu33 from "./images/illu33.JPG" ;
 
 function galleryback() {
   return (
-    <>
+    <><NavbarComp/>
     <center><div className="heading"><h1 className="backimagecontent" >Illumination</h1></div></center>
       <div className="row">
         <div className="column">
@@ -100,6 +102,7 @@ function galleryback() {
        
         
       </div>
+      <Footer/>
     </>
   );
 }
