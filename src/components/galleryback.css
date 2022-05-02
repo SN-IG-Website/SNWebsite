@@ -2,9 +2,18 @@
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
   }
   
+  body{
+    background: url("https://cdn.pixabay.com/photo/2016/01/08/13/50/background-1127943_1280.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  }
   /* Create four equal columns that sits next to each other */
   .column {
     flex: 25%;
