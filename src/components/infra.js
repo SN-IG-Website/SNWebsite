@@ -13,7 +13,7 @@ import nightcanteen from "./images/nightcanteen.jpg";
 import Basketball from "./images/basketball.jpg";
 import Nescafe from "./images/nescafe.jpg";
 
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';

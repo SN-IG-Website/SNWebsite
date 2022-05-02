@@ -29,34 +29,34 @@ function galleryback() {
     <center><div className="heading"><h1 className="backimagecontent">Freshers' Treat</h1></div></center>
       <div className="row">
         <div className="column">
-          <div className="imageHover"> <img src={farewell1} /></div>
-          <img src={farewell2} />
-          <img src={farewell3} />
-          <img src={farewell4} />
-          <img src={farewell5} />
+          <div className="imageHover"> <img alt=""  src={farewell1} /></div>
+          <img alt=""  src={farewell2} />
+          <img alt=""  src={farewell3} />
+          <img alt=""  src={farewell4} />
+          <img alt=""  src={farewell5} />
 
          
         </div>
         <div className="column">
-          <img src={farewell6} />
-          <img src={farewell7} />
-          <img src={farewell8} />
-          <img src={farewell9} />
-          <img src={farewell10} />
+          <img alt=""  src={farewell6} />
+          <img alt=""  src={farewell7} />
+          <img alt=""  src={farewell8} />
+          <img alt=""  src={farewell9} />
+          <img alt=""  src={farewell10} />
         </div>
         <div className="column">
-          <img src={farewell11} />
-          <img src={farewell12} />
-          <img src={farewell13} />
-          <img src={farewell14} />
-          <img src={farewell15} />
+          <img alt=""  src={farewell11} />
+          <img alt=""  src={farewell12} />
+          <img alt=""  src={farewell13} />
+          <img alt=""  src={farewell14} />
+          <img alt=""  src={farewell15} />
         </div>
         <div className="column">
-          <img src={farewell16} />
-          <img src={farewell17} />
-          <img src={farewell18} />
-          <img src={farewell19} />
-          <img src={farewell20} />
+          <img alt=""  src={farewell16} />
+          <img alt=""  src={farewell17} />
+          <img alt=""  src={farewell18} />
+          <img alt=""  src={farewell19} />
+          <img alt=""  src={farewell20} />
         </div>
       </div>
       <Footer/>

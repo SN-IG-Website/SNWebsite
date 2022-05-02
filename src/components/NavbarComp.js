@@ -51,8 +51,8 @@ function NavbarComp() {
                   color: "#FBE5E5"
                 }}>Office bearers</span>
             } id="basic-nav-dropdown" >
-          <NavDropdown.Item href="warden">Warden</NavDropdown.Item>
-          <NavDropdown.Item href="hall">Student Representative</NavDropdown.Item>
+          <NavDropdown.Item href="warden">Wardens</NavDropdown.Item>
+          <NavDropdown.Item href="hall">Student Representatives</NavDropdown.Item>
         </NavDropdown>
               <Nav.Link
                 style={{

@@ -1,6 +1,6 @@
 import React from "react";
 import "./InfraComp.css";
-import { Col, Row, Image } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import Grid from "@material-ui/core/Grid";
 import gym from "./images/gym.jpg";
 import mess from "./images/mess.jpg";
@@ -24,7 +24,7 @@ function InfraComp() {
             <div class="container">
               <div class="content">
                 <div class="content-overlay"></div>
-                   <img class="content-image image" src={gym} />
+                   <img alt=""  class="content-image image" src={gym} />
                 <div class="content-details fadeIn-top">
                   <h3>Gym</h3>
                 </div>
@@ -35,7 +35,7 @@ function InfraComp() {
           <div class="container">
               <div class="content">
                 <div class="content-overlay"></div>
-                   <img class="content-image image" src={library} />
+                   <img alt=""  class="content-image image" src={library} />
                 <div class="content-details fadeIn-top">
                   <h3>Library</h3>
                 </div>
@@ -46,7 +46,7 @@ function InfraComp() {
           <div class="container">
               <div class="content">
                 <div class="content-overlay"></div>
-                   <img class="content-image image" src={mess} />
+                   <img alt=""  class="content-image image" src={mess} />
                 <div class="content-details fadeIn-top">
                   <h3>Mess</h3>
                 </div>
@@ -57,7 +57,7 @@ function InfraComp() {
           <div class="container">
               <div class="content">
                 <div class="content-overlay"></div>
-                   <img class="content-image image" src={daycanteen} />
+                   <img alt=""  class="content-image image" src={daycanteen} />
                 <div class="content-details fadeIn-top">
                   <h3>Day Canteen</h3>
                 </div>
@@ -70,7 +70,7 @@ function InfraComp() {
           <div class="container">
               <div class="content">
                 <div class="content-overlay"></div>
-                   <img class="content-image image" src={daycanteen2} />
+                   <img alt=""  class="content-image image" src={daycanteen2} />
                 <div class="content-details fadeIn-top">
                   <h3>Store</h3>
                 </div>
@@ -81,7 +81,7 @@ function InfraComp() {
           <div class="container">
               <div class="content">
                 <div class="content-overlay"></div>
-                   <img class="content-image image" src={studyroom} />
+                   <img alt=""  class="content-image image" src={studyroom} />
                 <div class="content-details fadeIn-top">
                   <h3>Study Room</h3>
                 </div>
@@ -92,7 +92,7 @@ function InfraComp() {
           <div class="container">
               <div class="content">
                 <div class="content-overlay"></div>
-                   <img class="content-image image" src={music} />
+                   <img alt=""  class="content-image image" src={music} />
                 <div class="content-details fadeIn-top">
                   <h3>Music Room</h3>
                 </div>
@@ -103,7 +103,7 @@ function InfraComp() {
           <div class="container">
               <div class="content">
                 <div class="content-overlay"></div>
-                   <img class="content-image image" src={newcommon} />
+                   <img alt=""  class="content-image image" src={newcommon} />
                 <div class="content-details fadeIn-top">
                   <h3>New Common Room</h3>
                 </div>
@@ -116,7 +116,7 @@ function InfraComp() {
           <div class="container">
               <div class="content">
                 <div class="content-overlay"></div>
-                   <img class="content-image image" src={oldcommon} />
+                   <img alt=""  class="content-image image" src={oldcommon} />
                 <div class="content-details fadeIn-top">
                   <h3>Old Common Room</h3>
                 </div>
@@ -127,7 +127,7 @@ function InfraComp() {
           <div class="container">
               <div class="content">
                 <div class="content-overlay"></div>
-                   <img class="content-image image" src={gym} />
+                   <img alt=""  class="content-image image" src={gym} />
                 <div class="content-details fadeIn-top">
                   <h3>Gym</h3>
                 </div>
@@ -138,7 +138,7 @@ function InfraComp() {
           <div class="container">
               <div class="content">
                 <div class="content-overlay"></div>
-                   <img class="content-image image" src={gym} />
+                   <img alt=""  class="content-image image" src={gym} />
                 <div class="content-details fadeIn-top">
                   <h3>Gym</h3>
                 </div>

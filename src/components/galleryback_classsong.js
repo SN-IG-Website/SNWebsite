@@ -17,7 +17,7 @@ import classsong12 from "./images/classsong12.jpg" ;
 import classsong13 from "./images/classsong13.jpg" ;
 import classsong14 from "./images/classsong14.jpg" ;
 import classsong15 from "./images/classsong15.jpg" ;
-import classsong16 from "./images/classsong16.jpg" ;
+// import classsong16 from "./images/classsong16.jpg" ;
 
 
 
@@ -28,31 +28,31 @@ function galleryback() {
       <center><div className="heading"><h1 className="backimagecontent" >Class Song</h1></div></center>
         <div className="row">
           <div className="column">
-          <img src={classsong1} />
-          <img src={classsong2} />
-          <img src={classsong3} />
-          <img src={classsong4} />
+          <img alt="" src={classsong1} />
+          <img alt="" src={classsong2} />
+          <img alt="" src={classsong3} />
+          <img alt="" src={classsong4} />
 
   
            
           </div>
           <div className="column">
-          <img src={classsong4} />
-          <img src={classsong5} />
-          <img src={classsong6} />
-          <img src={classsong7} />
+          <img alt="" src={classsong4} />
+          <img alt="" src={classsong5} />
+          <img alt="" src={classsong6} />
+          <img alt="" src={classsong7} />
           </div>
           <div className="column">
-          <img src={classsong8} />
-          <img src={classsong9} />
-          <img src={classsong10} />
-          <img src={classsong11} />
+          <img alt="" src={classsong8} />
+          <img alt="" src={classsong9} />
+          <img alt="" src={classsong10} />
+          <img alt="" src={classsong11} />
           </div>
           <div className="column">
-          <img src={classsong12} />
-          <img src={classsong13} />
-          <img src={classsong14} />
-          <img src={classsong15} />
+          <img alt="" src={classsong12} />
+          <img alt="" src={classsong13} />
+          <img alt="" src={classsong14} />
+          <img alt="" src={classsong15} />
           </div>
         </div>
         <Footer/>

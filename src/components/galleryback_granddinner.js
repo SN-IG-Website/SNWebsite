@@ -16,18 +16,18 @@ function galleryback() {
      <center><div className="heading"><h1 className="backimagecontent" >Grand Dinner</h1></div></center>
       <div className="row">
         <div className="column">
-          <img src={granddinner1} />
-          <img src={granddinner5} />
+          <img alt="" src={granddinner1} />
+          <img alt="" src={granddinner5} />
 
         </div>
         <div className="column">
-        <img src={granddinner2} />
+        <img alt="" src={granddinner2} />
         </div>
         <div className="column">
-        <img src={granddinner3} />
+        <img alt="" src={granddinner3} />
         </div>
         <div className="column">
-        <img src={granddinner4} />
+        <img alt="" src={granddinner4} />
         </div>
       </div>
       <Footer/>

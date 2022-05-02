@@ -19,20 +19,20 @@ function galleryback() {
      <center><div className="heading"><h1 className="backimagecontent">Republic Day</h1></div></center>
       <div className="row">
         <div className="column">
-          <img src={republic1} />
-          <img src={republic5} />
+          <img alt=""  src={republic1} />
+          <img alt=""  src={republic5} />
         </div>
         <div className="column">
-        <img src={republic2} /> 
-        <img src={republic6} /> 
+        <img alt=""  src={republic2} /> 
+        <img alt=""  src={republic6} /> 
         </div>
         <div className="column">
-        <img src={republic3} />
-        <img src={republic7} />
+        <img alt=""  src={republic3} />
+        <img alt=""  src={republic7} />
         </div>
         <div className="column">
-        <img src={republic4} />
-        <img src={republic8} />
+        <img alt=""  src={republic4} />
+        <img alt=""  src={republic8} />
         </div>
       </div>
       <Footer/>
