@@ -66,7 +66,7 @@ function galleryback() {
     <center><div className="heading"><h1 className="backimagecontent">Farewell</h1></div></center>
       <div className="row">
         <div className="column">
-<<<<<<< HEAD
+
           <img src={fare1} />
           <img src={fare2} />
           <img src={fare3} />
@@ -132,28 +132,6 @@ function galleryback() {
           <img src={fare54} />
           <img src={fare55} />
           <img src={fare56} />
-=======
-          <img alt=""  src={alumni1} />
-          <img alt=""  src={alumni5} />
-          <img alt=""  src={alumni9} />
-     
-        </div>
-        <div className="column">
-          <img alt=""  src={alumni2} />
-          <img alt=""  src={alumni6} />
-         
-        </div>
-        <div className="column">
-          <img alt=""  src={alumni3} />
-          <img alt=""  src={alumni7} />
-
-        </div>
-        <div className="column">
-          <img alt=""  src={alumni4} />
-          <img alt=""  src={alumni8} />
-          <img alt=""  src={alumni10} />
->>>>>>> 2cc8a8fee73f8dbe07b457a1b672d3f9d592b3e7
-          
         </div>
       </div>
       <Footer/>
