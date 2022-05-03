@@ -66,93 +66,71 @@ function galleryback() {
     <center><div className="heading"><h1 className="backimagecontent">Farewell</h1></div></center>
       <div className="row">
         <div className="column">
-<<<<<<< HEAD
-          <img src={fare1} />
-          <img src={fare2} />
-          <img src={fare3} />
-          <img src={fare4} />
-          <img src={fare5} />
-          <img src={fare6} />
-          <img src={fare7} />
-          <img src={fare8} />
-          <img src={fare9} />
-          <img src={fare10} />
-          <img src={fare11} />
-          <img src={fare12} />
-          <img src={fare13} />
-          <img src={fare14} />
+          <img alt="" src={fare1} />
+          <img alt="" src={fare2} />
+          <img alt="" src={fare3} />
+          <img alt="" src={fare4} />
+          <img alt="" src={fare5} />
+          <img alt="" src={fare6} />
+          <img alt="" src={fare7} />
+          <img alt="" src={fare8} />
+          <img alt="" src={fare9} />
+          <img alt="" src={fare10} />
+          <img alt="" src={fare11} />
+          <img alt="" src={fare12} />
+          <img alt="" src={fare13} />
+          <img alt="" src={fare14} />
         
      
         </div>
         <div className="column">
         
-          <img src={fare15} />
-          <img src={fare16} />
-          <img src={fare17} />
-          <img src={fare18} />
-          <img src={fare19} />
-          <img src={fare20} />
-          <img src={fare21} />
-          <img src={fare22} />
-          <img src={fare23} />
-          <img src={fare24} />
-          <img src={fare25} />
-          <img src={fare26} />
-          <img src={fare27} />
-          <img src={fare28} />
+          <img alt="" src={fare15} />
+          <img alt="" src={fare16} />
+          <img alt="" src={fare17} />
+          <img alt="" src={fare18} />
+          <img alt="" src={fare19} />
+          <img alt="" src={fare20} />
+          <img alt="" src={fare21} />
+          <img alt="" src={fare22} />
+          <img alt="" src={fare23} />
+          <img alt="" src={fare24} />
+          <img alt="" src={fare25} />
+          <img alt="" src={fare26} />
+          <img alt="" src={fare27} />
+          <img alt="" src={fare28} />
         </div>
         <div className="column">
-          <img src={fare29} />
-          <img src={fare30} />
-          <img src={fare31} />
-          <img src={fare32} />
-          <img src={fare33} />
-          <img src={fare34} />
-          <img src={fare35} />
-          <img src={fare36} />
-          <img src={fare37} />
-          <img src={fare38} />
-          <img src={fare39} />
-          <img src={fare40} />
-          <img src={fare41} />
-          <img src={fare42} />
+          <img alt="" src={fare29} />
+          <img alt="" src={fare30} />
+          <img alt="" src={fare31} />
+          <img alt="" src={fare32} />
+          <img alt="" src={fare33} />
+          <img alt="" src={fare34} />
+          <img alt="" src={fare35} />
+          <img alt="" src={fare36} />
+          <img alt="" src={fare37} />
+          <img alt="" src={fare38} />
+          <img alt="" src={fare39} />
+          <img alt="" src={fare40} />
+          <img alt="" src={fare41} />
+          <img alt="" src={fare42} />
         </div>
         <div className="column">
-          <img src={fare43} />
-          <img src={fare44} />
-          <img src={fare45} />
-          <img src={fare46} />
-          <img src={fare47} />
-          <img src={fare48} />
-          <img src={fare49} />
-          <img src={fare50} />
-          <img src={fare51} />
-          <img src={fare52} />
-          <img src={fare53} />
-          <img src={fare54} />
-          <img src={fare55} />
-          <img src={fare56} />
-=======
-          <img alt=""  src={alumni1} />
-          <img alt=""  src={alumni5} />
-          <img alt=""  src={alumni9} />
-     
-        </div>
-        <div className="column">
-          <img alt=""  src={alumni2} />
-          <img alt=""  src={alumni6} />
-         
-        </div>
-        <div className="column">
-          <img alt=""  src={alumni3} />
-          <img alt=""  src={alumni7} />
-
-        </div>
-        <div className="column">
-          <img alt=""  src={alumni4} />
-          <img alt=""  src={alumni8} />
-          <img alt=""  src={alumni10} />
->>>>>>> 2cc8a8fee73f8dbe07b457a1b672d3f9d592b3e7
+          <img alt="" src={fare43} />
+          <img alt="" src={fare44} />
+          <img alt="" src={fare45} />
+          <img alt="" src={fare46} />
+          <img alt="" src={fare47} />
+          <img alt="" src={fare48} />
+          <img alt="" src={fare49} />
+          <img alt="" src={fare50} />
+          <img alt="" src={fare51} />
+          <img alt="" src={fare52} />
+          <img alt="" src={fare53} />
+          <img alt="" src={fare54} />
+          <img alt="" src={fare55} />
+          <img alt="" src={fare56} />
           
         </div>
       </div>
