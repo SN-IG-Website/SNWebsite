@@ -1,5 +1,6 @@
 import React from 'react';
 import "./galleryfront.css"
+import Footer from '../components/footer';
 import {Col,Row,Image } from 'react-bootstrap';
 import Grid from '@material-ui/core/Grid';
 import NavbarComp from './NavbarComp';
@@ -11,6 +12,7 @@ import classsong1 from "./images/classsong1.jpg";
 import alumni1 from "./images/alumni1.jpg";
 import holi1 from "./images/holi1.jpeg";
 import saraswatipuja1 from "./images/saraswatipuja1.jpg";
+import fare1 from "./images/IMG_1.jpg" ;
 
 function galleryfront() {
   return (
@@ -75,7 +77,7 @@ function galleryfront() {
            
           </Col>
           <Col xs={6} md={4}>
-          <a href="farewell"><Image className="gallery-img" src={classsong1} thumbnail /></a>
+          <a href="farewell"><Image className="gallery-img" src={fare1} thumbnail /></a>
           <center> <h3>Farewell</h3></center>
               {/* <p>Description</p> */}
             
@@ -83,6 +85,7 @@ function galleryfront() {
         </Row>
       </Grid>
       ;
+      <Footer/>
     </>
   )
 }
