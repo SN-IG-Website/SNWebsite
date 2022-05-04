@@ -13,8 +13,8 @@ function footer() {
             <ul class="footer-links">
               <li>Address: Sarojini Naidu/Indira Gandhi Hall of Residence, IIT Kharagpur</li>
               <li>Kharagpur, India-721302</li>
-              <li>Phone(office)</li>
-              <li>Phone(Security)</li>
+              <li>Phone(office): +91 3222 2 81126</li>
+              <li>Phone(Security): +91 3222 2 81128</li>
               <li>Email: <a href="snig.iitkgp22@gmail.com">snig.iitkgp22@gmail.com</a></li>
               {/* <li><a href="http://scanfcode.com/category/templates/">Templates</a></li> */}
             </ul>
