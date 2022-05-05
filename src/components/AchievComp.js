@@ -10,6 +10,7 @@ import "./Flipcard.css";
 import Athletics from "./images/athletics.jpg";
 import tec1 from "./images/tec1.jpg";
 import tech2 from "./images/tech2.jpeg";
+import chess from "./images/chess.jpeg";
 import gold from "./images/gold-medal.png";
 import silver from "./images/silver.png";
 import bronze from "./images/bronze-medal.png";
@@ -271,7 +272,7 @@ function AchievComp() {
                     <div class="card-container">
                       <div class="card">
                         <div class="side">
-                          <img alt=""  class="flipimage" src={Picture8} />
+                          <img alt=""  class="flipimage" src={chess} />
                         </div>
                         <div class="side back">
                           <h1
