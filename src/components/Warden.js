@@ -69,7 +69,7 @@ const Warden = () => {
               <span className="message">
                 <a href="mailto:archana@hss.iitkgp.ac.in" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
-              <h4>Archana Patnaik</h4>
+              <h4>Prof. Archana Patnaik</h4>
               <span>Warden</span>
             </div>
           </div>
@@ -102,7 +102,7 @@ const Warden = () => {
               <span className="message">
                 <a href="mailto:niharika@rgsoipl.iitkgp.ac.in" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
-              <h4>Niharika Sahoo</h4>
+              <h4>Prof. Niharika Sahoo Bhattacharya</h4>
               <span>Assistant Warden</span>
             </div>
           </div>
@@ -135,7 +135,7 @@ const Warden = () => {
               <span className="message">
                 <a href="mailto:smishra@mining.iitkgp.ac.in" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
-              <h4>Sunita Mishra</h4>
+              <h4>Prof. Sunita Mishra</h4>
               <span>Assistant Warden</span>
             </div>
           </div>

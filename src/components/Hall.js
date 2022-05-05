@@ -65,7 +65,7 @@ const Hall = () => {
       <div className="row">
         <div className="col-md-12">
           <div className="site-heading text-center">
-            <h2>Hall Council</h2>
+            <h2>Student Representatives</h2>
             <h4>2021-2022</h4>
           </div>
         </div>
@@ -79,8 +79,7 @@ const Hall = () => {
               <div className="overlay">
                 {/* <h4>Hall President</h4> */}
                 <p>
-                Sarojini Naidu Indira Gandhi Hall is just not a place of residence, it's a family where we grow together. The hall has attributed a lot to what I have become today and each and every person in the hall has shaped me for the better. I hope these sentiments are carried forward as we thrive for the development and betterment of the family.
-                </p>
+                We should have the courage to surrender to our calling                </p>
                 <div className="social">
                   <ul>
                   <li className="twitter">
@@ -140,10 +139,10 @@ const Hall = () => {
         </div>
           </div>
           <pre> </pre>
-          <div className="site-heading text-center">
+          {/* <div className="site-heading text-center">
           <h3>Student Representatives</h3>
 
-          </div>
+          </div> */}
 
           <pre></pre>
 
@@ -407,19 +406,7 @@ const Hall = () => {
             </div>
           </div>
         </div>
-        </div>
-
-        <pre> </pre>
-          {/* <div className="site-heading text-center">
-          <h4>Coordinators</h4>
-
-          </div> */}
-
-          <pre></pre>
-
-        <div className="row team-items centered">
-
-<div className="col-md-4 single-item">
+        <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
       <img className="img-fluid" src={RoshniKar} alt="Thumb"/>
@@ -485,7 +472,7 @@ I will drink life to the lees and follow knowledge like a sinking star!         
   </div>
 </div>
 
-<div className="row team-items centered">
+{/* <div className="row team-items centered"> */}
 
 
 <div className="col-md-4 single-item">
@@ -520,7 +507,7 @@ I will drink life to the lees and follow knowledge like a sinking star!         
     </div>
   </div>
 </div>
-<div className="col-md-4 single-item">
+        <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
       <img className="img-fluid" src={SejalShambharkar} alt="Thumb"/>
@@ -553,8 +540,25 @@ I will drink life to the lees and follow knowledge like a sinking star!         
     </div>
   </div>
 </div>
-</div>
-</div>
+
+
+
+        </div>
+
+        {/* <pre> </pre> */}
+          {/* <div className="site-heading text-center">
+          <h4>Coordinators</h4>
+
+          </div> */}
+
+          {/* <pre></pre> */}
+
+        {/* <div className="row team-items centered"> */}
+
+
+
+{/* </div> */}
+{/* </div> */}
 
 <pre> </pre>
           {/* <div className="site-heading text-center">
@@ -563,43 +567,13 @@ I will drink life to the lees and follow knowledge like a sinking star!         
           </div> */}
 
           <pre></pre>
+          <pre></pre>
 
         <div className="row team-items centered">
 
 
 
-<div className="col-md-4 single-item">
-  <div className="item">
-    <div className="thumb">
-      <img className="img-fluid" src={GunjanAgarwal} alt="Thumb"/>
-      <div className="overlay">
-        {/* <h4>Lorem Ipsum</h4> */}
-        <p>
-        The more you sweat in times of peace, the less you bleed in times of war.            </p>
-        <div className="social">
-          <ul>
-          <li className="twitter">
-              <a href="https://www.facebook.com/profile.php?id=100027817206864" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
-            </li>
-            <li className="pinterest">
-              <a href="https://www.linkedin.com/in/gunjan-agarwal-95730120a/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
-            </li>
-            <li className="instagram">
-              <a href="https://www.instagram.com/gunjan.agarwal_/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div className="info">
-      <span className="message">
-        <a href="mailto:gunjan.agarwal088@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
-      </span>
-      <h4>Gunjan Agarwal</h4>
-      <span>Secretary Students' Welfare, Secretary Social and Cultural </span>
-    </div>
-  </div>
-</div>
+
 <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
@@ -986,6 +960,38 @@ Connecting the alumni to the budding batch        </p>
       </span>
       <h4>Kirti Choudhary</h4>
       <span>Secretary Mess</span>
+    </div>
+  </div>
+</div>
+<div className="col-md-4 single-item">
+  <div className="item">
+    <div className="thumb">
+      <img className="img-fluid" src={GunjanAgarwal} alt="Thumb"/>
+      <div className="overlay">
+        {/* <h4>Lorem Ipsum</h4> */}
+        <p>
+        The more you sweat in times of peace, the less you bleed in times of war.            </p>
+        <div className="social">
+          <ul>
+          <li className="twitter">
+              <a href="https://www.facebook.com/profile.php?id=100027817206864" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
+            </li>
+            <li className="pinterest">
+              <a href="https://www.linkedin.com/in/gunjan-agarwal-95730120a/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+            </li>
+            <li className="instagram">
+              <a href="https://www.instagram.com/gunjan.agarwal_/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div className="info">
+      <span className="message">
+        <a href="mailto:gunjan.agarwal088@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+      </span>
+      <h4>Gunjan Agarwal</h4>
+      <span>Secretary Students' Welfare, Secretary Social and Cultural </span>
     </div>
   </div>
 </div>
