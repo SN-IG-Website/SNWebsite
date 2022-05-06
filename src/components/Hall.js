@@ -250,9 +250,8 @@ const Hall = () => {
               <img className="img-fluid" src={CharviJain} alt="Thumb"/>
               <div className="overlay">
                 {/* <h4>Lorem Ipsum</h4> */}
-                {/* <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </p> */}
+                <p>
+                Life is full of surprises. You may never know what it plans out for you.                </p>
                 <div className="social">
                   <ul>
                   <li className="twitter">
@@ -412,19 +411,19 @@ const Hall = () => {
       <img className="img-fluid" src={RoshniKar} alt="Thumb"/>
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
-        {/* <p>
-        Spent the tenure making newcomers gain skills in different spheres of Social and Cultural activities, will always look forward to making SN/IG proud.                </p> */}
+        <p>
+        In the end, what counts is how we all worked together to carry on the legacy of SN/IG...                </p>
         <div className="social">
           <ul>
-          {/* <li className="twitter">
-              <a href="https://www.facebook.com/thefmled/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
+          <li className="twitter">
+              <a href="https://www.facebook.com/roshni.kar.56" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
             </li>
             <li className="pinterest">
-              <a href="https://www.linkedin.com/in/rushali-chakraborty-b68297a8/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+              <a href="https://www.linkedin.com/in/roshni-kar-699547194/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
             </li>
             <li className="instagram">
-              <a href="https://www.instagram.com/thefmled/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
-            </li> */}
+              <a href="https://www.instagram.com/roshni_kar11/?hl=en" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+            </li>
           </ul>
         </div>
       </div>
