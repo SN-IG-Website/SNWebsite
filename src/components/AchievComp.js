@@ -22,7 +22,7 @@ import Volley from "./images/volley.jpg";
 import BaddyTeam from "./images/baddy-team.jpeg";
 // import Picture6 from "./images/Picture6.jpg";
 // import Picture7 from "./images/Picture7.jpg";
-import Picture8 from "./images/Picture8.jpg";
+//import Picture8 from "./images/Picture8.jpg";
 import TableTennisTeam from "./images/tennisteam.jpeg";
 import LawnTennisTeam from "./images/lawnteam.jpeg";
 import Footer from "../components/footer";
