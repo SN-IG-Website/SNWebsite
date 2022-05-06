@@ -154,7 +154,8 @@ const Teams2 = () => {
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         <p>
-        Try To Be A Rainbow In Someone’s Cloud!    </p>
+        Accentuate the positive, Eliminate the Negative, latch onto the affirmative.   
+        </p>
         <div className="social">
           <ul>
           <li className="twitter">

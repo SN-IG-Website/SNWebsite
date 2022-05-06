@@ -10,6 +10,7 @@ import "./Flipcard.css";
 import Athletics from "./images/athletics.jpg";
 import tec1 from "./images/tec1.jpg";
 import tech2 from "./images/tech2.jpeg";
+import chess from "./images/chess.jpeg";
 import gold from "./images/gold-medal.png";
 import silver from "./images/silver.png";
 import bronze from "./images/bronze-medal.png";
@@ -21,7 +22,7 @@ import Volley from "./images/volley.jpg";
 import BaddyTeam from "./images/baddy-team.jpeg";
 // import Picture6 from "./images/Picture6.jpg";
 // import Picture7 from "./images/Picture7.jpg";
-import Picture8 from "./images/Picture8.jpg";
+//import Picture8 from "./images/Picture8.jpg";
 import TableTennisTeam from "./images/tennisteam.jpeg";
 import LawnTennisTeam from "./images/lawnteam.jpeg";
 import Footer from "../components/footer";
@@ -271,7 +272,7 @@ function AchievComp() {
                     <div class="card-container">
                       <div class="card">
                         <div class="side">
-                          <img alt=""  class="flipimage" src={Picture8} />
+                          <img alt=""  class="flipimage" src={chess} />
                         </div>
                         <div class="side back">
                           <h1
