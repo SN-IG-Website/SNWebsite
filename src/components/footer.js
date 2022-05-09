@@ -50,7 +50,7 @@ function footer() {
           <div class="col-md-4 col-sm-6 col-xs-12">
             <ul class="social-icons">
               <li><a class="facebook" href="https://www.facebook.com/SNIGHallOfResidence/" target="_blank" rel="noreferrer"><i class="fa fa-facebook" style={{color:'#FBE5E5'}}></i></a></li>
-              <li><a class="envelope" href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfpKgXSXQJjwFdQKrpNhwFNPwwfRPhWMmlRXdBtXLGvMGQqmlWrSrGxqqCwRxtjDkKpMrg" target="_blank" rel="noreferrer"><i style={{color:'#FBE5E5'}} class="fa fa-envelope"></i></a></li>
+              <li><a class="envelope" href="mailto:snig.iitkgp22@gmail.com" target="_blank" rel="noreferrer"><i style={{color:'#FBE5E5'}} class="fa fa-envelope"></i></a></li>
               {/* <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
               <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>    */}
             </ul>
