@@ -71,7 +71,7 @@ function NavbarComp() {
               }} href="achievements">Achievements</Nav.Link>
               <Nav.Link style={{
                 color: "#FBE5E5"
-              }} href="teams2">Our Team</Nav.Link>
+              }} href="teams2">Web Team</Nav.Link>
 
 
             </Nav>
