@@ -15,7 +15,7 @@ function footer() {
               <li>Kharagpur, India-721302</li>
               <li>Phone(office): +91 3222 2 81126</li>
               <li>Phone(Security): +91 3222 2 81128</li>
-              <li>Email: <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfpKgXSXQJjwFdQKrpNhwFNPwwfRPhWMmlRXdBtXLGvMGQqmlWrSrGxqqCwRxtjDkKpMrg" target="_blank" rel="noreferrer">snig.iitkgp22@gmail.com</a></li>
+              <li>Email: <a href="mailto:snig.iitkgp22@gmail.com" target="_blank" rel="noreferrer">snig.iitkgp22@gmail.com</a></li>
               {/* <li><a href="http://scanfcode.com/category/templates/">Templates</a></li> */}
             </ul>
             {/* <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p> */}
