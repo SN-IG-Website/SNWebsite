@@ -36,7 +36,7 @@ const Teams2 = () => {
       <div className="row">
         <div className="col-md-12">
           <div className="site-heading text-center">
-            <h2>Our <span>Team</span></h2>
+            <h2>Web <span>Team</span></h2>
             {/* <h4></h4> */}
           </div>
         </div>
