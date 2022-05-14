@@ -10,6 +10,7 @@ import "./Flipcard.css";
 import Athletics from "./images/athletics.jpg";
 import tec1 from "./images/tec1.jpg";
 import tech2 from "./images/tech2.jpeg";
+import chess from "./images/chess.jpeg";
 import gold from "./images/gold-medal.png";
 import silver from "./images/silver.png";
 import bronze from "./images/bronze-medal.png";
@@ -21,7 +22,7 @@ import Volley from "./images/volley.jpg";
 import BaddyTeam from "./images/baddy-team.jpeg";
 // import Picture6 from "./images/Picture6.jpg";
 // import Picture7 from "./images/Picture7.jpg";
-import Picture8 from "./images/Picture8.jpg";
+//import Picture8 from "./images/Picture8.jpg";
 import TableTennisTeam from "./images/tennisteam.jpeg";
 import LawnTennisTeam from "./images/lawnteam.jpeg";
 import Footer from "../components/footer";
@@ -31,9 +32,36 @@ function AchievComp() {
   return (
     <div className="achiev-section">
       <NavbarComp />
-      <center>
+      {/* <center>
         <h1>Achievements</h1>
-      </center>
+      </center> */}
+       <div className="text">
+          <div
+            className="Main-header"
+            style={{
+              paddingTop: "70px",
+              paddingBottom: "0px",
+              // backgroundColor: "#E3B7A0",
+              // backgroundImage: "linear-gradient(150deg,#E3B7A0,#BF9270",
+            }}
+         / ></div>
+     <div className="site-heading text-center" style={{marginBottom:'5px'}}>
+              <h5
+                className="heading"
+                style={{
+                  textAlign: "center",
+                  fontSize: "50px",
+                  marginTop: "30px",
+                  padding: "0 px",
+                  fontWeight: "700",
+                }}
+              >
+                {" "}
+                Achievements {" "}
+              </h5>
+              {/* <h2 style={{ marginTop: "30px",fontSizeAdjust: '70px'}}> DISTINGUISHED ALUMNI </h2> */}
+              <h4 style={{paddingBottom:'0px'}}> </h4>
+            </div>
       <Tabs>
         <div label="Sports & Games">
           <center>
@@ -271,7 +299,7 @@ function AchievComp() {
                     <div class="card-container">
                       <div class="card">
                         <div class="side">
-                          <img alt=""  class="flipimage" src={Picture8} />
+                          <img alt=""  class="flipimage" src={chess} />
                         </div>
                         <div class="side back">
                           <h1

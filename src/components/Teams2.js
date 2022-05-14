@@ -20,6 +20,7 @@ import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import IshitaJhunjhunwala from './images2/IshitaJhunjhunwala.jpg';
 import rhea from './images2/rhea.jpg';
 import Yashika from './images2/Yashika.jpeg';
+
 import Jessica from './images2/Jessica.jpeg';
 import Vidushi from './images2/Vidushi.jpg';
 import Siddhi from './images2/Siddhi.jpeg';
@@ -35,9 +36,9 @@ const Teams2 = () => {
       <pre></pre>
       <div className="row">
         <div className="col-md-12">
-          <div className="site-heading text-center">
-            <h2>Our <span>Team</span></h2>
-            {/* <h4></h4> */}
+          <div className="site-heading text-center" style={{marginBottom:'5px',marginTop:'10px'}}>
+            <h2>Web Team</h2>
+            <h4> </h4>
           </div>
         </div>
       </div>
@@ -154,7 +155,8 @@ const Teams2 = () => {
       <div className="overlay">
         {/* <h4>Lorem Ipsum</h4> */}
         <p>
-        Try To Be A Rainbow In Someone’s Cloud!    </p>
+        Accentuate the positive, Eliminate the Negative, latch onto the affirmative.   
+        </p>
         <div className="social">
           <ul>
           <li className="twitter">

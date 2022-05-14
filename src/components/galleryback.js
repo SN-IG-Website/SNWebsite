@@ -30,7 +30,34 @@ import farewell24 from "./images/farewell24.JPG" ;
 function galleryback() {
   return (
     <><NavbarComp/>
-    <center><div className="heading"><h1 className="backimagecontent">Freshers' Treat</h1></div></center>
+    {/* <center><div className="heading"><h1 className="backimagecontent">Freshers' Treat</h1></div></center> */}
+    <div className="text">
+          <div
+            className="Main-header"
+            style={{
+              paddingTop: "70px",
+              paddingBottom: "0px",
+              // backgroundColor: "#E3B7A0",
+              // backgroundImage: "linear-gradient(150deg,#E3B7A0,#BF9270",
+            }}
+         / ></div>
+     <div className="site-heading text-center" style={{marginBottom:'5px'}}>
+              <h5
+                className="heading"
+                style={{
+                  textAlign: "center",
+                  fontSize: "50px",
+                  marginTop: "30px",
+                  padding: "0 px",
+                  fontWeight: "700",
+                }}
+              >
+                {" "}
+                Freshers' Treat{" "}
+              </h5>
+              
+              <h4 style={{paddingBottom:'0px'}}> </h4>
+            </div>
       <div className="row">
         <div className="column">
           <div className="imageHover"> <img alt=""  src={farewell1} /></div>

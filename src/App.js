@@ -34,7 +34,7 @@ function App() {
       <Switch>
           <Route exact path="/" component={Homepage}/>
           <Route exact path="/gallery" component={Galleryfront}/>
-          <Route path="/gallery/label" component={Galleryback}/>
+          <Route path="/freshers" component={Galleryback}/>
           <Route path="/about" component={AboutComp}/>
           <Route path="/infrastructure" component={infra}/>
           <Route path="/alumni" component={Alumni}/>

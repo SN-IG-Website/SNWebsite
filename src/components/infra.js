@@ -31,7 +31,25 @@ const infra = () => {
     <div className="container">
       <div className="row">
         <div className="col-md-12">
-            <h2 style={{paddingBottom:'25px'}}>Infrastructure</h2>          
+        <div className="site-heading text-center" style={{marginBottom:'5px',marginTop:'30px'}}>
+       <h5
+                className="heading"
+                style={{
+                  textAlign: "center",
+                  fontSize: "50px",
+                  marginTop: "20px",
+                  padding: "0 px",
+                  fontWeight: "700",
+                }}
+              >
+                {" "}
+                Infrastructure {" "}
+              </h5>
+              
+              <h4 style={{paddingBottom:'0px'}}> </h4>
+            <h4> </h4>
+          </div>
+            {/* <h2 style={{paddingBottom:'25px'}}>Infrastructure</h2>           */}
           
         </div>
       </div>

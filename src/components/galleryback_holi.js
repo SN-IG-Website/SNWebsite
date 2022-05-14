@@ -42,7 +42,7 @@ function galleryback() {
         <div className="column">
           <img alt=""  src={holi3} />
           <img alt=""  src={holi12} />
-          <img alt=""  src={holi1} />
+          <img alt=""  src={holi9} />
         
 
         </div>

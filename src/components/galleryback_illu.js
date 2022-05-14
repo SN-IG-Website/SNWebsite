@@ -46,7 +46,34 @@ import illu36 from "./images/illu36.JPG" ;
 function galleryback() {
   return (
     <><NavbarComp/>
-    <center><div className="heading"><h1 className="backimagecontent" >Illumination</h1></div></center>
+    {/* <center><div className="heading"><h1 className="backimagecontent" >Illumination</h1></div></center> */}
+    <div className="text">
+          <div
+            className="Main-header"
+            style={{
+              paddingTop: "70px",
+              paddingBottom: "0px",
+              // backgroundColor: "#E3B7A0",
+              // backgroundImage: "linear-gradient(150deg,#E3B7A0,#BF9270",
+            }}
+         / ></div>
+     <div className="site-heading text-center" style={{marginBottom:'5px'}}>
+              <h5
+                className="heading"
+                style={{
+                  textAlign: "center",
+                  fontSize: "50px",
+                  marginTop: "30px",
+                  padding: "0 px",
+                  fontWeight: "700",
+                }}
+              >
+                {" "}
+                Illumination{" "}
+              </h5>
+              
+              <h4 style={{paddingBottom:'0px'}}> </h4>
+            </div>
       <div className="row">
         <div className="column">
           <img alt="" src={illu} />

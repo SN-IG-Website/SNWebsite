@@ -18,14 +18,40 @@ function galleryfront() {
   return (
     <>
     <NavbarComp/>
-      <center>
+      {/* <center>
         <h2 className='gallery_heading' style={{paddingTop:'50px'}}>Photo Gallery</h2>
-      </center>
-     
+      </center> */}
+      <div className="text">
+          <div
+            className="Main-header"
+            style={{
+              paddingTop: "70px",
+              paddingBottom: "0px",
+              // backgroundColor: "#E3B7A0",
+              // backgroundImage: "linear-gradient(150deg,#E3B7A0,#BF9270",
+            }}
+         / ></div>
+     <div className="site-heading text-center" style={{marginBottom:'5px'}}>
+              <h5
+                className="heading"
+                style={{
+                  textAlign: "center",
+                  fontSize: "50px",
+                  marginTop: "30px",
+                  padding: "0 px",
+                  fontWeight: "700",
+                }}
+              >
+                {" "}
+                Photo Gallery {" "}
+              </h5>
+              {/* <h2 style={{ marginTop: "30px",fontSizeAdjust: '70px'}}> DISTINGUISHED ALUMNI </h2> */}
+              <h4 style={{paddingBottom:'0px'}}> </h4>
+            </div>
       <Grid>
         <Row>
           <Col xs={6} md={4}>
-          <a href="gallery/label"><Image className="gallery-img" src={freshers} thumbnail /></a>
+          <a href="freshers"><Image className="gallery-img" src={freshers} thumbnail /></a>
              <center> <h3>Freshers' Party</h3>  </center>
               {/* <p>Description</p> */}
             
