@@ -16,7 +16,34 @@ import republic8 from "./images/republic8.jpg" ;
 function galleryback() {
   return (
     <><NavbarComp/>
-     <center><div className="heading"><h1 className="backimagecontent">Republic Day</h1></div></center>
+    <div className="text">
+          <div
+            className="Main-header"
+            style={{
+              paddingTop: "70px",
+              paddingBottom: "0px",
+              // backgroundColor: "#E3B7A0",
+              // backgroundImage: "linear-gradient(150deg,#E3B7A0,#BF9270",
+            }}
+         / ></div>
+     <div className="site-heading text-center" style={{marginBottom:'5px'}}>
+              <h5
+                className="heading"
+                style={{
+                  textAlign: "center",
+                  fontSize: "50px",
+                  marginTop: "30px",
+                  padding: "0 px",
+                  fontWeight: "700",
+                }}
+              >
+                {" "}
+              Republic Day{" "}
+              </h5>
+              
+              <h4 style={{paddingBottom:'0px'}}> </h4>
+            </div>
+     {/* <center><div className="heading"><h1 className="backimagecontent">Republic Day</h1></div></center> */}
       <div className="row">
         <div className="column">
           <img alt=""  src={republic1} />

@@ -32,9 +32,36 @@ function AchievComp() {
   return (
     <div className="achiev-section">
       <NavbarComp />
-      <center>
+      {/* <center>
         <h1>Achievements</h1>
-      </center>
+      </center> */}
+       <div className="text">
+          <div
+            className="Main-header"
+            style={{
+              paddingTop: "70px",
+              paddingBottom: "0px",
+              // backgroundColor: "#E3B7A0",
+              // backgroundImage: "linear-gradient(150deg,#E3B7A0,#BF9270",
+            }}
+         / ></div>
+     <div className="site-heading text-center" style={{marginBottom:'5px'}}>
+              <h5
+                className="heading"
+                style={{
+                  textAlign: "center",
+                  fontSize: "50px",
+                  marginTop: "30px",
+                  padding: "0 px",
+                  fontWeight: "700",
+                }}
+              >
+                {" "}
+                Achievements {" "}
+              </h5>
+              {/* <h2 style={{ marginTop: "30px",fontSizeAdjust: '70px'}}> DISTINGUISHED ALUMNI </h2> */}
+              <h4 style={{paddingBottom:'0px'}}> </h4>
+            </div>
       <Tabs>
         <div label="Sports & Games">
           <center>
