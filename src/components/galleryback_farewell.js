@@ -97,20 +97,20 @@ function galleryback() {
             </div>
         <div className="row">
           <div className="column">
-          <img src={fare1} />
-          <img src={fare2} />
-          <img src={fare3} />
-          <img src={fare4} />
-          <img src={fare5} />
-          <img src={fare6} />
-          <img src={fare7} />
-          <img src={fare8} />
-          <img src={fare9} />
-          <img src={fare10} />
-          <img src={fare11} />
-          <img src={fare12} />
-          <img src={fare13} />
-          <img src={fare14} />
+          <img alt="" src={fare1} />
+          <img alt="" src={fare2} />
+          <img alt="" src={fare3} />
+          <img alt="" src={fare4} />
+          <img alt="" src={fare5} />
+          <img alt="" src={fare6} />
+          <img alt="" src={fare7} />
+          <img alt="" src={fare8} />
+          <img alt="" src={fare9} />
+          <img alt="" src={fare10} />
+          <img alt="" src={fare11} />
+          <img alt="" src={fare12} />
+          <img alt="" src={fare13} />
+          <img alt="" src={fare14} />
 
   
            
@@ -148,20 +148,20 @@ function galleryback() {
           <img alt="" src={fare42} />
           </div>
           <div className="column">
-          <img src={fare43} />
-          <img src={fare44} />
-          <img src={fare45} />
-          <img src={fare46} />
-          <img src={fare47} />
-          <img src={fare48} />
-          <img src={fare49} />
-          <img src={fare50} />
-          <img src={fare51} />
-          <img src={fare52} />
-          <img src={fare53} />
-          <img src={fare54} />
-          <img src={fare55} />
-          <img src={fare56} />
+          <img  alt="" src={fare43} />
+          <img alt="" src={fare44} />
+          <img alt=""  src={fare45} />
+          <img alt=""  src={fare46} />
+          <img alt="" src={fare47} />
+          <img alt="" src={fare48} />
+          <img alt="" src={fare49} />
+          <img alt="" src={fare50} />
+          <img alt="" src={fare51} />
+          <img alt="" src={fare52} />
+          <img alt="" src={fare53} />
+          <img alt="" src={fare54} />
+          <img alt="" src={fare55} />
+          <img alt="" src={fare56} />
           </div>
         </div>
         <Footer/>
