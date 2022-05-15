@@ -9,14 +9,14 @@ function AboutComp() {
                 className="heading"
                 style={{
                   textAlign: "center",
-                  fontSize: "50px",
+                  fontSize: "45px",
                   marginTop: "20px",
                   padding: "0 px",
                   fontWeight: "700",
                 }}
               >
                 {" "}
-                About Us {" "}
+                ABOUT US {" "}
               </h5>
               {/* <h2 style={{ marginTop: "30px",fontSizeAdjust: '70px'}}> DISTINGUISHED ALUMNI </h2> */}
               <h4 style={{paddingBottom:'0px'}}> </h4>

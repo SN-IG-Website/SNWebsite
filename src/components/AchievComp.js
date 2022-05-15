@@ -57,7 +57,7 @@ function AchievComp() {
                 }}
               >
                 {" "}
-                Achievements {" "}
+                ACHIEVEMENTS {" "}
               </h5>
               {/* <h2 style={{ marginTop: "30px",fontSizeAdjust: '70px'}}> DISTINGUISHED ALUMNI </h2> */}
               <h4 style={{paddingBottom:'0px'}}> </h4>
