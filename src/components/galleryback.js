@@ -22,6 +22,10 @@ import farewell17 from "./images/farewell17.JPG" ;
 import farewell18 from "./images/farewell18.JPG" ;
 import farewell19 from "./images/farewell19.JPG" ;
 import farewell20 from "./images/farewell20.jpg" ;
+import farewell21 from "./images/farewell21.jpeg" ;
+import farewell22 from "./images/farewell22.jpeg" ;
+import farewell23 from "./images/farewell23.JPG" ;
+import farewell24 from "./images/farewell24.JPG" ;
 
 function galleryback() {
   return (
@@ -61,6 +65,7 @@ function galleryback() {
           <img alt=""  src={farewell3} />
           <img alt=""  src={farewell4} />
           <img alt=""  src={farewell5} />
+          <img alt=""  src={farewell21} />
 
          
         </div>
@@ -70,6 +75,7 @@ function galleryback() {
           <img alt=""  src={farewell8} />
           <img alt=""  src={farewell9} />
           <img alt=""  src={farewell10} />
+          <img alt=""  src={farewell23} />
         </div>
         <div className="column">
           <img alt=""  src={farewell11} />
@@ -77,6 +83,7 @@ function galleryback() {
           <img alt=""  src={farewell13} />
           <img alt=""  src={farewell14} />
           <img alt=""  src={farewell15} />
+          <img alt=""  src={farewell24} />
         </div>
         <div className="column">
           <img alt=""  src={farewell16} />
@@ -84,6 +91,7 @@ function galleryback() {
           <img alt=""  src={farewell18} />
           <img alt=""  src={farewell19} />
           <img alt=""  src={farewell20} />
+          <img alt=""  src={farewell22} />
         </div>
       </div>
       <Footer/>

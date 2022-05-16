@@ -6,59 +6,50 @@ import holi1 from "./images/holi1.jpeg" ;
 import holi2 from "./images/holi2.jpeg" ;
 import holi3 from "./images/holi3.jpeg" ;
 import holi4 from "./images/holi4.jpeg" ;
+//import holi5 from "./images/holi5.jpeg" ;
+//import holi6 from "./images/holi6.jpeg" ;
+import holi7 from "./images/holi7.jpg" ;
+import holi8 from "./images/holi8.jpg" ;
+import holi9 from "./images/holi9.jpg" ;
+import holi10 from "./images/holi10.jpg" ;
+import holi11 from "./images/holi11.jpg" ;
+import holi12 from "./images/holi12.jpg" ;
+import holi13 from "./images/holi13.jpg" ;
+import holi14 from "./images/holi14.jpg" ;
 // import holi5 from "./images/holi5.jpeg" ;
-// import holi6 from "./images/holi6.jpeg" ;
+//import holi6 from "./images/holi6.jpeg" ;
 
 
 function galleryback() {
   return (
     <><NavbarComp/>
-    {/* <center><div className="heading"><h1 className="backimagecontent">Holi</h1></div></center> */}
-    <div className="text">
-          <div
-            className="Main-header"
-            style={{
-              paddingTop: "70px",
-              paddingBottom: "0px",
-              // backgroundColor: "#E3B7A0",
-              // backgroundImage: "linear-gradient(150deg,#E3B7A0,#BF9270",
-            }}
-         / ></div>
-     <div className="site-heading text-center" style={{marginBottom:'5px'}}>
-              <h5
-                className="heading"
-                style={{
-                  textAlign: "center",
-                  fontSize: "50px",
-                  marginTop: "30px",
-                  padding: "0 px",
-                  fontWeight: "700",
-                }}
-              >
-                {" "}
-                Holi{" "}
-              </h5>
-              
-              <h4 style={{paddingBottom:'0px'}}> </h4>
-            </div>
+    <center><div className="heading"><h1 className="backimagecontent">Holi</h1></div></center>
       <div className="row">
         <div className="column">
           <img alt=""  src={holi1} />
+          <img alt=""  src={holi10} />
+          <img alt=""  src={holi7} />
           
      
         </div>
         <div className="column">
           <img alt=""  src={holi2} />
+          <img alt=""  src={holi11} />
+          <img alt=""  src={holi8} />
         
          
         </div>
         <div className="column">
           <img alt=""  src={holi3} />
+          <img alt=""  src={holi12} />
+          <img alt=""  src={holi9} />
         
 
         </div>
         <div className="column">
           <img alt=""  src={holi4} />
+          <img alt=""  src={holi13} />
+          <img alt=""  src={holi14} />
         
           
         </div>

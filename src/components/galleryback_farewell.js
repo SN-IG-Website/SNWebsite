@@ -60,11 +60,15 @@ import fare55 from "./images/IMG_55.jpg" ;
 import fare56 from "./images/IMG_56.jpg" ;
 
 
+
+
+
+
 function galleryback() {
-  return (
-    <><NavbarComp/>
-    {/* <center><div className="heading"><h1 className="backimagecontent">Farewell</h1></div></center> */}
-    <div className="text">
+    return (
+      <><NavbarComp/>
+      {/* <center><div className="heading"><h1 className="backimagecontent" >Class Song</h1></div></center> */}
+      <div className="text">
           <div
             className="Main-header"
             style={{
@@ -86,13 +90,13 @@ function galleryback() {
                 }}
               >
                 {" "}
-                Farewell{" "}
+                Class Song{" "}
               </h5>
               
               <h4 style={{paddingBottom:'0px'}}> </h4>
             </div>
-      <div className="row">
-        <div className="column">
+        <div className="row">
+          <div className="column">
           <img alt="" src={fare1} />
           <img alt="" src={fare2} />
           <img alt="" src={fare3} />
@@ -107,11 +111,11 @@ function galleryback() {
           <img alt="" src={fare12} />
           <img alt="" src={fare13} />
           <img alt="" src={fare14} />
-        
-     
-        </div>
-        <div className="column">
-        
+
+  
+           
+          </div>
+          <div className="column">
           <img alt="" src={fare15} />
           <img alt="" src={fare16} />
           <img alt="" src={fare17} />
@@ -126,8 +130,8 @@ function galleryback() {
           <img alt="" src={fare26} />
           <img alt="" src={fare27} />
           <img alt="" src={fare28} />
-        </div>
-        <div className="column">
+          </div>
+          <div className="column">
           <img alt="" src={fare29} />
           <img alt="" src={fare30} />
           <img alt="" src={fare31} />
@@ -142,12 +146,12 @@ function galleryback() {
           <img alt="" src={fare40} />
           <img alt="" src={fare41} />
           <img alt="" src={fare42} />
-        </div>
-        <div className="column">
-          <img alt="" src={fare43} />
+          </div>
+          <div className="column">
+          <img  alt="" src={fare43} />
           <img alt="" src={fare44} />
-          <img alt="" src={fare45} />
-          <img alt="" src={fare46} />
+          <img alt=""  src={fare45} />
+          <img alt=""  src={fare46} />
           <img alt="" src={fare47} />
           <img alt="" src={fare48} />
           <img alt="" src={fare49} />
@@ -158,12 +162,12 @@ function galleryback() {
           <img alt="" src={fare54} />
           <img alt="" src={fare55} />
           <img alt="" src={fare56} />
-          
+          </div>
         </div>
-      </div>
-      <Footer/>
-    </>
-  );
-}
-
-export default galleryback;
+        <Footer/>
+      </>
+    );
+  }
+  
+  export default galleryback;
+  
