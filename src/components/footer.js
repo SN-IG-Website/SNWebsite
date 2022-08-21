@@ -45,6 +45,7 @@ function footer() {
             <p class="copyright-text">&copy; 2022 <h7 style={{color: '#FBE5E5'}}>Sarojini Naidu/Indira Gandhi Hall of Residence</h7> All Rights Reserved
          .
             </p>
+            <p>The Wardens of SN/IG Hall are not responsible for the content displayed on this website.</p>
           </div>
 
           <div class="col-md-4 col-sm-6 col-xs-12">
