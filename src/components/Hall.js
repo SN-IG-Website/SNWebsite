@@ -405,6 +405,40 @@ const Hall = () => {
             </div>
           </div>
         </div>
+
+        </div>
+
+{/* <pre> </pre> */}
+  {/* <div className="site-heading text-center">
+  <h4>Coordinators</h4>
+
+  </div> */}
+
+  {/* <pre></pre> */}
+
+{/* <div className="row team-items centered"> */}
+
+
+
+{/* </div> */}
+{/* </div> */}
+
+<pre> </pre>
+  <div className="site-heading text-center">
+  <h4>The following boarders greatly helped in coordinating the affairs of the Hall by volunteering their time and efforts</h4>
+
+  </div>
+
+  <pre></pre>
+  <pre></pre>
+
+<div className="row team-items centered">
+
+
+
+
+                  {/* Maintenance coordinators */}
+
         <div className="col-md-4 single-item">
   <div className="item">
     <div className="thumb">
@@ -433,7 +467,7 @@ const Hall = () => {
         <a href="mailto:roshnikar27@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Roshni Kar</h4>
-      <span>Maintenance Coordinator</span>
+      {/* <span>Maintenance Coordinator</span> */}
     </div>
   </div>
 </div>
@@ -466,7 +500,7 @@ I will drink life to the lees and follow knowledge like a sinking star!         
         <a href="mailto:dasgargi607@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Gargi Das</h4>
-      <span>Maintenance Coordinator</span>
+      {/* <span>Maintenance Coordinator</span> */}
     </div>
   </div>
 </div>
@@ -502,7 +536,7 @@ I will drink life to the lees and follow knowledge like a sinking star!         
         <a href="mailto:yasharathore9462@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Yashasvi Rathore</h4>
-      <span>Maintenance Coordinator</span>
+      {/* <span>Maintenance Coordinator</span> */}
     </div>
   </div>
 </div>
@@ -535,43 +569,14 @@ I will drink life to the lees and follow knowledge like a sinking star!         
         <a href="mailto:sejalshambharkar2001@gmail.com "><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Sejal Shambharkar</h4>
-      <span>Maintenance Coordinator</span>
+      {/* <span>Maintenance Coordinator</span> */}
     </div>
   </div>
 </div>
 
 
 
-        </div>
-
-        {/* <pre> </pre> */}
-          {/* <div className="site-heading text-center">
-          <h4>Coordinators</h4>
-
-          </div> */}
-
-          {/* <pre></pre> */}
-
-        {/* <div className="row team-items centered"> */}
-
-
-
-{/* </div> */}
-{/* </div> */}
-
-<pre> </pre>
-          {/* <div className="site-heading text-center">
-          <h4>Sectaries</h4>
-
-          </div> */}
-
-          <pre></pre>
-          <pre></pre>
-
-        <div className="row team-items centered">
-
-
-
+       
 
 <div className="col-md-4 single-item">
   <div className="item">
@@ -601,7 +606,7 @@ I will drink life to the lees and follow knowledge like a sinking star!         
         <a href="mailto:rajshree.sh2002@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Rajshree Sharma</h4>
-      <span>Secretary Sports and Games</span>
+      {/* <span>Secretary Sports and Games</span> */}
     </div>
   </div>
 </div>
@@ -633,7 +638,7 @@ I will drink life to the lees and follow knowledge like a sinking star!         
         <a href="mailto:dishachoraria01@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Disha Choraria</h4>
-      <span>Secretary Technology </span>
+      {/* <span>Secretary Technology </span> */}
     </div>
   </div>
 </div>
@@ -667,7 +672,7 @@ I will drink life to the lees and follow knowledge like a sinking star!         
         <a href="mailto:navyachoudhary2010@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Navya</h4>
-      <span>Secretary Social and Cultural</span>
+      {/* <span>Secretary Social and Cultural</span> */}
     </div>
   </div>
 </div>
@@ -699,7 +704,7 @@ I will drink life to the lees and follow knowledge like a sinking star!         
         <a href="mailto:sejalshambharkar2001@gmail.com "><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Nikitha Bobbary </h4>
-      <span>Secretary Maintainance </span>
+      {/* <span>Secretary Maintainance </span> */}
     </div>
   </div>
 </div>
@@ -731,7 +736,7 @@ I will drink life to the lees and follow knowledge like a sinking star!         
         <a href="mailto:mssanskriti789@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Sanskriti </h4>
-      <span>Secretary Mess</span>
+      {/* <span>Secretary Mess</span> */}
     </div>
   </div>
 </div>
@@ -763,7 +768,7 @@ I think, therefore I am        </p>
         <a href="mailto:fizanissam2001@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Fiza Nissam</h4>
-      <span>Secretary Social and Cultural</span>
+      {/* <span>Secretary Social and Cultural</span> */}
     </div>
   </div>
 </div>
@@ -795,7 +800,7 @@ Soaring Above Imagination         </p>
         <a href="mailto:gpatki1702@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Gauri Patki </h4>
-      <span>Secratary Library </span>
+      {/* <span>Secratary Library </span> */}
     </div>
   </div>
 </div>
@@ -828,7 +833,7 @@ Unstoppably optimistic!        </p>
         <a href="mailto:ashleshagoyal21@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Ashlesa Goyal</h4>
-      <span>Secretary Social and Cultural</span>
+      {/* <span>Secretary Social and Cultural</span> */}
     </div>
   </div>
 </div>
@@ -861,7 +866,7 @@ In a constant process to discover myself in this labyrinth called life        </
         <a href="mailto:anweshapatel916@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Anwesha Patel</h4>
-      <span>Secratary Library </span>
+      {/* <span>Secratary Library </span> */}
     </div>
   </div>
 </div>
@@ -893,7 +898,7 @@ Connecting the alumni to the budding batch        </p>
         <a href="mailto:pupuelize@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Eliza Roy</h4>
-      <span>Secretary Alumni Affairs</span>
+      {/* <span>Secretary Alumni Affairs</span> */}
     </div>
   </div>
 </div>
@@ -925,7 +930,7 @@ Connecting the alumni to the budding batch        </p>
         <a href="mailto:nidhigoyal1310@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Nidhi Goyal</h4>
-      <span>Secretary Technology</span>
+      {/* <span>Secretary Technology</span> */}
     </div>
   </div>
 </div>
@@ -958,7 +963,7 @@ Connecting the alumni to the budding batch        </p>
         <a href="mailto:darakirti@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Kirti Choudhary</h4>
-      <span>Secretary Mess</span>
+      {/* <span>Secretary Mess</span> */}
     </div>
   </div>
 </div>
@@ -990,7 +995,7 @@ Connecting the alumni to the budding batch        </p>
         <a href="mailto:gunjan.agarwal088@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Gunjan Agarwal</h4>
-      <span>Secretary Students' Welfare, Secretary Social and Cultural </span>
+      {/* <span>Secretary Students' Welfare, Secretary Social and Cultural </span> */}
     </div>
   </div>
 </div>
@@ -1022,7 +1027,7 @@ Connecting the alumni to the budding batch        </p>
         <a href="mailto:mandalmanu5@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Swastika Mandal</h4>
-      <span>Secretary Social and Cultural</span>
+      {/* <span>Secretary Social and Cultural</span> */}
     </div>
   </div>
 </div>
@@ -1055,7 +1060,7 @@ If your glasses do tint in the sun, let me tell you, it is odd if the odds aren'
         <a href="mailto:sraavya02@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Sraavya Uppala</h4>
-      <span>Secretary Sports and Games</span>
+      {/* <span>Secretary Sports and Games</span> */}
     </div>
   </div>
 </div>
@@ -1088,7 +1093,7 @@ Have faith in yourself....        </p>
         <a href="mailto:alishachandel678@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Alisha</h4>
-      <span>Secretary Maintenance</span>
+      {/* <span>Secretary Maintenance</span> */}
     </div>
   </div>
 </div>
@@ -1120,7 +1125,7 @@ Have faith in yourself....        </p>
         <a href="mailto:shivanianneboina@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Lakshmi Shivani Anneboina</h4>
-      <span>Secretary Students' Welfare </span>
+      {/* <span>Secretary Students' Welfare </span> */}
     </div>
   </div>
 </div>
@@ -1153,7 +1158,7 @@ Have faith in yourself....        </p>
         <a href="mailto:sakshiagrawal1651@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </span>
       <h4>Sakshi Agrawal</h4>
-      <span>Secretary Dramatics</span>
+      {/* <span>Secretary Dramatics</span> */}
     </div>
   </div>
 </div>
