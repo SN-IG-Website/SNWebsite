@@ -66,11 +66,478 @@ const Hall = () => {
         <div className="col-md-12">
           <div className="site-heading text-center">
             <h2>Student Representatives</h2>
-            <h4>2021-2022</h4>
+            <h4>2022-2023</h4>
           </div>
         </div>
       </div>
       <div className="row team-items">
+      <div className="row team-items centered">
+          <div className="row team-items centered">
+          <div className="col-md-4 single-item">
+          <div className="item">
+            <div className="thumb">
+              <img className="img-fluid" src={DebarpitaJyoti} alt="Thumb"/>
+              <div className="overlay">
+                {/* <h4>Hall President</h4> */}
+                <p>
+                We should have the courage to surrender to our calling                </p>
+                <div className="social">
+                  <ul>
+                  <li className="twitter">
+                      <a href="https://www.facebook.com/debarpita.jyoti.9" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
+                    </li>
+                    <li className="pinterest">
+                      <a href="https://www.linkedin.com/in/debarpita-jyoti-10242518b" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                    </li>
+                    <li className="instagram">
+                      <a href="https://www.instagram.com/debarpitajyoti/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="info">
+              <span className="message">
+                <a href="mailto:debarpitajyoti@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+              </span>
+              <h4>Kavita</h4>
+              <span>Hall President</span>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 single-item">
+          <div className="item">
+            <div className="thumb">
+              <img className="img-fluid" src={PrachiBajpai} alt="Thumb"/>
+              <div className="overlay">
+                {/* <h4>Second Senate Member</h4> */}
+                <p>
+                Make every moment mean something. Work hard for the things that you love. Never Ever Give Up !!
+                </p>
+                <div className="social">
+                  <ul>
+                  <li className="twitter">
+                      <a href="https://www.facebook.com/prachi.bajpai.58726/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
+                    </li>
+                    <li className="pinterest">
+                      <a href="https://www.linkedin.com/in/prachi-bajpai-011086172/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                    </li>
+                    {/* <li className="instagram">
+                      <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+                    </li> */}
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="info">
+              <span className="message">
+                <a href="mailto:nationhind@gmail.com" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
+              </span>
+              <h4>Prachi Bajpai</h4>
+              <span>Second Senate Member</span>
+            </div>
+          </div>
+        </div>
+          </div>
+          <pre> </pre>
+          {/* <div className="site-heading text-center">
+          <h3>Student Representatives</h3>
+
+          </div> */}
+
+          <pre></pre>
+
+          <div className="row team-items centered">
+
+        <div className="col-md-4 single-item">
+          <div className="item">
+            <div className="thumb">
+              <img className="img-fluid" src={Rushali} alt="Thumb"/>
+              <div className="overlay">
+                {/* <h4>Lorem Ipsum</h4> */}
+                <p>
+                Spent the tenure making newcomers gain skills in different spheres of Social and Cultural activities, will always look forward to making SN/IG proud.                </p>
+                <div className="social">
+                  <ul>
+                  <li className="twitter">
+                      <a href="https://www.facebook.com/thefmled/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
+                    </li>
+                    <li className="pinterest">
+                      <a href="https://www.linkedin.com/in/rushali-chakraborty-b68297a8/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                    </li>
+                    <li className="instagram">
+                      <a href="https://www.instagram.com/thefmled/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="info">
+              <span className="message">
+                <a href="mailto:rushali.c1710@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+              </span>
+              <h4>Rushali Chakraborty </h4>
+              <span>General Secretary Social and Cultural </span>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 single-item">
+          <div className="item">
+            <div className="thumb">
+              <img className="img-fluid" src={rhea} alt="Thumb"/>
+              <div className="overlay">
+                {/* <h4>Lorem Ipsum</h4> */}
+                <p>
+                Commending the wins and celebrating the losses.                </p>
+                <div className="social">
+                  <ul>
+                  <li className="twitter">
+                      <a href="https://www.facebook.com/rhea2801/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
+                    </li>
+                    <li className="pinterest">
+                      <a href="https://www.linkedin.com/in/rhea2801/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                    </li>
+                    {/* <li className="instagram">
+                      <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+                    </li> */}
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="info">
+              <span className="message">
+                <a href="mailto:rhea2801@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+              </span>
+              <h4>Rhea Sundaresan</h4>
+              <span>General Secretary Sports and Games</span>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 single-item">
+          <div className="item">
+            <div className="thumb">
+              <img className="img-fluid" src={PoulomiChaudhuri} alt="Thumb"/>
+              <div className="overlay">
+                {/* <h4>Lorem Ipsum</h4> */}
+                <p>
+                Make Every day of Your Life Magical                 </p>
+                <div className="social">
+                  <ul>
+                  <li className="twitter">
+                      <a href="https://www.facebook.com/poulomi.chaudhuri.58" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
+                    </li>
+                    <li className="pinterest">
+                      <a href="https://www.linkedin.com/in/poulomi11c/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                    </li>
+                    <li className="instagram">
+                      <a href="https://www.instagram.com/poulomi_112/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="info">
+              <span className="message">
+                <a href="mailto:poulomisalomi@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+              </span>
+              <h4>Poulomi Chaudhuri</h4>
+              <span>General Secretary Maintenance</span>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 single-item">
+          <div className="item">
+            <div className="thumb">
+              <img className="img-fluid" src={CharviJain} alt="Thumb"/>
+              <div className="overlay">
+                {/* <h4>Lorem Ipsum</h4> */}
+                <p>
+                Life is full of surprises. You may never know what it plans out for you.                </p>
+                <div className="social">
+                  <ul>
+                  <li className="twitter">
+                      <a href="https://www.facebook.com/singhvi.charvi/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
+                    </li>
+                    <li className="pinterest">
+                      <a href="https://www.linkedin.com/in/charvi-jain-/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                    </li>
+                    <li className="instagram">
+                      <a href="https://www.instagram.com/charvi2002/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="info">
+              <span className="message">
+                <a href="mailto:charvijain9928@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+              </span>
+              <h4>Charvi Jain</h4>
+              <span>General Secretary Mess</span>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 single-item">
+          <div className="item">
+            <div className="thumb">
+              <img className="img-fluid" src={ShikhaBagaria} alt="Thumb"/>
+              <div className="overlay">
+                {/* <h4>Lorem Ipsum</h4> */}
+                <p>
+                Home away from Home                </p>
+                <div className="social">
+                  <ul>
+                  <li className="twitter">
+                      <a href="https://www.facebook.com/shikhabagaria11/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
+                    </li>
+                    <li className="pinterest">
+                      <a href="https://www.linkedin.com/in/shikha-bagaria/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                    </li>
+                    <li className="instagram">
+                      <a href="https://www.instagram.com/shikhabagaria/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="info">
+              <span className="message">
+                <a href="mailto:shikhabagaria11@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+              </span>
+              <h4>Shikha Bagaria</h4>
+              <span>General Secretary Library</span>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 single-item">
+          <div className="item">
+            <div className="thumb">
+              <img className="img-fluid" src={TanayaRamane} alt="Thumb"/>
+              <div className="overlay">
+                {/* <h4>Lorem Ipsum</h4> */}
+                <p>
+                  An amazing tenure marked with enthusia response and appreciation from boarders...a shoutout to all boarders SN KA TEMPO HIGH HAI!!
+                </p>
+                <div className="social">
+                  <ul>
+                  <li className="twitter">
+                      <a href="https://www.facebook.com/Tanaya.Ramane.0/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
+                    </li>
+                    <li className="pinterest">
+                      <a href="https://www.linkedin.com/in/tanayaramane/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                    </li>
+                    {/* <li className="instagram">
+                      <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+                    </li> */}
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="info">
+              <span className="message">
+                <a href="mailto:ramanetanaya@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+              </span>
+              <h4>Tanaya Vijay Ramane</h4>
+              <span>General Secretary Student's Welfare</span>
+            </div>
+          </div>
+        </div>
+        {/* <div className="col-md-4 single-item">
+          <div className="item">
+            <div className="thumb">
+              <img className="img-fluid" src={KashishLundia} alt="Thumb"/>
+              <div className="overlay">
+                <h4>Lorem Ipsum</h4>
+                <p>
+                Hall is an integral part of every college student's life and contributing towards its welfare   only makes the stay more memorable.                </p>
+                <div className="social">
+                  <ul>
+                  <li className="twitter">
+                      <a href="https://www.facebook.com/profile.php?id=100009554445852" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
+                    </li>
+                    <li className="pinterest">
+                      <a href="https://www.linkedin.com/in/kasis-lundia/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                    </li>
+                    <li className="instagram">
+                      <a href="https://www.instagram.com/kashish_lundia.17/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="info">
+              <span className="message">
+                <a href="mailto:kasis.lundia1@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+              </span>
+              <h4>Kashish Lundia</h4>
+              <span>General Secretary Alumni Affairs</span>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 single-item">
+          <div className="item">
+            <div className="thumb">
+              <img className="img-fluid" src={IshitaJhunjhunwala} alt="Thumb"/>
+              <div className="overlay">
+                <h4>Lorem Ipsum</h4>
+                <p>
+                The best is yet to come...                </p>
+                <div className="social">
+                  <ul>
+                  <li className="twitter">
+                      <a href="https://www.facebook.com/ishita.jhunjhunwala.52/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
+                    </li>
+                    <li className="pinterest">
+                      <a href="https://www.linkedin.com/in/ishita-jhunjhunwala-73a1161a4/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                    </li>
+                    <li className="instagram">
+                      <a href="https://www.instagram.com/jhunjhunwala_ishita/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="info">
+              <span className="message">
+                <a href="mailto:ishitajhunjhunwala.iitkgp@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+              </span>
+              <h4>Ishita Jhunjhunwala</h4>
+              <span>General Secretary Technology</span>
+            </div>
+          </div>
+        </div> */}
+
+        </div>
+
+{/* <pre> </pre> */}
+  {/* <div className="site-heading text-center">
+  <h4>Coordinators</h4>
+
+  </div> */}
+
+  {/* <pre></pre> */}
+
+{/* <div className="row team-items centered"> */}
+
+
+
+{/* </div> */}
+{/* </div> */}
+
+
+<div className="row team-items centered">  
+
+<div className="col-md-4 single-item">
+  <div className="item">
+    <div className="thumb">
+      <img className="img-fluid" src={RajshreeSharma} alt="Thumb"/>
+      <div className="overlay">
+        {/* <h4>Lorem Ipsum</h4> */}
+        <p>
+        Dream Big, Stay Focused and Be Fearless!               </p>
+        <div className="social">
+          <ul>
+          <li className="twitter">
+              <a href="https://www.facebook.com/rajshree.sharma.965928" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
+            </li>
+            <li className="pinterest">
+              <a href="https://www.instagram.com/raj_shree_sharma/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+            </li>
+            <li className="instagram">
+              <a href="https://www.linkedin.com/in/rajshree-sharma-484224206/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div className="info">
+      <span className="message">
+        <a href="mailto:rajshree.sh2002@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+      </span>
+      <h4>Rajshree Sharma</h4>
+      {/* <span>Secretary Sports and Games</span> */}
+    </div>
+  </div>
+</div>
+<div className="col-md-4 single-item">
+  <div className="item">
+    <div className="thumb">
+      <img className="img-fluid" src={DishaChoraria} alt="Thumb"/>
+      <div className="overlay">
+        {/* <h4>Lorem Ipsum</h4> */}
+        <p>
+        There’s a blessing in the storm!        </p>
+        <div className="social">
+          <ul>
+          <li className="twitter">
+              <a href="https://www.facebook.com/disha.choraria" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
+            </li>
+            <li className="pinterest">
+              <a href="https://www.linkedin.com/mwlite/in/disha-choraria" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+            </li>
+            <li className="instagram">
+              <a href="https://instagram.com/dishaaa__01?r=nametag" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div className="info">
+      <span className="message">
+        <a href="mailto:dishachoraria01@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+      </span>
+      <h4>Disha Choraria</h4>
+      {/* <span>Secretary Technology </span> */}
+    </div>
+  </div>
+</div>
+
+
+<div className="col-md-4 single-item">
+  <div className="item">
+    <div className="thumb">
+      <img className="img-fluid" src={FizaNissam} alt="Thumb"/>
+      <div className="overlay">
+        {/* <h4>Lorem Ipsum</h4> */}
+        <p>
+I think, therefore I am        </p>
+        <div className="social">
+          <ul>
+          <li className="twitter">
+              <a href="https://www.facebook.com/fiza.nissam.7" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
+            </li>
+            <li className="pinterest">
+              <a href="https://www.linkedin.com/in/fiza-nissam" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+            </li>
+            <li className="instagram">
+              <a href="https://www.instagram.com/fiza_nissam_2001/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div className="info">
+      <span className="message">
+        <a href="mailto:fizanissam2001@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+      </span>
+      <h4>Fiza Nissam</h4>
+      {/* <span>Secretary Social and Cultural</span> */}
+    </div>
+  </div>
+</div>
+
+</div>
+
+      </div>
+      <pre> </pre>
+  <div className="site-heading text-center">
+  <h4>Student Representatives 2021-22</h4>
+
+  </div>
+</div>
+  <pre></pre>
+
+<div className="row team-items centered">
           <div className="row team-items centered">
           <div className="col-md-4 single-item">
           <div className="item">
@@ -1174,6 +1641,7 @@ Have faith in yourself....        </p>
     <Warden/> */}
     {/* <Table/> */}
     </center>
+  
   </section>
   <Footer/>
 
