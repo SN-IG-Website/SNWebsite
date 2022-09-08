@@ -17,6 +17,8 @@ import {  faFacebookF , faLinkedin , faInstagram} from '@fortawesome/free-brands
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 //images
+import Ahana from './images2/DSC_0763 - Ahana Ganguly.JPG';
+import Kavita from './images2/Kavita.jpg';
 import ShubhangiMandal from './images2/ShubhangiMandal.jpg';
 import DebarpitaJyoti from './images2/DebarpitaJyoti.jpg';
 import AlishaChannel from './images2/AlishaChandel.jpg';
@@ -76,7 +78,7 @@ const Hall = () => {
           <div className="col-md-4 single-item">
           <div className="item">
             <div className="thumb">
-              <img className="img-fluid" src={DebarpitaJyoti} alt="Thumb"/>
+              <img className="img-fluid" src={Kavita} alt="Thumb"/>
               <div className="overlay">
                 {/* <h4>Hall President</h4> */}
                 <p>
@@ -133,7 +135,7 @@ const Hall = () => {
               <span className="message">
                 <a href="mailto:yasharathore9462@gmail.com" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
-              <h4>Yashasvi Rathaore</h4>
+              <h4>Yashasvi Rathore</h4>
               <span>Second Senate Member</span>
             </div>
           </div>
@@ -248,7 +250,7 @@ const Hall = () => {
         <div className="col-md-4 single-item">
           <div className="item">
             <div className="thumb">
-              <img className="img-fluid" src={CharviJain} alt="Thumb"/>
+              <img className="img-fluid" src={Ahana} alt="Thumb"/>
               <div className="overlay">
                 {/* <h4>Lorem Ipsum</h4> */}
                 <p>
