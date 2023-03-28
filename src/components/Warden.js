@@ -133,7 +133,7 @@ const Warden = () => {
             </div>
             <div className="info">
               <span className="message">
-                <a href="mailto:  param_biochem@bcrmrc.iitkgp.ac.in" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
+                <a href="mailto:param_biochem@bcrmrc.iitkgp.ac.in" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
               <h4>Prof. Parama Banerjee</h4>
               <span>Assistant Warden</span>
