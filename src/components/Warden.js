@@ -56,7 +56,7 @@ const Warden = () => {
                       <a href="https://www.facebook.com/rhea2801/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
                     </li> */}
                     <li className="pinterest">
-                      <a href="https://www.linkedin.com/in/archana-patnaik-1483637/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                      <a href="linkedin.com/in/sudha-goel-068a0696" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
                     </li>
                     {/* <li className="instagram">
                       <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
@@ -67,9 +67,9 @@ const Warden = () => {
             </div>
             <div className="info">
               <span className="message">
-                <a href="mailto:archana@hss.iitkgp.ac.in" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
+                <a href="mailto:sudhagoel@civil.iitkgp.ernet.in" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
-              <h4>Prof. Archana Patnaik</h4>
+              <h4>Prof.Sudha Goel</h4>
               <span>Warden</span>
             </div>
           </div>
@@ -121,9 +121,9 @@ const Warden = () => {
                   {/* <li className="twitter">
                       <a href="https://www.facebook.com/prachi.bajpai.58726/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
                     </li> */}
-                    <li className="pinterest">
+                    {/* <li className="pinterest">
                       <a href="https://www.linkedin.com/in/sunita-mishra-06739769/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
-                    </li>
+                    </li> */}
                     {/* <li className="instagram">
                       <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
                     </li> */}
@@ -133,9 +133,9 @@ const Warden = () => {
             </div>
             <div className="info">
               <span className="message">
-                <a href="mailto:smishra@mining.iitkgp.ac.in" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
+                <a href="mailto:  param_biochem@bcrmrc.iitkgp.ac.in" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
-              <h4>Prof. Sunita Mishra</h4>
+              <h4>Prof. Parama Banerjee</h4>
               <span>Assistant Warden</span>
             </div>
           </div>
