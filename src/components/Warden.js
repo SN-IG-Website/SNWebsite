@@ -56,7 +56,7 @@ const Warden = () => {
                       <a href="https://www.facebook.com/rhea2801/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
                     </li> */}
                     <li className="pinterest">
-                      <a href="linkedin.com/in/sudha-goel-068a0696" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                      <a href="https://www.linkedin.com/in/sudha-goel-068a0696/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
                     </li>
                     {/* <li className="instagram">
                       <a href="#" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
