@@ -69,7 +69,7 @@ const Warden = () => {
               <span className="message">
                 <a href="mailto:sudhagoel@civil.iitkgp.ernet.in" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
-              <h4>Prof.Sudha Goel</h4>
+              <h4>Prof. Sudha Goel</h4>
               <span>Warden</span>
             </div>
           </div>
