@@ -340,7 +340,7 @@ const Hall = () => {
                 <a href="mailto:shivanianneboina@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
               <h4>Lakshmi Shivani Anneboina</h4>
-              <span>General Secretary Student's Welfare</span>
+              <span>General Secretary Students' Welfare</span>
             </div>
           </div>
         </div>
@@ -806,7 +806,7 @@ const Hall = () => {
                 <a href="mailto:ramanetanaya@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
               </span>
               <h4>Tanaya Vijay Ramane</h4>
-              <span>General Secretary Student's Welfare</span>
+              <span>General Secretary Students' Welfare</span>
             </div>
           </div>
         </div>
